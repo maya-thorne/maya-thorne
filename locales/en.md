@@ -1,15 +1,22 @@
 <div align="center">
 
-# ⚡ Maya Thorne
-### Systems Architect · Linux Kernel Enthusiast · Low-Level Concurrency
-
 <p>
-  <strong>Architecting Resilient Low-Level Systems, Kernel Modules & High-Throughput Concurrency Primitives.</strong><br />
-  <sub>Zero-Overhead Runtimes · Mechanical Sympathy · Memory-Safe Systems Engineering</sub>
+  <img src="../assets/hero-en.svg" alt="Maya Thorne — Speed · Scale · Security — Linux Kernel & Low-Level Concurrency" width="76%" />
+  <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 
 <p>
-  <a href="https://github.com/maya-thorne"><img src="https://img.shields.io/badge/Status-Compiling%20Kernel%20%F0%9F%90%A7-1f2328?style=flat-square&logo=linux&logoColor=39d353" alt="Status" /></a>
+  <strong>Architecting Resilient Low-Level Systems, Kernel Modules &amp; High-Throughput Concurrency Primitives.</strong><br />
+  <sub>Speed · Scale · Security — Engineering with clarity and conviction.</sub>
+</p>
+
+<p>
+  <a href="../README.md">🇺🇸 English</a> · <a href="./ko.md">🇰🇷 한국어</a> · <a href="./zh-CN.md">🇨🇳 中文</a> · <a href="./es.md">🇪🇸 Español</a> · <a href="./hi.md">🇮🇳 हिन्दी</a><br />
+  <a href="./ar.md">🇸🇦 العربية</a> · <a href="./pt-BR.md">🇧🇷 Português</a> · <a href="./ru.md">🇷🇺 Русский</a> · <a href="./fr.md">🇫🇷 Français</a> · <a href="./id.md">🇮🇩 Bahasa Indonesia</a>
+</p>
+
+<p>
+  <a href="https://github.com/maya-thorne"><img src="https://img.shields.io/badge/Status-Kernel%20Ready%20%F0%9F%90%A7-1f2328?style=flat-square&logo=linux&logoColor=39d353" alt="Status" /></a>
   <a href="https://github.com/maya-thorne?tab=repositories"><img src="https://img.shields.io/badge/Focus-Systems%20%26%20Rust-1f2328?style=flat-square&logo=rust&logoColor=f74c00" alt="Focus" /></a>
   <a href="https://github.com/maya-thorne"><img src="https://img.shields.io/badge/Architecture-x86__64%20%2F%20ARM64-1f2328?style=flat-square&logo=cpu&logoColor=58a6ff" alt="Architecture" /></a>
   <a href="https://github.com/maya-thorne"><img src="https://img.shields.io/badge/Security-Memory%20Safe-1f2328?style=flat-square&logo=shield&logoColor=bc8cff" alt="Security" /></a>
@@ -23,11 +30,9 @@
 <summary><h2 style="display:inline-block; margin:0;">💡 Engineering Ethos & Philosophy</h2></summary>
 <br />
 
-I engineer resilient low-level software, high-performance concurrency primitives, and deterministic kernel telemetry systems. My design philosophy is anchored on three core pillars:
-
-- **⚡ Zero-Cost & Mechanical Sympathy** — Write code that respects cache hierarchies, memory alignment, and branch predictors. Strive for zero-overhead abstractions that translate directly into clean machine instructions.
-- **🐧 Kernel-First Thinking** — Treat the operating system kernel not as an opaque black box, but as the foundational runtime. Master virtual memory, non-blocking I/O (io_uring), lockless ring buffers, and eBPF tracing.
-- **🔒 Invariant-Driven Correctness** — Enforce safety at compile-time wherever possible. Strict state machine transitions, robust fuzzing suites, and defensive error handling that never panic in mission-critical paths.
+- **⚡ Zero-Cost & Mechanical Sympathy — Write code that respects cache hierarchies, memory alignment, and branch predictors. Strive for zero-overhead abstractions.**
+- **🐧 Kernel-First Thinking — Treat the operating system kernel not as an opaque black box, but as the foundational runtime. Master io_uring, eBPF, and lockless queues.**
+- **🔒 Invariant-Driven Correctness — Enforce safety at compile-time wherever possible. Strict state machine transitions and fuzzing suites.**
 
 <p align="center">
   <sub><em>"In the terminal we trust. Make it deterministic. Automate the friction away."</em></sub>
@@ -48,7 +53,7 @@ I engineer resilient low-level software, high-performance concurrency primitives
       <ul>
         <li><strong>Languages</strong>: <code>C23</code>, <code>Rust (Async/Unsafe/No_std)</code>, <code>Zig</code>, <code>x86_64 / ARM Assembly</code></li>
         <li><strong>Kernel Runtimes</strong>: Linux Kernel Modules, POSIX APIs, eBPF / XDP, <code>io_uring</code></li>
-        <li><strong>Memory & Concurrency</strong>: Lock-free atomics, SIMD vectorization, NUMA-aware allocators</li>
+        <li><strong>Memory &amp; Concurrency</strong>: Lock-free atomics, SIMD vectorization, NUMA-aware allocators</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -86,35 +91,6 @@ I engineer resilient low-level software, high-performance concurrency primitives
     </a>
   </p>
 </div>
-
-</details>
-
----
-
-<details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Architectural Focus & Ongoing Research</h2></summary>
-<br />
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📡 High-Throughput Kernel-Bypass I/O</h4>
-      <p><em>Exploring zero-copy asynchronous messaging and deterministic kernel queues.</em></p>
-      <ul>
-        <li>Benchmarking ring-buffer throughput under saturated 10GbE network loads</li>
-        <li>Eliminating context-switch overhead via custom eBPF packet filters and XDP</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🛡️ Formal Verification & Fuzzing</h4>
-      <p><em>Continuous fuzz testing and symbolic execution for memory safety.</em></p>
-      <ul>
-        <li>Automated mutation testing pipelines integrated with LLVM libFuzzer and AFL++</li>
-        <li>Zero-leak invariant guarantees across complex multi-threaded state machines</li>
-      </ul>
-    </td>
-  </tr>
-</table>
 
 </details>
 

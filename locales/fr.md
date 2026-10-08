@@ -1,8 +1,8 @@
 <div align="center">
 
 <p>
-  <img src="./assets/hero-en.svg" alt="Maya Thorne — Speed · Scale · Security — Linux Kernel & Low-Level Concurrency" width="76%" />
-  <img src="./avatar.svg" alt="Maya Thorne Monogram" width="21%" />
+  <img src="../assets/hero-fr.svg" alt="Maya Thorne — Vitesse · Échelle · Sécurité — Noyau Linux & Concurrence Bas Niveau" width="76%" />
+  <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 
 <p>
@@ -11,8 +11,8 @@
 </p>
 
 <p>
-  <strong>🇺🇸 English</strong> · <a href="./locales/ko.md">🇰🇷 한국어</a> · <a href="./locales/zh-CN.md">🇨🇳 中文</a> · <a href="./locales/es.md">🇪🇸 Español</a> · <a href="./locales/hi.md">🇮🇳 हिन्दी</a><br />
-  <a href="./locales/ar.md">🇸🇦 العربية</a> · <a href="./locales/pt-BR.md">🇧🇷 Português</a> · <a href="./locales/ru.md">🇷🇺 Русский</a> · <a href="./locales/fr.md">🇫🇷 Français</a> · <a href="./locales/id.md">🇮🇩 Bahasa Indonesia</a>
+  <a href="../README.md">🇺🇸 English</a> · <a href="./ko.md">🇰🇷 한국어</a> · <a href="./zh-CN.md">🇨🇳 中文</a> · <a href="./es.md">🇪🇸 Español</a> · <a href="./hi.md">🇮🇳 हिन्दी</a><br />
+  <a href="./ar.md">🇸🇦 العربية</a> · <a href="./pt-BR.md">🇧🇷 Português</a> · <a href="./ru.md">🇷🇺 Русский</a> · <strong>🇫🇷 Français</strong> · <a href="./id.md">🇮🇩 Bahasa Indonesia</a>
 </p>
 
 <p>
@@ -27,15 +27,15 @@
 ---
 
 <details open>
-<summary><h2 style="display:inline-block; margin:0;">💡 Engineering Ethos & Philosophy</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">💡 Philosophie & Éthique d'Ingénierie</h2></summary>
 <br />
 
-- **⚡ Zero-Cost & Mechanical Sympathy — Write code that respects cache hierarchies, memory alignment, and branch predictors. Strive for zero-overhead abstractions.**
-- **🐧 Kernel-First Thinking — Treat the operating system kernel not as an opaque black box, but as the foundational runtime. Master io_uring, eBPF, and lockless queues.**
-- **🔒 Invariant-Driven Correctness — Enforce safety at compile-time wherever possible. Strict state machine transitions and fuzzing suites.**
+- **⚡ Coût Zéro & Sympathie Mécanique — Un code respectueux des hiérarchies de cache et de l'alignement mémoire.**
+- **🐧 Esprit Centré sur le Noyau — Maîtrise d'io_uring, eBPF et des structures sans verrou au niveau de l'OS.**
+- **🔒 Exactitude Fondée sur les Invariants — Sécurité garantie dès la compilation et tests de fuzzing.**
 
 <p align="center">
-  <sub><em>"In the terminal we trust. Make it deterministic. Automate the friction away."</em></sub>
+  <sub><em>"Dans le terminal nous avons confiance. Rendez-le déterministe. Automatisez les frictions."</em></sub>
 </p>
 
 </details>
@@ -43,13 +43,13 @@
 ---
 
 <details open>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Technical Tooling</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">⚡ Stack Technologique & Outillage</h2></summary>
 <br />
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ Low-Level & Systems</h4>
+      <h4>⚙️ Bas Niveau & Systèmes</h4>
       <ul>
         <li><strong>Languages</strong>: <code>C23</code>, <code>Rust (Async/Unsafe/No_std)</code>, <code>Zig</code>, <code>x86_64 / ARM Assembly</code></li>
         <li><strong>Kernel Runtimes</strong>: Linux Kernel Modules, POSIX APIs, eBPF / XDP, <code>io_uring</code></li>
@@ -57,7 +57,7 @@
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 Distributed & Infrastructure</h4>
+      <h4>🌐 Systèmes Distribués & Infrastructure</h4>
       <ul>
         <li><strong>Networking</strong>: Kernel-bypass networking (DPDK), high-concurrency epoll/kqueue, WebSockets</li>
         <li><strong>Observability</strong>: <code>bpftrace</code>, <code>perf</code>, <code>Valgrind</code>, Prometheus telemetry</li>
@@ -78,7 +78,7 @@
 ---
 
 <details open>
-<summary><h2 style="display:inline-block; margin:0;">📊 Dynamic Telemetry & GitHub Metrics</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">📊 Télémétrie Dynamique & Métriques GitHub</h2></summary>
 <br />
 
 <div align="center">
@@ -96,9 +96,9 @@
 
 ---
 
-## 📬 Connect & Transmission
+## 📬 Contact & Collaboration
 
-Interested in low-level systems architectures, compiler internals, or kernel engineering discussions?
+Intéressé par l'architecture des systèmes bas niveau ou l'ingénierie du noyau ?
 
 [GitHub Profile](https://github.com/maya-thorne) · [Public Repositories](https://github.com/maya-thorne?tab=repositories) · [Discussions](https://github.com/maya-thorne?tab=discussions) · [Send an Email](mailto:zse4123jo@gmail.com)
 

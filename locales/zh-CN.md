@@ -1,8 +1,8 @@
 <div align="center">
 
 <p>
-  <img src="./assets/hero-en.svg" alt="Maya Thorne — Speed · Scale · Security — Linux Kernel & Low-Level Concurrency" width="76%" />
-  <img src="./avatar.svg" alt="Maya Thorne Monogram" width="21%" />
+  <img src="../assets/hero-zh-CN.svg" alt="Maya Thorne — 速度 · 规模 · 安全 — Linux 内核与底层并发架构" width="76%" />
+  <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 
 <p>
@@ -11,8 +11,8 @@
 </p>
 
 <p>
-  <strong>🇺🇸 English</strong> · <a href="./locales/ko.md">🇰🇷 한국어</a> · <a href="./locales/zh-CN.md">🇨🇳 中文</a> · <a href="./locales/es.md">🇪🇸 Español</a> · <a href="./locales/hi.md">🇮🇳 हिन्दी</a><br />
-  <a href="./locales/ar.md">🇸🇦 العربية</a> · <a href="./locales/pt-BR.md">🇧🇷 Português</a> · <a href="./locales/ru.md">🇷🇺 Русский</a> · <a href="./locales/fr.md">🇫🇷 Français</a> · <a href="./locales/id.md">🇮🇩 Bahasa Indonesia</a>
+  <a href="../README.md">🇺🇸 English</a> · <a href="./ko.md">🇰🇷 한국어</a> · <strong>🇨🇳 中文</strong> · <a href="./es.md">🇪🇸 Español</a> · <a href="./hi.md">🇮🇳 हिन्दी</a><br />
+  <a href="./ar.md">🇸🇦 العربية</a> · <a href="./pt-BR.md">🇧🇷 Português</a> · <a href="./ru.md">🇷🇺 Русский</a> · <a href="./fr.md">🇫🇷 Français</a> · <a href="./id.md">🇮🇩 Bahasa Indonesia</a>
 </p>
 
 <p>
@@ -27,15 +27,15 @@
 ---
 
 <details open>
-<summary><h2 style="display:inline-block; margin:0;">💡 Engineering Ethos & Philosophy</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">💡 工程理念与核心哲学</h2></summary>
 <br />
 
-- **⚡ Zero-Cost & Mechanical Sympathy — Write code that respects cache hierarchies, memory alignment, and branch predictors. Strive for zero-overhead abstractions.**
-- **🐧 Kernel-First Thinking — Treat the operating system kernel not as an opaque black box, but as the foundational runtime. Master io_uring, eBPF, and lockless queues.**
-- **🔒 Invariant-Driven Correctness — Enforce safety at compile-time wherever possible. Strict state machine transitions and fuzzing suites.**
+- **⚡ 零开销与硬件共鸣 — 编写尊重缓存层级、内存对齐与分支预测器的代码，追求极致机器指令转换。**
+- **🐧 内核优先思维 — 将操作系统内核视为基础运行时，精通虚拟内存、io_uring、eBPF 及无锁队列。**
+- **🔒 不变式驱动正确性 — 尽可能在编译期保障安全。严格的状态机迁移与持续模糊测试验证。**
 
 <p align="center">
-  <sub><em>"In the terminal we trust. Make it deterministic. Automate the friction away."</em></sub>
+  <sub><em>"信任终端。实现确定性。消除一切繁琐阻力。"</em></sub>
 </p>
 
 </details>
@@ -43,13 +43,13 @@
 ---
 
 <details open>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Technical Tooling</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">⚡ 技术栈与工具体系</h2></summary>
 <br />
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ Low-Level & Systems</h4>
+      <h4>⚙️ 底层与系统工程</h4>
       <ul>
         <li><strong>Languages</strong>: <code>C23</code>, <code>Rust (Async/Unsafe/No_std)</code>, <code>Zig</code>, <code>x86_64 / ARM Assembly</code></li>
         <li><strong>Kernel Runtimes</strong>: Linux Kernel Modules, POSIX APIs, eBPF / XDP, <code>io_uring</code></li>
@@ -57,7 +57,7 @@
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 Distributed & Infrastructure</h4>
+      <h4>🌐 分布式与基础设施</h4>
       <ul>
         <li><strong>Networking</strong>: Kernel-bypass networking (DPDK), high-concurrency epoll/kqueue, WebSockets</li>
         <li><strong>Observability</strong>: <code>bpftrace</code>, <code>perf</code>, <code>Valgrind</code>, Prometheus telemetry</li>
@@ -78,7 +78,7 @@
 ---
 
 <details open>
-<summary><h2 style="display:inline-block; margin:0;">📊 Dynamic Telemetry & GitHub Metrics</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">📊 实时遥测与 GitHub 指标</h2></summary>
 <br />
 
 <div align="center">
@@ -96,9 +96,9 @@
 
 ---
 
-## 📬 Connect & Transmission
+## 📬 联系与协作
 
-Interested in low-level systems architectures, compiler internals, or kernel engineering discussions?
+对底层系统架构、编译器原理或内核工程探讨感兴趣？
 
 [GitHub Profile](https://github.com/maya-thorne) · [Public Repositories](https://github.com/maya-thorne?tab=repositories) · [Discussions](https://github.com/maya-thorne?tab=discussions) · [Send an Email](mailto:zse4123jo@gmail.com)
 
