@@ -35,7 +35,7 @@
 
   <text x="60" y="128" fill="url(#textGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="44" font-weight="800" letter-spacing="0.5">Maya Thorne</text>
 
-  <text x="60" y="168" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="500">Vitesse · Échelle · Sécurité — Noyau Linux & Concurrence Bas Niveau</text>
+  <text x="60" y="168" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16.5" font-weight="500">Vitesse · Échelle · Sécurité — Noyau Linux &amp; Concurrence Bas Niveau</text>
 
   <text x="60" y="202" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400">Conception de modules de noyau résilients, environnements sans surcharge et pipelines à haut débit.</text>
 
