@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A12"/>
+      <stop offset="60%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#090D18"/>
+    </linearGradient>
+    <linearGradient id="neonSymbolGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#818CF8"/>
+      <stop offset="100%" stop-color="#F43F5E"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+    <pattern id="cardGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.6" stroke-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="280" height="280" rx="36" fill="url(#avatarBgGrad)"/>
+  <rect width="280" height="280" rx="36" fill="url(#cardGrid)"/>
+  <rect x="1" y="1" width="278" height="278" rx="35" fill="none" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Glowing Center Ambient -->
+  <circle cx="140" cy="140" r="80" fill="#818CF8" filter="blur(40px)" opacity="0.15"/>
+
+  <!-- Rotating Outer Dash Ring -->
+  <circle cx="140" cy="140" r="105" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="6, 10" opacity="0.8"/>
+  <circle cx="140" cy="140" r="105" fill="none" stroke="url(#ringGrad)" stroke-width="2" stroke-dasharray="16, 80" stroke-linecap="round">
+    <animateTransform attributeName="transform" type="rotate" from="0 140 140" to="360 140 140" dur="12s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Little Orbit Dots -->
+  <circle cx="230" cy="85" r="4" fill="#38BDF8"/>
+  <circle cx="65" cy="200" r="3" fill="#F43F5E" opacity="0.7"/>
+
+  <!-- Central Stylized Tech Monogram / Symbol -->
+  <g transform="translate(140, 140)">
+    <!-- Outer Rounded Hex/Square Bracket Frame -->
+    <rect x="-56" y="-56" width="112" height="112" rx="28" fill="#0B132B" stroke="#1E293B" stroke-width="1.5"/>
+    
+    <!-- Stylized Neon Geometric Monogram 'M' & Kernel Terminal Glyph -->
+    <path d="M -32 20 L -32 -20 L -12 6 L 0 -10 L 12 6 L 32 -20 L 32 20" fill="none" stroke="url(#neonSymbolGrad)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Top & Bottom Pulse Accent Lines -->
+    <line x1="-22" y1="36" x2="22" y2="36" stroke="#38BDF8" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+    <line x1="-12" y1="-36" x2="12" y2="-36" stroke="#C084FC" stroke-width="2.5" stroke-linecap="round" opacity="0.8"/>
+  </g>
+</svg>
