@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero-es.svg" alt="Maya Thorne — Velocidad · Escala · Seguridad — Núcleo Linux y Concurrencia de Bajo Nivel" width="76%" />
+  <img src="../assets/hero_es.svg" alt="Maya Thorne — Velocidad · Escala · Seguridad — Núcleo Linux y Concurrencia de Bajo Nivel" width="76%" />
   <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 

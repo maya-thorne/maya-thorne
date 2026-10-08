@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero-ru.svg" alt="Maya Thorne — Скорость · Масштаб · Безопасность — Ядро Linux и низкоуровневая параллельность" width="76%" />
+  <img src="../assets/hero_ru.svg" alt="Maya Thorne — Скорость · Масштаб · Безопасность — Ядро Linux и низкоуровневая параллельность" width="76%" />
   <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 

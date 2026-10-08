@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero-id.svg" alt="Maya Thorne — Kecepatan · Skala · Keamanan — Kernel Linux & Konkurensi Tingkat Rendah" width="76%" />
+  <img src="../assets/hero_id.svg" alt="Maya Thorne — Kecepatan · Skala · Keamanan — Kernel Linux & Konkurensi Tingkat Rendah" width="76%" />
   <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 

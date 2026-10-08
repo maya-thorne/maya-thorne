@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero-ar.svg" alt="Maya Thorne — السرعة · التوسع · الأمان — نواة لينكس والتزامن منخفض المستوى" width="76%" />
+  <img src="../assets/hero_ar.svg" alt="Maya Thorne — السرعة · التوسع · الأمان — نواة لينكس والتزامن منخفض المستوى" width="76%" />
   <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 

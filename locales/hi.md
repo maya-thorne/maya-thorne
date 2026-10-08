@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero-hi.svg" alt="Maya Thorne — गति · पैमाना · सुरक्षा — लिनक्स कर्नेल और लो-लेवल समवर्ती सिस्टम" width="76%" />
+  <img src="../assets/hero_hi.svg" alt="Maya Thorne — गति · पैमाना · सुरक्षा — लिनक्स कर्नेल और लो-लेवल समवर्ती सिस्टम" width="76%" />
   <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 

@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero-zh-CN.svg" alt="Maya Thorne — 速度 · 规模 · 安全 — Linux 内核与底层并发架构" width="76%" />
+  <img src="../assets/hero_zh-CN.svg" alt="Maya Thorne — 速度 · 规模 · 安全 — Linux 内核与底层并发架构" width="76%" />
   <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 

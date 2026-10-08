@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero-ko.svg" alt="Maya Thorne — 속도 · 확장성 · 보안 — 리눅스 커널 및 저수준 동시성 아키텍처" width="76%" />
+  <img src="../assets/hero_ko.svg" alt="Maya Thorne — 속도 · 확장성 · 보안 — 리눅스 커널 및 저수준 동시성 아키텍처" width="76%" />
   <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 
