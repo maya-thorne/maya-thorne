@@ -27,7 +27,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 About & Engineering Ethos</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">💡 核心哲学与工程愿景</h2></summary>
 
 <br />
 
@@ -46,7 +46,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Projects & Solutions</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 重点项目与解决方案</h2></summary>
 
 <br />
 
@@ -83,7 +83,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Featured Capabilities & Architectures</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 核心能力与架构</h2></summary>
 
 <br />
 
@@ -115,7 +115,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Tooling</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">⚡ 技术栈与工具生态</h2></summary>
 
 <br />
 
@@ -153,7 +153,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ Explore Projects & Roadmaps</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🗺️ 项目探索与路线图</h2></summary>
 
 <br />
 
@@ -170,7 +170,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 Architecture Dashboard & Delivery Metrics</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">📊 架构仪表板与交付指标</h2></summary>
 
 <br />
 
@@ -189,7 +189,7 @@
 
 ---
 
-## 📬 Connect & Collaborate
+## 📬 联系与协作 (Connect & Collaborate)
 
 对底层系统架构、Linux 内核机制或高性能并发原语的交流感兴趣？
 

@@ -27,7 +27,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 About & Engineering Ethos</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">💡 핵심 철학 및 엔지니어링 지향점</h2></summary>
 
 <br />
 
@@ -46,7 +46,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Projects & Solutions</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 주요 프로젝트 및 솔루션</h2></summary>
 
 <br />
 
@@ -83,7 +83,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Featured Capabilities & Architectures</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 핵심 역량 및 아키텍처</h2></summary>
 
 <br />
 
@@ -115,7 +115,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Tooling</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">⚡ 기술 스택 및 도구 생태계</h2></summary>
 
 <br />
 
@@ -153,7 +153,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ Explore Projects & Roadmaps</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🗺️ 프로젝트 로드맵 및 탐색</h2></summary>
 
 <br />
 
@@ -170,7 +170,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 Architecture Dashboard & Delivery Metrics</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">📊 아키텍처 대시보드 및 지표</h2></summary>
 
 <br />
 
@@ -189,7 +189,7 @@
 
 ---
 
-## 📬 Connect & Collaborate
+## 📬 연결 및 협업 (Connect & Collaborate)
 
 저수준 시스템 아키텍처, 리눅스 커널 내부 구현 또는 고성능 동시성 기본 요소에 대한 논의에 관심이 있으신가요?
 

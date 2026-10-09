@@ -27,7 +27,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 About & Engineering Ethos</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">💡 الفلسفة الهندسية والرؤية</h2></summary>
 
 <br />
 
@@ -46,7 +46,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Projects & Solutions</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 المشاريع والحلول البارزة</h2></summary>
 
 <br />
 
@@ -83,7 +83,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Featured Capabilities & Architectures</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 القدرات والمعمارية المتميزة</h2></summary>
 
 <br />
 
@@ -115,7 +115,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Tooling</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">⚡ مجموعة التقنيات والأدوات</h2></summary>
 
 <br />
 
@@ -153,7 +153,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ Explore Projects & Roadmaps</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🗺️ استكشاف المشاريع وخارطة الطريق</h2></summary>
 
 <br />
 
@@ -170,7 +170,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 Architecture Dashboard & Delivery Metrics</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">📊 لوحة معلومات المعمارية والمقاييس</h2></summary>
 
 <br />
 
@@ -189,7 +189,7 @@
 
 ---
 
-## 📬 Connect & Collaborate
+## 📬 التواصل والتعاون
 
 هل ترغب في مناقشة معماريات الأنظمة منخفضة المستوى، أو نواة لينكس، أو التزامن عالي الأداء؟
 

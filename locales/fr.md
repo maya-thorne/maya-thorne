@@ -27,7 +27,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 About & Engineering Ethos</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">💡 Philosophie d'Ingénierie & Principes</h2></summary>
 
 <br />
 
@@ -46,7 +46,7 @@ Conception de systèmes logiciels bas niveau résilients, de modules du noyau Li
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Projects & Solutions</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Projets & Solutions</h2></summary>
 
 <br />
 
@@ -83,7 +83,7 @@ Bibliothèques système et modules de noyau conçus pour une latence ultra-faibl
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Featured Capabilities & Architectures</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Capacités & Architectures en Vedette</h2></summary>
 
 <br />
 
@@ -115,7 +115,7 @@ Bibliothèques système et modules de noyau conçus pour une latence ultra-faibl
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Tooling</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">⚡ Pile Technologique & Outillage</h2></summary>
 
 <br />
 
@@ -153,7 +153,7 @@ Bibliothèques système et modules de noyau conçus pour une latence ultra-faibl
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ Explore Projects & Roadmaps</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🗺️ Explorer les Projets & Feuille de Route</h2></summary>
 
 <br />
 
@@ -170,7 +170,7 @@ Bibliothèques système et modules de noyau conçus pour une latence ultra-faibl
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 Architecture Dashboard & Delivery Metrics</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">📊 Tableau de Bord d'Architecture & Métriques</h2></summary>
 
 <br />
 
@@ -189,7 +189,7 @@ Bibliothèques système et modules de noyau conçus pour une latence ultra-faibl
 
 ---
 
-## 📬 Connect & Collaborate
+## 📬 Connexion & Collaboration
 
 Intéressé par les architectures de systèmes bas niveau, le noyau Linux ou la concurrence haute performance ?
 

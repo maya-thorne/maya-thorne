@@ -27,7 +27,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 About & Engineering Ethos</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">💡 मूल दर्शन और इंजीनियरिंग दृष्टिकोण</h2></summary>
 
 <br />
 
@@ -46,7 +46,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Projects & Solutions</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 प्रमुख परियोजनाएं और समाधान</h2></summary>
 
 <br />
 
@@ -83,7 +83,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Featured Capabilities & Architectures</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 प्रमुख क्षमताएं और आर्किटेक्चर</h2></summary>
 
 <br />
 
@@ -115,7 +115,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Tooling</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">⚡ प्रौद्योगिकी स्टैक और उपकरण</h2></summary>
 
 <br />
 
@@ -153,7 +153,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ Explore Projects & Roadmaps</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🗺️ परियोजनाएं और रोडमैप देखें</h2></summary>
 
 <br />
 
@@ -170,7 +170,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 Architecture Dashboard & Delivery Metrics</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">📊 आर्किटेक्चर डैशबोर्ड और मेट्रिक्स</h2></summary>
 
 <br />
 
@@ -189,7 +189,7 @@
 
 ---
 
-## 📬 Connect & Collaborate
+## 📬 संपर्क और सहयोग
 
 निम्न-स्तरीय सिस्टम आर्किटेक्चर या लिनक्स कर्नेल पर चर्चा में रुचि रखते हैं?
 

@@ -27,7 +27,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 About & Engineering Ethos</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">💡 Filosofía de Ingeniería y Principios</h2></summary>
 
 <br />
 
@@ -46,7 +46,7 @@ Arquitectura de sistemas de bajo nivel resistentes, módulos de kernel de Linux 
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Projects & Solutions</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Proyectos y Soluciones</h2></summary>
 
 <br />
 
@@ -83,7 +83,7 @@ Bibliotecas de sistemas y módulos de kernel diseñados para latencia ultra baja
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Featured Capabilities & Architectures</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Capacidades y Arquitecturas Destacadas</h2></summary>
 
 <br />
 
@@ -115,7 +115,7 @@ Bibliotecas de sistemas y módulos de kernel diseñados para latencia ultra baja
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Tooling</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">⚡ Pila Tecnológica y Herramientas</h2></summary>
 
 <br />
 
@@ -153,7 +153,7 @@ Bibliotecas de sistemas y módulos de kernel diseñados para latencia ultra baja
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ Explore Projects & Roadmaps</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🗺️ Explorar Proyectos y Hoja de Ruta</h2></summary>
 
 <br />
 
@@ -170,7 +170,7 @@ Bibliotecas de sistemas y módulos de kernel diseñados para latencia ultra baja
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 Architecture Dashboard & Delivery Metrics</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">📊 Panel de Arquitectura y Métricas</h2></summary>
 
 <br />
 
@@ -189,7 +189,7 @@ Bibliotecas de sistemas y módulos de kernel diseñados para latencia ultra baja
 
 ---
 
-## 📬 Connect & Collaborate
+## 📬 Conectar y Colaborar
 
 ¿Interesado en arquitecturas de sistemas de bajo nivel, kernel de Linux o concurrencia de alto rendimiento?
 

@@ -27,7 +27,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 About & Engineering Ethos</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">💡 Filosofi Rekayasa & Prinsip</h2></summary>
 
 <br />
 
@@ -46,7 +46,7 @@ Merancang sistem perangkat lunak tingkat rendah yang tangguh, modul kernel Linux
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Projects & Solutions</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Proyek & Solusi</h2></summary>
 
 <br />
 
@@ -83,7 +83,7 @@ Pustaka sistem tingkat rendah dan modul kernel yang dirancang untuk latensi ultr
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Featured Capabilities & Architectures</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Kemampuan & Arsitektur Unggulan</h2></summary>
 
 <br />
 
@@ -115,7 +115,7 @@ Pustaka sistem tingkat rendah dan modul kernel yang dirancang untuk latensi ultr
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Tooling</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">⚡ Tumpukan Teknologi & Perangkat</h2></summary>
 
 <br />
 
@@ -153,7 +153,7 @@ Pustaka sistem tingkat rendah dan modul kernel yang dirancang untuk latensi ultr
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ Explore Projects & Roadmaps</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🗺️ Jelajahi Proyek & Peta Jalan</h2></summary>
 
 <br />
 
@@ -170,7 +170,7 @@ Pustaka sistem tingkat rendah dan modul kernel yang dirancang untuk latensi ultr
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 Architecture Dashboard & Delivery Metrics</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">📊 Dasbor Arsitektur & Metrik</h2></summary>
 
 <br />
 
@@ -189,7 +189,7 @@ Pustaka sistem tingkat rendah dan modul kernel yang dirancang untuk latensi ultr
 
 ---
 
-## 📬 Connect & Collaborate
+## 📬 Terhubung & Berkolaborasi
 
 Tertarik mendiskusikan arsitektur sistem tingkat rendah, kernel Linux, atau primitif konkurensi?
 

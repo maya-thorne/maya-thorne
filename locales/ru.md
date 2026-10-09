@@ -27,7 +27,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 About & Engineering Ethos</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">💡 Инженерная философия и принципы</h2></summary>
 
 <br />
 
@@ -46,7 +46,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Projects & Solutions</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Проекты и решения</h2></summary>
 
 <br />
 
@@ -83,7 +83,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Featured Capabilities & Architectures</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Ключевые возможности и архитектура</h2></summary>
 
 <br />
 
@@ -115,7 +115,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Tooling</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">⚡ Стек технологий и инструменты</h2></summary>
 
 <br />
 
@@ -153,7 +153,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ Explore Projects & Roadmaps</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🗺️ Проекты и дорожная карта</h2></summary>
 
 <br />
 
@@ -170,7 +170,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 Architecture Dashboard & Delivery Metrics</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">📊 Панель архитектуры и метрики</h2></summary>
 
 <br />
 
@@ -189,7 +189,7 @@
 
 ---
 
-## 📬 Connect & Collaborate
+## 📬 Связь и сотрудничество
 
 Заинтересованы в обсуждении архитектуры низкоуровневых систем или ядра Linux?
 
