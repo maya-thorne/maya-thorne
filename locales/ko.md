@@ -18,8 +18,8 @@
 <p>
   <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-status.svg" alt="Status" /></a>
   <a href="https://github.com/maya-thorne?tab=repositories"><img src="../assets/badges/badge-focus.svg" alt="Focus" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-arch.svg" alt="Architecture" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-security.svg" alt="Security" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-architecture.svg" alt="Architecture" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-systems.svg" alt="Systems" /></a>
 </p>
 
 </div>
@@ -50,32 +50,56 @@
 
 <br />
 
-초저지연과 극대화된 기계적 공감을 위해 설계된 저수준 시스템 라이브러리, 커널 모듈 및 동시성 통신 프리미티브:
+공개 프로젝트는 직관적으로 탐색할 수 있으며, 비공개 프로젝트는 암호학적으로 마스킹되어 보호됩니다. 조직 지도는 비공개 저장소를 마스킹된 라벨로만 시각화합니다.
+
+### 주요 시스템 및 솔루션
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🐧 <a href="https://github.com/maya-thorne?tab=repositories">nexus-kernel-core</a></h4>
-      <p><em>제로 카피 공유 메모리 링 버퍼 및 락프리 IPC 프리미티브를 구현한 고성능 리눅스 커널 모듈.</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
+        </a>
+      </p>
+      <h4>🗺️ <a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <p><em>영지식(Zero-Knowledge) SHA-256 개인정보 마스킹 기반 maya-thorne 저장소의 일일 자동 지도 및 토폴로지 매핑 엔진.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+      </p>
       <ul>
-        <li><strong>⚡ io_uring / eBPF</strong>: High-throughput submission/completion rings</li>
-        <li><strong>🔒 Memory Safe</strong>: Invariant-enforced concurrency boundaries</li>
+        <li><strong>🔄 Automation</strong>: 일일 스케줄 GitHub Actions 워크플로 기반 제로 토큰 유출 파이프라인</li>
+        <li><strong>🛡️ Privacy</strong>: 아키텍처 토폴로지를 시각화하면서 비공개 저장소 식별자를 안전하게 마스킹</li>
+        <li><strong>🎨 Visualization</strong>: 계정 전반에 걸친 동적 다크 벡터 SVG 및 시계열 애니메이션 GIF 자동 합성</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ <a href="https://github.com/maya-thorne?tab=repositories">uring-reactor</a></h4>
-      <p><em>현대적 리눅스 io_uring 기반의 마이크로초 미만 지연시간과 시스템 콜 오버헤드를 제거한 비동기 I/O 이벤트 루프.</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
+        </a>
+      </p>
+      <h4>🔒 <a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <p><em>내부 개발 및 지속적 감사를 위한 비공개 동반 저장소 및 비마스킹 텔레메트리 엔진.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+      </p>
       <ul>
-        <li><strong>⏱️ Sub-Microsecond</strong>: Zero syscall overhead event dispatching</li>
-        <li><strong>🛡️ Lockless SPMC</strong>: Cache-aligned atomic ring sequencing</li>
+        <li><strong>🔐 Dual Pipeline</strong>: 공개 마스킹 아티팩트와 내부 비마스킹 토폴로지 뷰를 동시 운용</li>
+        <li><strong>⚡ Zero-SPOF Topology</strong>: 다중 자격증명 순환 및 장애 격리 아키텍처</li>
+        <li><strong>🏛️ Confidentiality</strong>: 캡슐화된 시크릿 및 무누출 원칙의 암호학적 불변식 검증</li>
       </ul>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="https://github.com/maya-thorne?tab=repositories">🔗 공개 리포지토리 둘러보기</a> ·
-  <a href="https://github.com/maya-thorne">📖 시스템 아키텍처 사양 살펴보기</a>
+  <a href="https://github.com/maya-thorne?tab=repositories">🔗 공개 저장소 둘러보기</a> ·
+  <a href="https://github.com/maya-thorne/github-org-map">🗺️ 조직 지도 탐색하기</a>
 </p>
 
 </details>
@@ -157,12 +181,27 @@
 
 <br />
 
-<p><em>저수준 인프라 전반에 걸친 활성 로드맵 및 기술 이니셔티브:</em></p>
+<p><strong>조직 지도 및 토폴로지 (Organization Map)</strong></p>
+
+<p align="center">
+  <a href="https://github.com/maya-thorne/github-org-map">
+    <img src="../assets/projects/github-org-map.svg" alt="Organization map showing the maya-thorne workspace, public projects, and intentionally masked private work." width="520" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>비공개 저장소는 솔트 기반 SHA-256 마스킹 라벨로만 안전하게 표시됩니다.</sub><br />
+  <a href="https://github.com/maya-thorne/github-org-map">토폴로지 및 지도 사양 살펴보기 →</a>
+</p>
+
+<br />
+
+<p><em>Active roadmap and technical initiatives across low-level infrastructure:</em></p>
 
 <ul>
-  <li>🎯 현재 집중 과제: io_uring 멀티 링 폴링 벤치마크 및 커널 모듈 퍼징 하네스</li>
-  <li>🚀 차기 마일스톤: NUMA 캐시 피닝을 적용한 락프리 SPMC 작업 훔치기(Work-Stealing) 스케줄러</li>
-  <li>🔮 향후 연구 계획: 하드웨어 오프로딩을 지원하는 eBPF 기반 네트워크 플로우 라우터</li>
+  <li>🎯 Current Focus: io_uring multi-ring polling benchmarks & kernel module fuzzing harness</li>
+  <li>🚀 Next Milestone: Lock-free SPMC work-stealing scheduler with NUMA cache-pinning</li>
+  <li>🔮 Future Research: eBPF-driven network flow router with hardware offloading</li>
 </ul>
 
 </details>

@@ -18,8 +18,8 @@
 <p>
   <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-status.svg" alt="Status" /></a>
   <a href="https://github.com/maya-thorne?tab=repositories"><img src="../assets/badges/badge-focus.svg" alt="Focus" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-arch.svg" alt="Architecture" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-security.svg" alt="Security" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-architecture.svg" alt="Architecture" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-systems.svg" alt="Systems" /></a>
 </p>
 
 </div>
@@ -50,32 +50,56 @@
 
 <br />
 
-Низкоуровневые системные библиотеки и модули ядра для сверхнизких задержек:
+Публичные репозитории открыты для изучения; приватные проекты надежно маскируются с помощью криптографии.
+
+### Ключевые системы и решения
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🐧 <a href="https://github.com/maya-thorne?tab=repositories">nexus-kernel-core</a></h4>
-      <p><em>Высокопроизводительный модуль ядра Linux с кольцевыми буферами памяти без копирования и неблокирующим IPC.</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
+        </a>
+      </p>
+      <h4>🗺️ <a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <p><em>Автоматизированная ежедневная картография и топологическое картирование maya-thorne с маскированием SHA-256 с нулевым разглашением.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+      </p>
       <ul>
-        <li><strong>⚡ io_uring / eBPF</strong>: High-throughput submission/completion rings</li>
-        <li><strong>🔒 Memory Safe</strong>: Invariant-enforced concurrency boundaries</li>
+        <li><strong>🔄 Automation</strong>: Ежедневный рабочий процесс GitHub Actions с нулевой утечкой токенов</li>
+        <li><strong>🛡️ Privacy</strong>: Маскирует имена приватных репозиториев при визуализации архитектуры</li>
+        <li><strong>🎨 Visualization</strong>: Динамическая генерация векторных SVG-диаграмм и анимаций GIF</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ <a href="https://github.com/maya-thorne?tab=repositories">uring-reactor</a></h4>
-      <p><em>Асинхронный цикл событий ввода-вывода на базе современного io_uring с задержкой менее микросекунды.</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
+        </a>
+      </p>
+      <h4>🔒 <a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <p><em>Приватный репозиторий-компаньон и движок телеметрии для внутренней разработки и аудита.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+      </p>
       <ul>
-        <li><strong>⏱️ Sub-Microsecond</strong>: Zero syscall overhead event dispatching</li>
-        <li><strong>🛡️ Lockless SPMC</strong>: Cache-aligned atomic ring sequencing</li>
+        <li><strong>🔐 Dual Pipeline</strong>: Двойной пайплайн: генерирует внутренние незамаскированные виды и публичные артефакты</li>
+        <li><strong>⚡ Zero-SPOF Topology</strong>: Топология Zero-SPOF: ротация учетных данных и изоляция сбоев</li>
+        <li><strong>🏛️ Confidentiality</strong>: Конфиденциальность: инкапсулированные секреты со строгой гарантией защиты от утечек</li>
       </ul>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="https://github.com/maya-thorne?tab=repositories">🔗 Публичные репозитории</a> ·
-  <a href="https://github.com/maya-thorne">📖 Спецификации архитектуры</a>
+  <a href="https://github.com/maya-thorne?tab=repositories">🔗 Обзор публичных репозиториев</a> ·
+  <a href="https://github.com/maya-thorne/github-org-map">🗺️ Открыть карту организации</a>
 </p>
 
 </details>
@@ -157,12 +181,27 @@
 
 <br />
 
-<p><em>Активная дорожная карта и технические инициативы в низкоуровневой инфраструктуре:</em></p>
+<p><strong>Карта организации и топология</strong></p>
+
+<p align="center">
+  <a href="https://github.com/maya-thorne/github-org-map">
+    <img src="../assets/projects/github-org-map.svg" alt="Organization map showing the maya-thorne workspace, public projects, and intentionally masked private work." width="520" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Приватные репозитории отображаются только в виде замаскированных меток.</sub><br />
+  <a href="https://github.com/maya-thorne/github-org-map">Изучить топологию и картографию →</a>
+</p>
+
+<br />
+
+<p><em>Active roadmap and technical initiatives across low-level infrastructure:</em></p>
 
 <ul>
-  <li>🎯 Текущий фокус: Бенчмарки io_uring multi-ring polling и фаззинг модулей ядра</li>
-  <li>🚀 Следующая веха: Неблокирующий планировщик SPMC work-stealing с привязкой NUMA</li>
-  <li>🔮 Будущие исследования: Сетевой маршрутизатор потоков на eBPF с аппаратной разгрузкой</li>
+  <li>🎯 Current Focus: io_uring multi-ring polling benchmarks & kernel module fuzzing harness</li>
+  <li>🚀 Next Milestone: Lock-free SPMC work-stealing scheduler with NUMA cache-pinning</li>
+  <li>🔮 Future Research: eBPF-driven network flow router with hardware offloading</li>
 </ul>
 
 </details>

@@ -18,8 +18,8 @@
 <p>
   <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-status.svg" alt="Status" /></a>
   <a href="https://github.com/maya-thorne?tab=repositories"><img src="../assets/badges/badge-focus.svg" alt="Focus" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-arch.svg" alt="Architecture" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-security.svg" alt="Security" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-architecture.svg" alt="Architecture" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-systems.svg" alt="Systems" /></a>
 </p>
 
 </div>
@@ -50,32 +50,56 @@
 
 <br />
 
-专为超低延迟与极致机械同理心设计的底层系统库、内核模块与并发通信原语：
+公开项目便于直观浏览，私有项目经过零知识加密脱敏保护。组织地图仅以掩码标签形式展示私有存储库。
+
+### 核心系统与解决方案
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🐧 <a href="https://github.com/maya-thorne?tab=repositories">nexus-kernel-core</a></h4>
-      <p><em>实现零拷贝共享内存环形缓冲区与无锁 IPC 原语的高性能 Linux 内核模块。</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
+        </a>
+      </p>
+      <h4>🗺️ <a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <p><em>基于零知识 SHA-256 隐私掩码的 maya-thorne 存储库每日自动化拓扑制图引擎。</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+      </p>
       <ul>
-        <li><strong>⚡ io_uring / eBPF</strong>: High-throughput submission/completion rings</li>
-        <li><strong>🔒 Memory Safe</strong>: Invariant-enforced concurrency boundaries</li>
+        <li><strong>🔄 Automation</strong>: 基于每日定时 GitHub Actions 工作流，零凭据泄露风险</li>
+        <li><strong>🛡️ Privacy</strong>: 在可视化架构的同时对私有存储库标识符进行密码学遮蔽</li>
+        <li><strong>🎨 Visualization</strong>: 全自动生成动态暗色矢量 SVG 拓扑图及历史时间序列 GIF</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ <a href="https://github.com/maya-thorne?tab=repositories">uring-reactor</a></h4>
-      <p><em>基于现代 Linux io_uring 构建的亚微秒延迟异步 I/O 事件循环，消除系统调用开销。</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
+        </a>
+      </p>
+      <h4>🔒 <a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <p><em>用于内部开发与持续审计的私有伴侣存储库及未掩码遥测引擎。</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+      </p>
       <ul>
-        <li><strong>⏱️ Sub-Microsecond</strong>: Zero syscall overhead event dispatching</li>
-        <li><strong>🛡️ Lockless SPMC</strong>: Cache-aligned atomic ring sequencing</li>
+        <li><strong>🔐 Dual Pipeline</strong>: 双轨管道：同步生成公开脱敏制品与内部真实拓扑视图</li>
+        <li><strong>⚡ Zero-SPOF Topology</strong>: Zero-SPOF 拓扑：多凭据轮换与故障隔离高可用机制</li>
+        <li><strong>🏛️ Confidentiality</strong>: 机密性保障：严密封装的密钥与绝对零泄漏密码学验证</li>
       </ul>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="https://github.com/maya-thorne?tab=repositories">🔗 浏览公开仓库</a> ·
-  <a href="https://github.com/maya-thorne">📖 探索系统架构规范</a>
+  <a href="https://github.com/maya-thorne?tab=repositories">🔗 浏览公开存储库</a> ·
+  <a href="https://github.com/maya-thorne/github-org-map">🗺️ 探索组织地图</a>
 </p>
 
 </details>
@@ -157,12 +181,27 @@
 
 <br />
 
-<p><em>涵盖底层基础设施的活跃技术路线图与规划：</em></p>
+<p><strong>组织地图与拓扑结构</strong></p>
+
+<p align="center">
+  <a href="https://github.com/maya-thorne/github-org-map">
+    <img src="../assets/projects/github-org-map.svg" alt="Organization map showing the maya-thorne workspace, public projects, and intentionally masked private work." width="520" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>私有存储库仅以掩码标签形式受保护展示。</sub><br />
+  <a href="https://github.com/maya-thorne/github-org-map">探索拓扑与制图详情 →</a>
+</p>
+
+<br />
+
+<p><em>Active roadmap and technical initiatives across low-level infrastructure:</em></p>
 
 <ul>
-  <li>🎯 当前重点: io_uring 多环轮询基准测试与内核模块模糊测试套件</li>
-  <li>🚀 下一里程碑: 具备 NUMA 缓存绑定的无锁 SPMC 工作窃取调度器</li>
-  <li>🔮 未来研究: 支持硬件卸载的 eBPF 驱动网络流路由器</li>
+  <li>🎯 Current Focus: io_uring multi-ring polling benchmarks & kernel module fuzzing harness</li>
+  <li>🚀 Next Milestone: Lock-free SPMC work-stealing scheduler with NUMA cache-pinning</li>
+  <li>🔮 Future Research: eBPF-driven network flow router with hardware offloading</li>
 </ul>
 
 </details>

@@ -18,8 +18,8 @@
 <p>
   <a href="https://github.com/maya-thorne"><img src="./assets/badges/badge-status.svg" alt="Status" /></a>
   <a href="https://github.com/maya-thorne?tab=repositories"><img src="./assets/badges/badge-focus.svg" alt="Focus" /></a>
-  <a href="https://github.com/maya-thorne"><img src="./assets/badges/badge-arch.svg" alt="Architecture" /></a>
-  <a href="https://github.com/maya-thorne"><img src="./assets/badges/badge-security.svg" alt="Security" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map"><img src="./assets/badges/badge-architecture.svg" alt="Architecture" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map-private"><img src="./assets/badges/badge-systems.svg" alt="Systems" /></a>
 </p>
 
 </div>
@@ -50,24 +50,48 @@ Architecting resilient low-level software systems, Linux kernel modules, and hig
 
 <br />
 
-Low-level system libraries, kernel modules, and concurrent communication primitives designed for ultra-low latency and maximum mechanical sympathy:
+Public work stays easy to browse; private work stays intentionally masked. The organization map shows private repositories only as masked labels, and the roadmaps refresh from public issue telemetry.
+
+### Featured Systems & Solutions
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🐧 <a href="https://github.com/maya-thorne?tab=repositories">nexus-kernel-core</a></h4>
-      <p><em>High-performance Linux kernel module implementing zero-copy memory ring buffers and lock-free IPC primitives.</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="./assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
+        </a>
+      </p>
+      <h4>🗺️ <a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <p><em>Automated daily cartography and topology mapping of maya-thorne repositories with zero-knowledge SHA-256 privacy masking.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="./assets/badges/badge-license.svg" alt="License" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="./assets/badges/badge-actions.svg" alt="Actions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="./assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+      </p>
       <ul>
-        <li><strong>⚡ io_uring / eBPF</strong>: High-throughput submission/completion rings</li>
-        <li><strong>🔒 Memory Safe</strong>: Invariant-enforced concurrency boundaries</li>
+        <li><strong>🔄 Automation</strong>: Daily scheduled GitHub Actions workflow with zero-token secrets leakage</li>
+        <li><strong>🛡️ Privacy</strong>: Intentionally masks private repository identifiers while visualizing architecture</li>
+        <li><strong>🎨 Visualization</strong>: Dynamic SVG diagrams and animated GIF generation across all accounts</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ <a href="https://github.com/maya-thorne?tab=repositories">uring-reactor</a></h4>
-      <p><em>Asynchronous I/O event loop built on modern Linux io_uring with sub-microsecond latency and zero syscall overhead.</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="./assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
+        </a>
+      </p>
+      <h4>🔒 <a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <p><em>Private companion workspace and unmasked telemetry engine for internal development and continuous audit.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="./assets/badges/badge-private.svg" alt="Security" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="./assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="./assets/badges/badge-format.svg" alt="Format" /></a>
+      </p>
       <ul>
-        <li><strong>⏱️ Sub-Microsecond</strong>: Zero syscall overhead event dispatching</li>
-        <li><strong>🛡️ Lockless SPMC</strong>: Cache-aligned atomic ring sequencing</li>
+        <li><strong>🔐 Dual Pipeline</strong>: Dual Pipeline: Generates internal unmasked topology views alongside public masked artifacts</li>
+        <li><strong>⚡ Zero-SPOF Topology</strong>: Zero-SPOF Topology: Multi-account credential rotation with automatic 429 failover</li>
+        <li><strong>🏛️ Confidentiality</strong>: Confidentiality: Encapsulated secrets with DPAPI protection and strict zero-leakage guarantee</li>
       </ul>
     </td>
   </tr>
@@ -75,7 +99,7 @@ Low-level system libraries, kernel modules, and concurrent communication primiti
 
 <p align="center">
   <a href="https://github.com/maya-thorne?tab=repositories">🔗 Browse Public Repositories</a> ·
-  <a href="https://github.com/maya-thorne">📖 Explore Systems Architecture</a>
+  <a href="https://github.com/maya-thorne/github-org-map">🗺️ Explore Organization Map</a>
 </p>
 
 </details>
@@ -154,6 +178,21 @@ Low-level system libraries, kernel modules, and concurrent communication primiti
 
 <details>
 <summary><h2 style="display:inline-block; margin:0;">🗺️ Explore Projects & Roadmaps</h2></summary>
+
+<br />
+
+<p><strong>Organization Map & Topology</strong></p>
+
+<p align="center">
+  <a href="https://github.com/maya-thorne/github-org-map">
+    <img src="./assets/projects/github-org-map.svg" alt="Organization map showing the maya-thorne workspace, public projects, and intentionally masked private work." width="520" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Private repositories appear only as masked labels.</sub><br />
+  <a href="https://github.com/maya-thorne/github-org-map">Explore Topology & Cartography →</a>
+</p>
 
 <br />
 

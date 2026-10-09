@@ -18,8 +18,8 @@
 <p>
   <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-status.svg" alt="Status" /></a>
   <a href="https://github.com/maya-thorne?tab=repositories"><img src="../assets/badges/badge-focus.svg" alt="Focus" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-arch.svg" alt="Architecture" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-security.svg" alt="Security" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-architecture.svg" alt="Architecture" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-systems.svg" alt="Systems" /></a>
 </p>
 
 </div>
@@ -50,24 +50,48 @@
 
 <br />
 
-مكتبات برمجية ووحدات نواة مصممة لأقل زمن استجابة وتوافق ميكانيكي أقصى:
+المستودعات العامة متاحة للتصفح بسهولة، بينما تظل المستودعات الخاصة مقنعة ومشفرة بأمان.
+
+### الأنظمة والحلول المميزة
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🐧 <a href="https://github.com/maya-thorne?tab=repositories">nexus-kernel-core</a></h4>
-      <p><em>وحدة نواة لينكس عالية الأداء تطبق مخازن حلقية بذاكرة مشتركة دون نسخ وتزامن بين العمليات دون أقفال.</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
+        </a>
+      </p>
+      <h4>🗺️ <a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <p><em>تخطيط طوبولوجي ورسم خرائط يومي آلي لمستودعات maya-thorne مع إخفاء الهوية بتشفير SHA-256 عديم المعرفة.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+      </p>
       <ul>
-        <li><strong>⚡ io_uring / eBPF</strong>: High-throughput submission/completion rings</li>
-        <li><strong>🔒 Memory Safe</strong>: Invariant-enforced concurrency boundaries</li>
+        <li><strong>🔄 Automation</strong>: سير عمل GitHub Actions يومي بدون أي تسريب لرموز الوصول</li>
+        <li><strong>🛡️ Privacy</strong>: إخفاء المعرفات الخاصة مع إبراز المعمارية البرمجية بدقة</li>
+        <li><strong>🎨 Visualization</strong>: توليد تلقائي لمخططات SVG متجهة ورسوم متحركة GIF زمنية</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ <a href="https://github.com/maya-thorne?tab=repositories">uring-reactor</a></h4>
-      <p><em>حلقة أحداث إدخال/إخراج غير متزامنة مبنية على io_uring بزمن استجابة أقل من ميكروثانية دون أعباء استدعاء النظام.</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
+        </a>
+      </p>
+      <h4>🔒 <a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <p><em>مساحة عمل خاصة ومحرك قياس عن بُعد غير مقنع للتطوير الداخلي والتدقيق المستمر.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+      </p>
       <ul>
-        <li><strong>⏱️ Sub-Microsecond</strong>: Zero syscall overhead event dispatching</li>
-        <li><strong>🛡️ Lockless SPMC</strong>: Cache-aligned atomic ring sequencing</li>
+        <li><strong>🔐 Dual Pipeline</strong>: مسار مزدوج: يولد رؤية داخلية حقيقية بجانب مخرجات عامة مقنعة</li>
+        <li><strong>⚡ Zero-SPOF Topology</strong>: طوبولوجيا منيعة: تدوير بيانات الاعتماد وعزل الأخطاء</li>
+        <li><strong>🏛️ Confidentiality</strong>: سرية تامة: أسرار محصنة مع ضمان عدم التسريب بنسبة 100%</li>
       </ul>
     </td>
   </tr>
@@ -75,7 +99,7 @@
 
 <p align="center">
   <a href="https://github.com/maya-thorne?tab=repositories">🔗 تصفح المستودعات العامة</a> ·
-  <a href="https://github.com/maya-thorne">📖 استكشاف مواصفات المعمارية</a>
+  <a href="https://github.com/maya-thorne/github-org-map">🗺️ استكشاف خريطة المنظمة</a>
 </p>
 
 </details>
@@ -157,12 +181,27 @@
 
 <br />
 
-<p><em>خارطة الطريق النشطة والمبادرات التقنية في البنية التحتية منخفضة المستوى:</em></p>
+<p><strong>خريطة المنظمة والطوبولوجيا</strong></p>
+
+<p align="center">
+  <a href="https://github.com/maya-thorne/github-org-map">
+    <img src="../assets/projects/github-org-map.svg" alt="Organization map showing the maya-thorne workspace, public projects, and intentionally masked private work." width="520" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>تظهر المستودعات الخاصة كملصقات مقنعة فقط.</sub><br />
+  <a href="https://github.com/maya-thorne/github-org-map">استكشاف الطوبولوجيا ورسم الخرائط →</a>
+</p>
+
+<br />
+
+<p><em>Active roadmap and technical initiatives across low-level infrastructure:</em></p>
 
 <ul>
-  <li>🎯 التركيز الحالي: اختبارات أداء الاقتراع متعدد الحلقات لـ io_uring وفحص النواة</li>
-  <li>🚀 المرحلة القادمة: مجدول سرقة العمل SPMC دون أقفال مع تثبيت كاش NUMA</li>
-  <li>🔮 أبحاث مستقبلية: موجه تدفق شبكي مدعوم بـ eBPF وتفريغ العتاد</li>
+  <li>🎯 Current Focus: io_uring multi-ring polling benchmarks & kernel module fuzzing harness</li>
+  <li>🚀 Next Milestone: Lock-free SPMC work-stealing scheduler with NUMA cache-pinning</li>
+  <li>🔮 Future Research: eBPF-driven network flow router with hardware offloading</li>
 </ul>
 
 </details>

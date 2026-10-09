@@ -18,8 +18,8 @@
 <p>
   <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-status.svg" alt="Status" /></a>
   <a href="https://github.com/maya-thorne?tab=repositories"><img src="../assets/badges/badge-focus.svg" alt="Focus" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-arch.svg" alt="Architecture" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-security.svg" alt="Security" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-architecture.svg" alt="Architecture" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-systems.svg" alt="Systems" /></a>
 </p>
 
 </div>
@@ -50,24 +50,48 @@ Merancang sistem perangkat lunak tingkat rendah yang tangguh, modul kernel Linux
 
 <br />
 
-Pustaka sistem tingkat rendah dan modul kernel yang dirancang untuk latensi ultra-rendah:
+Repositori publik mudah dijelajahi; repositori privat sengaja disamarkan secara kriptografis.
+
+### Sistem & Solusi Unggulan
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🐧 <a href="https://github.com/maya-thorne?tab=repositories">nexus-kernel-core</a></h4>
-      <p><em>Modul kernel Linux berkinerja tinggi yang mengimplementasikan buffer cincin memori zero-copy dan IPC lock-free.</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
+        </a>
+      </p>
+      <h4>🗺️ <a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <p><em>Kartografi dan pemetaan topologi harian otomatis untuk repositori maya-thorne dengan penyamaran privasi zero-knowledge SHA-256.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+      </p>
       <ul>
-        <li><strong>⚡ io_uring / eBPF</strong>: High-throughput submission/completion rings</li>
-        <li><strong>🔒 Memory Safe</strong>: Invariant-enforced concurrency boundaries</li>
+        <li><strong>🔄 Automation</strong>: Workflow GitHub Actions terjadwal harian tanpa kebocoran rahasia token</li>
+        <li><strong>🛡️ Privacy</strong>: Menyamarkan pengenal repositori privat sembari memvisualisasikan arsitektur</li>
+        <li><strong>🎨 Visualization</strong>: Pembuatan diagram SVG dinamis dan animasi GIF linimasa waktu nyata</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ <a href="https://github.com/maya-thorne?tab=repositories">uring-reactor</a></h4>
-      <p><em>Loop peristiwa I/O asinkron yang dibangun di atas io_uring dengan latensi sub-mikrodetik tanpa syscall overhead.</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
+        </a>
+      </p>
+      <h4>🔒 <a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <p><em>Repositori pendamping privat dan mesin telemetri tanpa masker untuk audit berkelanjutan.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+      </p>
       <ul>
-        <li><strong>⏱️ Sub-Microsecond</strong>: Zero syscall overhead event dispatching</li>
-        <li><strong>🛡️ Lockless SPMC</strong>: Cache-aligned atomic ring sequencing</li>
+        <li><strong>🔐 Dual Pipeline</strong>: Dual Pipeline: menghasilkan tampilan topologi internal dan artefak publik tersamar</li>
+        <li><strong>⚡ Zero-SPOF Topology</strong>: Topologi Zero-SPOF: rotasi kredensial dan toleransi kegagalan sistem</li>
+        <li><strong>🏛️ Confidentiality</strong>: Kerahasiaan: rahasia terenkapsulasi dengan garansi ketat nol kebocoran</li>
       </ul>
     </td>
   </tr>
@@ -75,7 +99,7 @@ Pustaka sistem tingkat rendah dan modul kernel yang dirancang untuk latensi ultr
 
 <p align="center">
   <a href="https://github.com/maya-thorne?tab=repositories">🔗 Jelajahi Repositori Publik</a> ·
-  <a href="https://github.com/maya-thorne">📖 Lihat Spesifikasi Arsitektur</a>
+  <a href="https://github.com/maya-thorne/github-org-map">🗺️ Jelajahi Peta Organisasi</a>
 </p>
 
 </details>
@@ -157,12 +181,27 @@ Pustaka sistem tingkat rendah dan modul kernel yang dirancang untuk latensi ultr
 
 <br />
 
-<p><em>Peta jalan aktif dan inisiatif teknis pada infrastruktur tingkat rendah:</em></p>
+<p><strong>Peta Organisasi & Topologi</strong></p>
+
+<p align="center">
+  <a href="https://github.com/maya-thorne/github-org-map">
+    <img src="../assets/projects/github-org-map.svg" alt="Organization map showing the maya-thorne workspace, public projects, and intentionally masked private work." width="520" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>Repositori privat hanya ditampilkan sebagai label tersamar.</sub><br />
+  <a href="https://github.com/maya-thorne/github-org-map">Jelajahi Topologi & Kartografi →</a>
+</p>
+
+<br />
+
+<p><em>Active roadmap and technical initiatives across low-level infrastructure:</em></p>
 
 <ul>
-  <li>🎯 Fokus Saat Ini: Tolok ukur polling multi-ring io_uring dan fuzzing modul kernel</li>
-  <li>🚀 Tonggak Berikutnya: Penjadwal pencurian tugas SPMC lock-free dengan NUMA pinning</li>
-  <li>🔮 Riset Masa Depan: Router aliran jaringan berbasis eBPF dengan offloading perangkat keras</li>
+  <li>🎯 Current Focus: io_uring multi-ring polling benchmarks & kernel module fuzzing harness</li>
+  <li>🚀 Next Milestone: Lock-free SPMC work-stealing scheduler with NUMA cache-pinning</li>
+  <li>🔮 Future Research: eBPF-driven network flow router with hardware offloading</li>
 </ul>
 
 </details>

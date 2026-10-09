@@ -18,8 +18,8 @@
 <p>
   <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-status.svg" alt="Status" /></a>
   <a href="https://github.com/maya-thorne?tab=repositories"><img src="../assets/badges/badge-focus.svg" alt="Focus" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-arch.svg" alt="Architecture" /></a>
-  <a href="https://github.com/maya-thorne"><img src="../assets/badges/badge-security.svg" alt="Security" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-architecture.svg" alt="Architecture" /></a>
+  <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-systems.svg" alt="Systems" /></a>
 </p>
 
 </div>
@@ -50,24 +50,48 @@
 
 <br />
 
-अल्ट्रा-लो लेटेंसी और अधिकतम यांत्रिक सहानुभूति के लिए डिज़ाइन किए गए सिस्टम लाइब्रेरी:
+सार्वजनिक कार्य आसानी से देखा जा सकता है; निजी कार्य जानबूझकर सुरक्षित और छुपाया गया है।
+
+### प्रमुख प्रणालियाँ और समाधान
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🐧 <a href="https://github.com/maya-thorne?tab=repositories">nexus-kernel-core</a></h4>
-      <p><em>शून्य-प्रतिलिपि मेमोरी रिंग बफ़र्स और लॉक-फ्री आईपीसी लागू करने वाला उच्च-प्रदर्शन कर्नेल मॉड्यूल।</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
+        </a>
+      </p>
+      <h4>🗺️ <a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <p><em>ज़ीरो-नॉलेज SHA-256 प्राइवेसी मास्किंग के साथ स्वचालित दैनिक कार्टोग्राफी और टोपोलॉजी मैपिंग।</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+      </p>
       <ul>
-        <li><strong>⚡ io_uring / eBPF</strong>: High-throughput submission/completion rings</li>
-        <li><strong>🔒 Memory Safe</strong>: Invariant-enforced concurrency boundaries</li>
+        <li><strong>🔄 Automation</strong>: दैनिक GitHub Actions वर्कफ़्लो जो शून्य टोकन रिसाव सुनिश्चित करता है</li>
+        <li><strong>🛡️ Privacy</strong>: आर्किटेक्चर की कल्पना करते हुए निजी रिपॉजिटरी को सुरक्षित रूप से मास्क करता है</li>
+        <li><strong>🎨 Visualization</strong>: गतिशील SVG आरेख और समय-श्रृंखला एनिमेटेड GIF निर्माण</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>⚡ <a href="https://github.com/maya-thorne?tab=repositories">uring-reactor</a></h4>
-      <p><em>आधुनिक io_uring पर निर्मित सब-माइक्रोसेकंड लेटेंसी एसिंक्रोनस I/O इवेंट लूप।</em></p>
+      <p align="center">
+        <a href="https://github.com/maya-thorne/github-org-map">
+          <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
+        </a>
+      </p>
+      <h4>🔒 <a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <p><em>आंतरिक विकास और निरंतर ऑडिट के लिए निजी साथी वर्कस्पेस और टेलीमेट्री इंजन।</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+      </p>
       <ul>
-        <li><strong>⏱️ Sub-Microsecond</strong>: Zero syscall overhead event dispatching</li>
-        <li><strong>🛡️ Lockless SPMC</strong>: Cache-aligned atomic ring sequencing</li>
+        <li><strong>🔐 Dual Pipeline</strong>: डुअल पाइपलाइन: आंतरिक अनमास्क्ड और सार्वजनिक मास्क्ड आर्टिफैक्ट बनाता है</li>
+        <li><strong>⚡ Zero-SPOF Topology</strong>: Zero-SPOF टोपोलॉजी: मल्टी-क्रेडेंशियल रोटेशन और फॉल्ट टॉलरेंस</li>
+        <li><strong>🏛️ Confidentiality</strong>: गोपनीयता: शून्य-रिसाव गारंटी के साथ एन्कैप्सुलेटेड सीक्रेट्स</li>
       </ul>
     </td>
   </tr>
@@ -75,7 +99,7 @@
 
 <p align="center">
   <a href="https://github.com/maya-thorne?tab=repositories">🔗 सार्वजनिक रिपॉजिटरी देखें</a> ·
-  <a href="https://github.com/maya-thorne">📖 आर्किटेक्चर विवरण देखें</a>
+  <a href="https://github.com/maya-thorne/github-org-map">🗺️ संगठन मानचित्र का अन्वेषण करें</a>
 </p>
 
 </details>
@@ -157,12 +181,27 @@
 
 <br />
 
-<p><em>निम्न-स्तरीय बुनियादी ढांचे में सक्रिय रोडमैप और तकनीकी पहल:</em></p>
+<p><strong>संगठन मानचित्र और टोपोलॉजी</strong></p>
+
+<p align="center">
+  <a href="https://github.com/maya-thorne/github-org-map">
+    <img src="../assets/projects/github-org-map.svg" alt="Organization map showing the maya-thorne workspace, public projects, and intentionally masked private work." width="520" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>निजी रिपॉजिटरी केवल मास्क किए गए लेबल के रूप में दिखाई देती हैं।</sub><br />
+  <a href="https://github.com/maya-thorne/github-org-map">टोपोलॉजी और कार्टोग्राफी का अन्वेषण करें →</a>
+</p>
+
+<br />
+
+<p><em>Active roadmap and technical initiatives across low-level infrastructure:</em></p>
 
 <ul>
-  <li>🎯 वर्तमान फोकस: io_uring मल्टी-रिंग पोलिंग बेंचमार्क और कर्नेल फ़ज़िंग</li>
-  <li>🚀 अगला मील का पत्थर: NUMA कैश-पिनिंग के साथ लॉक-मुक्त SPMC शेड्यूलर</li>
-  <li>🔮 भविष्य का शोध: हार्डवेयर ऑफलोडिंग के साथ eBPF नेटवर्क राउटर</li>
+  <li>🎯 Current Focus: io_uring multi-ring polling benchmarks & kernel module fuzzing harness</li>
+  <li>🚀 Next Milestone: Lock-free SPMC work-stealing scheduler with NUMA cache-pinning</li>
+  <li>🔮 Future Research: eBPF-driven network flow router with hardware offloading</li>
 </ul>
 
 </details>
