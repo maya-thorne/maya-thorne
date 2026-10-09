@@ -26,42 +26,117 @@
 
 ---
 
-<details open>
-<summary><h2 style="display:inline-block; margin:0;">💡 فلسفة ومبادئ الهندسة</h2></summary>
+<details>
+<summary><h2 style="display:inline-block; margin:0;">💡 About & Engineering Ethos</h2></summary>
+
 <br />
 
-- **⚡ تكلفة صفرية وتوافق عتادي — كتابة كود يراعي تدرج الذاكرة المخبأة ومحاذاة الذاكرة.**
-- **🐧 التفكير المتمركز حول النواة — إتقان io_uring وeBPF وقوائم الانتظار عديمة الأقفال.**
-- **🔒 الصحة المبنية على الثوابت — فرض الأمان أثناء وقت الترجمة وفحص الأعطال المستمر.**
+هندسة أنظمة برمجية منخفضة المستوى مرنة، ووحدات نواة لينكس، وأساسيات التزامن عالية الإنتاجية:
+
+- **⚡ تكلفة صفرية وتوافق ميكانيكي — كود يراعي مستويات الذاكرة المؤقتة ومحاذاة الذاكرة وتنبؤ التفرع.**
+- **🐧 التفكير المرتكز على النواة — التعامل مع نواة نظام التشغيل كبيئة تشغيل أساسية: io_uring و eBPF والقوائم غير المقفلة.**
+- **🔒 صحة مدفوعة بالثوابت — فرض الأمان أثناء وقت الترجمة وحالات انتقال صارمة.**
 
 <p align="center">
-  <sub><em>"نثق في سطر الأوامر. اجعله حتمياً. أتمت كل الصعوبات."</em></sub>
+  <sub><em>"نثق في الطرفية. اجعلها حتمية. أتمتة كل العوائق."</em></sub>
 </p>
 
 </details>
 
 ---
 
-<details open>
-<summary><h2 style="display:inline-block; margin:0;">⚡ الحزمة التقنية والأدوات</h2></summary>
+<details>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Projects & Solutions</h2></summary>
+
+<br />
+
+مكتبات برمجية ووحدات نواة مصممة لأقل زمن استجابة وتوافق ميكانيكي أقصى:
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🐧 <a href="https://github.com/maya-thorne?tab=repositories">nexus-kernel-core</a></h4>
+      <p><em>وحدة نواة لينكس عالية الأداء تطبق مخازن حلقية بذاكرة مشتركة دون نسخ وتزامن بين العمليات دون أقفال.</em></p>
+      <ul>
+        <li><strong>⚡ io_uring / eBPF</strong>: High-throughput submission/completion rings</li>
+        <li><strong>🔒 Memory Safe</strong>: Invariant-enforced concurrency boundaries</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ <a href="https://github.com/maya-thorne?tab=repositories">uring-reactor</a></h4>
+      <p><em>حلقة أحداث إدخال/إخراج غير متزامنة مبنية على io_uring بزمن استجابة أقل من ميكروثانية دون أعباء استدعاء النظام.</em></p>
+      <ul>
+        <li><strong>⏱️ Sub-Microsecond</strong>: Zero syscall overhead event dispatching</li>
+        <li><strong>🛡️ Lockless SPMC</strong>: Cache-aligned atomic ring sequencing</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/maya-thorne?tab=repositories">🔗 تصفح المستودعات العامة</a> ·
+  <a href="https://github.com/maya-thorne">📖 استكشاف مواصفات المعمارية</a>
+</p>
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Featured Capabilities & Architectures</h2></summary>
+
 <br />
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ الأنظمة منخفضة المستوى</h4>
+      <h4>⚙️ النواة والأساسيات منخفضة المستوى</h4>
+      <p><em>إدخال/إخراج غير متزامن عبر io_uring وشبكات تجاوز النواة وقابلية الرصد المباشر.</em></p>
       <ul>
-        <li><strong>Languages</strong>: <code>C23</code>, <code>Rust (Async/Unsafe/No_std)</code>, <code>Zig</code>, <code>x86_64 / ARM Assembly</code></li>
-        <li><strong>Kernel Runtimes</strong>: Linux Kernel Modules, POSIX APIs, eBPF / XDP, <code>io_uring</code></li>
-        <li><strong>Memory &amp; Concurrency</strong>: Lock-free atomics, SIMD vectorization, NUMA-aware allocators</li>
+        <li><strong>⚡ io_uring &amp; الإدخال غير المتزامن</strong>: مخازن حلقية عالية الإنتاجية تتجاوز أعباء epoll التقليدية.</li>
+        <li><strong>🛡️ تجاوز النواة &amp; XDP</strong>: تصفية حزم سريعة عبر eBPF/XDP مع تسريع DPDK.</li>
+        <li><strong>🔄 أساسيات دون أقفال</strong>: طوابير ذرية SPMC/MPSC وتسلسل صارم لحواجز الذاكرة.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 الأنظمة الموزعة والبنية التحتية</h4>
+      <h4>🌐 الأنظمة الموزعة والتزامن</h4>
+      <p><em>خطوط معالجة تزامن بنمط CSP وبرمجيات أنظمة آمنة للذاكرة.</em></p>
       <ul>
-        <li><strong>Networking</strong>: Kernel-bypass networking (DPDK), high-concurrency epoll/kqueue, WebSockets</li>
-        <li><strong>Observability</strong>: <code>bpftrace</code>, <code>perf</code>, <code>Valgrind</code>, Prometheus telemetry</li>
-        <li><strong>Environment</strong>: Arch Linux, Debian, Docker, LLVM/Clang toolchains, Neovim / Tmux</li>
+        <li><strong>⚙️ أدوات الأنظمة</strong>: C23 الحديثة، ولغة Rust غير المتزامنة (no_std)، وأدوات Zig.</li>
+        <li><strong>📦 تدفق بيانات دون نسخ</strong>: تسلسل ذاكرة بمحاذاة الذاكرة المؤقتة عبر NVMe وشبكات 100GbE.</li>
+        <li><strong>🎯 التحقق من الثوابت</strong>: تحقق دقيق من آلات الحالات المحدودة واختبارات فحص الأعطال التلقائية.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Tooling</h2></summary>
+
+<br />
+
+<p><em>مجموعة أدوات هندسية للأنظمة فائقة الأداء وبيئات التشغيل المباشرة:</em></p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚙️ المستوى المنخفض والأنظمة</h4>
+      <ul>
+        <li><strong>اللغات: C23, Rust (Async/Unsafe/No_std), Zig, x86_64 / ARM64 Assembly</strong></li>
+        <li><strong>بيئات النواة: Linux Kernel Modules, POSIX APIs, eBPF / XDP, io_uring</strong></li>
+        <li><strong>الذاكرة والتزامن: ذرات خالية من الأقفال, SIMD, مخصصات NUMA</strong></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🌐 التوزيع والبنية التحتية</h4>
+      <ul>
+        <li><strong>الشبكات: تجاوز النواة (DPDK), epoll/kqueue, WebSockets, gRPC</strong></li>
+        <li><strong>قابلية الرصد: bpftrace, perf, Valgrind, GDB, Prometheus</strong></li>
+        <li><strong>البيئة: Arch Linux, Debian, Docker, LLVM/Clang, Neovim / Tmux</strong></li>
       </ul>
     </td>
   </tr>
@@ -77,8 +152,26 @@
 
 ---
 
-<details open>
-<summary><h2 style="display:inline-block; margin:0;">📊 القياس عن بعد ومقاييس GitHub</h2></summary>
+<details>
+<summary><h2 style="display:inline-block; margin:0;">🗺️ Explore Projects & Roadmaps</h2></summary>
+
+<br />
+
+<p><em>خارطة الطريق النشطة والمبادرات التقنية في البنية التحتية منخفضة المستوى:</em></p>
+
+<ul>
+  <li>🎯 التركيز الحالي: اختبارات أداء الاقتراع متعدد الحلقات لـ io_uring وفحص النواة</li>
+  <li>🚀 المرحلة القادمة: مجدول سرقة العمل SPMC دون أقفال مع تثبيت كاش NUMA</li>
+  <li>🔮 أبحاث مستقبلية: موجه تدفق شبكي مدعوم بـ eBPF وتفريغ العتاد</li>
+</ul>
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline-block; margin:0;">📊 Architecture Dashboard & Delivery Metrics</h2></summary>
+
 <br />
 
 <div align="center">
@@ -96,13 +189,13 @@
 
 ---
 
-## 📬 التواصل والتعاون
+## 📬 Connect & Collaborate
 
-هل أنت مهتم بمناقشة معماريات الأنظمة أو هندسة نواة لينكس؟
+هل ترغب في مناقشة معماريات الأنظمة منخفضة المستوى، أو نواة لينكس، أو التزامن عالي الأداء؟
 
-[GitHub Profile](https://github.com/maya-thorne) · [Public Repositories](https://github.com/maya-thorne?tab=repositories) · [Discussions](https://github.com/maya-thorne?tab=discussions) · [Send an Email](mailto:zse4123jo@gmail.com)
+[الملف الشخصي على GitHub](https://github.com/maya-thorne) · [المستودعات العامة](https://github.com/maya-thorne?tab=repositories) · [المناقشات](https://github.com/maya-thorne?tab=discussions) · [إرسال بريد إلكتروني](mailto:zse4123jo@gmail.com)
 
 <div align="center">
   <br />
-  <sub>© 2026 Maya Thorne · Built with mechanical sympathy · 🐧</sub>
+  <sub>© 2026 Maya Thorne · تم البناء بتوافق ميكانيكي · 🐧</sub>
 </div>

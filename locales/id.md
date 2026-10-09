@@ -26,42 +26,117 @@
 
 ---
 
-<details open>
-<summary><h2 style="display:inline-block; margin:0;">💡 Filosofi & Etos Rekayasa</h2></summary>
+<details>
+<summary><h2 style="display:inline-block; margin:0;">💡 About & Engineering Ethos</h2></summary>
+
 <br />
 
-- **⚡ Biaya Nol & Simpati Mekanis — Kode yang menghormati hierarki cache, perataan memori, dan prediksi cabang.**
-- **🐧 Pola Pikir Berbasis Kernel — Menguasai io_uring, eBPF, dan antrean tanpa kunci di tingkat kernel OS.**
-- **🔒 Kebenaran Berbasis Invarian — Keamanan ketat pada waktu kompilasi dan pengujian fuzzing otomatis.**
+Merancang sistem perangkat lunak tingkat rendah yang tangguh, modul kernel Linux, dan primitif konkurensi throughput tinggi:
+
+- **⚡ Biaya Nol & Simpati Mekanis — Kode yang menghormati hierarki cache CPU dan perataan memori.**
+- **🐧 Pemikiran Berbasis Kernel — Kernel Linux sebagai runtime fundamental: io_uring, eBPF, dan antrean lock-free.**
+- **🔒 Kebenaran Berbasis Invarian — Keamanan ditegakkan pada waktu kompilasi dengan transisi mesin status yang ketat.**
 
 <p align="center">
-  <sub><em>"Pada terminal kami percaya. Buat deterministik. Otomatiskan hambatan."</em></sub>
+  <sub><em>"Pada terminal kami percaya. Jadikan deterministik. Otomatiskan gesekan."</em></sub>
 </p>
 
 </details>
 
 ---
 
-<details open>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Tumpukan Teknologi & Perkakas</h2></summary>
+<details>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Projects & Solutions</h2></summary>
+
+<br />
+
+Pustaka sistem tingkat rendah dan modul kernel yang dirancang untuk latensi ultra-rendah:
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🐧 <a href="https://github.com/maya-thorne?tab=repositories">nexus-kernel-core</a></h4>
+      <p><em>Modul kernel Linux berkinerja tinggi yang mengimplementasikan buffer cincin memori zero-copy dan IPC lock-free.</em></p>
+      <ul>
+        <li><strong>⚡ io_uring / eBPF</strong>: High-throughput submission/completion rings</li>
+        <li><strong>🔒 Memory Safe</strong>: Invariant-enforced concurrency boundaries</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>⚡ <a href="https://github.com/maya-thorne?tab=repositories">uring-reactor</a></h4>
+      <p><em>Loop peristiwa I/O asinkron yang dibangun di atas io_uring dengan latensi sub-mikrodetik tanpa syscall overhead.</em></p>
+      <ul>
+        <li><strong>⏱️ Sub-Microsecond</strong>: Zero syscall overhead event dispatching</li>
+        <li><strong>🛡️ Lockless SPMC</strong>: Cache-aligned atomic ring sequencing</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/maya-thorne?tab=repositories">🔗 Jelajahi Repositori Publik</a> ·
+  <a href="https://github.com/maya-thorne">📖 Lihat Spesifikasi Arsitektur</a>
+</p>
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Featured Capabilities & Architectures</h2></summary>
+
 <br />
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ Tingkat Rendah & Sistem</h4>
+      <h4>⚙️ Kernel dan Primitif Tingkat Rendah</h4>
+      <p><em>I/O asinkron via io_uring, jaringan kernel-bypass, dan observabilitas real-time.</em></p>
       <ul>
-        <li><strong>Languages</strong>: <code>C23</code>, <code>Rust (Async/Unsafe/No_std)</code>, <code>Zig</code>, <code>x86_64 / ARM Assembly</code></li>
-        <li><strong>Kernel Runtimes</strong>: Linux Kernel Modules, POSIX APIs, eBPF / XDP, <code>io_uring</code></li>
-        <li><strong>Memory &amp; Concurrency</strong>: Lock-free atomics, SIMD vectorization, NUMA-aware allocators</li>
+        <li><strong>⚡ io_uring &amp; Asinkron I/O</strong>: Buffer cincin throughput tinggi melewati overhead epoll warisan.</li>
+        <li><strong>🛡️ Kernel Bypass &amp; XDP</strong>: Pemfilteran paket cepat eBPF/XDP dan akselerasi DPDK.</li>
+        <li><strong>🔄 Primitif Lock-Free</strong>: Antrean atomik SPMC/MPSC dan pengurutan barrier memori yang ketat.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🌐 Sistem Terdistribusi dan Konkurensi</h4>
+      <p><em>Pipeline konkurensi gaya CSP dan perangkat lunak sistem aman memori.</em></p>
+      <ul>
+        <li><strong>⚙️ Perangkat Sistem</strong>: C23 modern, Rust asinkron/unsafe (no_std), dan toolchain Zig.</li>
+        <li><strong>📦 Aliran Data Zero-Copy</strong>: Serialisasi memori sejajar cache di atas penyimpanan NVMe dan 100GbE.</li>
+        <li><strong>🎯 Validasi Invarian</strong>: Verifikasi automata hingga dan rangkaian fuzzing otomatis.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline-block; margin:0;">⚡ Technology Stack & Tooling</h2></summary>
+
+<br />
+
+<p><em>Rangkaian alat rekayasa untuk sistem berkinerja tinggi dan eksekusi bare-metal:</em></p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚙️ Tingkat Rendah dan Sistem</h4>
+      <ul>
+        <li><strong>Bahasa: C23, Rust (Async/Unsafe/No_std), Zig, Assembly x86_64 / ARM64</strong></li>
+        <li><strong>Runtime Kernel: Linux Kernel Modules, POSIX APIs, eBPF / XDP, io_uring</strong></li>
+        <li><strong>Memori & Konkurensi: Atomik lock-free, vektorisasi SIMD, alokator NUMA</strong></li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h4>🌐 Terdistribusi & Infrastruktur</h4>
       <ul>
-        <li><strong>Networking</strong>: Kernel-bypass networking (DPDK), high-concurrency epoll/kqueue, WebSockets</li>
-        <li><strong>Observability</strong>: <code>bpftrace</code>, <code>perf</code>, <code>Valgrind</code>, Prometheus telemetry</li>
-        <li><strong>Environment</strong>: Arch Linux, Debian, Docker, LLVM/Clang toolchains, Neovim / Tmux</li>
+        <li><strong>Jaringan: Kernel-bypass (DPDK), epoll/kqueue, WebSockets, gRPC</strong></li>
+        <li><strong>Observabilitas: bpftrace, perf, Valgrind, GDB, telemetri Prometheus</strong></li>
+        <li><strong>Lingkungan: Arch Linux, Debian, Docker, LLVM/Clang, Neovim / Tmux</strong></li>
       </ul>
     </td>
   </tr>
@@ -77,8 +152,26 @@
 
 ---
 
-<details open>
-<summary><h2 style="display:inline-block; margin:0;">📊 Telemetri Dinamis & Metrik GitHub</h2></summary>
+<details>
+<summary><h2 style="display:inline-block; margin:0;">🗺️ Explore Projects & Roadmaps</h2></summary>
+
+<br />
+
+<p><em>Peta jalan aktif dan inisiatif teknis pada infrastruktur tingkat rendah:</em></p>
+
+<ul>
+  <li>🎯 Fokus Saat Ini: Tolok ukur polling multi-ring io_uring dan fuzzing modul kernel</li>
+  <li>🚀 Tonggak Berikutnya: Penjadwal pencurian tugas SPMC lock-free dengan NUMA pinning</li>
+  <li>🔮 Riset Masa Depan: Router aliran jaringan berbasis eBPF dengan offloading perangkat keras</li>
+</ul>
+
+</details>
+
+---
+
+<details>
+<summary><h2 style="display:inline-block; margin:0;">📊 Architecture Dashboard & Delivery Metrics</h2></summary>
+
 <br />
 
 <div align="center">
@@ -96,13 +189,13 @@
 
 ---
 
-## 📬 Terhubung & Kolaborasi
+## 📬 Connect & Collaborate
 
-Tertarik mendiskusikan arsitektur sistem tingkat rendah atau rekayasa kernel?
+Tertarik mendiskusikan arsitektur sistem tingkat rendah, kernel Linux, atau primitif konkurensi?
 
-[GitHub Profile](https://github.com/maya-thorne) · [Public Repositories](https://github.com/maya-thorne?tab=repositories) · [Discussions](https://github.com/maya-thorne?tab=discussions) · [Send an Email](mailto:zse4123jo@gmail.com)
+[Profil GitHub](https://github.com/maya-thorne) · [Repositori Publik](https://github.com/maya-thorne?tab=repositories) · [Diskusi](https://github.com/maya-thorne?tab=discussions) · [Kirim Email](mailto:zse4123jo@gmail.com)
 
 <div align="center">
   <br />
-  <sub>© 2026 Maya Thorne · Built with mechanical sympathy · 🐧</sub>
+  <sub>© 2026 Maya Thorne · Dibangun dengan simpati mekanis · 🐧</sub>
 </div>
