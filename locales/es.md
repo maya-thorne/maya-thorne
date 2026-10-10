@@ -272,7 +272,7 @@ Runtimes distribuidos de alto rendimiento, primitivas de red bypass de kernel y 
 
 ¿Interesado en discutir arquitecturas de sistemas de bajo nivel, aspectos internos del kernel de Linux o primitivas de concurrencia?
 
-[Perfil de GitHub](https://github.com/maya-thorne) · [Repositorios Públicos](https://github.com/maya-thorne?tab=repositories) · [Discusiones](https://github.com/maya-thorne?tab=discussions) · [Enviar Correo](mailto:zse4123jo@gmail.com)
+🐙 [Perfil de GitHub](https://github.com/maya-thorne) · 📦 [Repositorios Públicos](https://github.com/maya-thorne?tab=repositories) · 💬 [Discusiones](https://github.com/maya-thorne?tab=discussions) · ✉️ [Enviar Correo](mailto:zse4123jo@gmail.com)
 
 <div align="center">
   <br />

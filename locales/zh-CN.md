@@ -272,7 +272,7 @@
 
 欢迎就底层系统架构、Linux 内核机制及高性能并发原语展开深入交流与探讨。
 
-[GitHub 主页](https://github.com/maya-thorne) · [公开存储库](https://github.com/maya-thorne?tab=repositories) · [讨论区](https://github.com/maya-thorne?tab=discussions) · [发送邮件](mailto:zse4123jo@gmail.com)
+🐙 [GitHub 主页](https://github.com/maya-thorne) · 📦 [公开存储库](https://github.com/maya-thorne?tab=repositories) · 💬 [讨论区](https://github.com/maya-thorne?tab=discussions) · ✉️ [发送邮件](mailto:zse4123jo@gmail.com)
 
 <div align="center">
   <br />
