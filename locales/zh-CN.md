@@ -7,7 +7,7 @@
 
 <p>
   <strong>Architecting Resilient Low-Level Systems, Kernel Modules &amp; High-Throughput Concurrency Primitives.</strong><br />
-  <sub>Speed · Scale · Security — Engineering with clarity and conviction.</sub>
+  <sub>Speed · Scale · Security — Engineering with clarity and conviction. 🚀 ( •̀ᴗ•́ )و</sub>
 </p>
 
 <p>
@@ -34,11 +34,11 @@
 架构高弹性底层软件系统、Linux内核模块及高吞吐并发原语。追求机械同理心与零开销性能：
 
 - **零成本与机械同理心** — 遵循CPU缓存层次结构、内存对齐与分支预测器的严谨代码，默认零开销抽象。
-- **内核优先架构** — 将操作系统内核视为第一类执行基座，深度运用 io_uring、eBPF 及无锁队列。
+- 🐧 **内核优先架构** — 将操作系统内核视为第一类执行基座，深度运用 io_uring、eBPF 及无锁队列。
 - **不变量驱动的正确性** — 编译期安全保证、确定性状态机转换、无锁环形缓冲区及持续模糊测试。
 
 <p align="center">
-  <sub><em>"信赖终端，追求确定性，消除冗余摩擦。"</em></sub>
+  <sub><em>(⌐■_■) 💻 "信赖终端，追求确定性，消除冗余摩擦。"</em></sub>
 </p>
 
 </details>
@@ -114,21 +114,21 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>内核与底层原语</h4>
+      <h4>🐧 内核与底层原语</h4>
       <p><em>基于 io_uring 的异步 I/O、内核旁路网络及实时可观测性。</em></p>
       <ul>
-        <li><strong>io_uring 异步 I/O</strong>：消除传统 epoll 系统调用开销的高吞吐提交/完成环形队列。</li>
-        <li><strong>内核旁路与 XDP</strong>：可编程 eBPF/XDP 快速路径数据包过滤与 DPDK 用户态加速。</li>
-        <li><strong>无锁原语</strong>：SPMC/MPSC 原子队列、风险指针与内存屏障同步。</li>
+        <li>🌀 <strong>io_uring 异步 I/O</strong>：消除传统 epoll 系统调用开销的高吞吐提交/完成环形队列。</li>
+        <li>⚡ <strong>内核旁路与 XDP</strong>：可编程 eBPF/XDP 快速路径数据包过滤与 DPDK 用户态加速。</li>
+        <li>🔒 <strong>无锁原语</strong>：SPMC/MPSC 原子队列、风险指针与内存屏障同步。</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>分布式系统与并发</h4>
+      <h4>🌐 分布式系统与并发</h4>
       <p><em>现代 CSP 风格并发管道、零拷贝序列化与内存安全系统软件。</em></p>
       <ul>
         <li><strong>系统工程工具链</strong>：现代 C23、异步与 unsafe Rust (no_std) 及 Zig 工具链。</li>
-        <li><strong>零拷贝数据流</strong>：基于 NVMe 存储与高带宽网络的缓存对齐序列化。</li>
-        <li><strong>不变量验证</strong>：状态自动机验证、属性测试与自动化模糊测试套件。</li>
+        <li>📦 <strong>零拷贝数据流</strong>：基于 NVMe 存储与高带宽网络的缓存对齐序列化。</li>
+        <li>🧪 <strong>不变量验证</strong>：状态自动机验证、属性测试与自动化模糊测试套件。</li>
       </ul>
     </td>
   </tr>
@@ -148,19 +148,19 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>底层与系统</h4>
+      <h4>⚙️ 底层与系统</h4>
       <ul>
-        <li><strong>编程语言</strong>：C23、Rust (Async / Unsafe / no_std)、Zig、x86_64 / ARM64 汇编</li>
-        <li><strong>内核运行时</strong>：Linux 内核模块、POSIX API、eBPF / XDP、io_uring</li>
-        <li><strong>内存与并发</strong>：无锁原子操作、SIMD 向量化、NUMA 感知分配器</li>
+        <li>🔤 <strong>编程语言</strong>：C23、Rust (Async / Unsafe / no_std)、Zig、x86_64 / ARM64 汇编</li>
+        <li>🐧 <strong>内核运行时</strong>：Linux 内核模块、POSIX API、eBPF / XDP、io_uring</li>
+        <li>🧠 <strong>内存与并发</strong>：无锁原子操作、SIMD 向量化、NUMA 感知分配器</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>分布式与基础设施</h4>
+      <h4>🌐 分布式与基础设施</h4>
       <ul>
         <li><strong>网络技术</strong>：内核旁路 (DPDK)、epoll/kqueue、WebSockets、gRPC</li>
-        <li><strong>可观测性</strong>：bpftrace、perf、Valgrind、GDB、Prometheus 遥测</li>
-        <li><strong>开发环境</strong>：Arch Linux、Debian、Docker、LLVM/Clang 工具链、Neovim / Tmux</li>
+        <li>🔍 <strong>可观测性</strong>：bpftrace、perf、Valgrind、GDB、Prometheus 遥测</li>
+        <li>🖥️ <strong>开发环境</strong>：Arch Linux、Debian、Docker、LLVM/Clang 工具链、Neovim / Tmux</li>
       </ul>
     </td>
   </tr>
@@ -201,7 +201,7 @@
 <ul>
   <li><strong>当前核心任务</strong>：io_uring 多环轮询基准测试与内核模块模糊测试套件</li>
   <li><strong>下一里程碑</strong>：集成 NUMA 内存绑定的无锁 SPMC 工作窃取调度器</li>
-  <li><strong>研究方向</strong>：具备硬件卸载支持的 eBPF 网络流路由器</li>
+  <li>🔬 <strong>研究方向</strong>：具备硬件卸载支持的 eBPF 网络流路由器</li>
 </ul>
 
 </details>
@@ -236,5 +236,5 @@
 
 <div align="center">
   <br />
-  <sub>© 2026 Maya Thorne · 系统架构与内核工程</sub>
+  <sub>© 2026 Maya Thorne · 系统架构与内核工程 ( 💻 ˘◡˘ )</sub>
 </div>

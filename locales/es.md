@@ -7,7 +7,7 @@
 
 <p>
   <strong>Architecting Resilient Low-Level Systems, Kernel Modules &amp; High-Throughput Concurrency Primitives.</strong><br />
-  <sub>Speed · Scale · Security — Engineering with clarity and conviction.</sub>
+  <sub>Speed · Scale · Security — Engineering with clarity and conviction. 🚀 ( •̀ᴗ•́ )و</sub>
 </p>
 
 <p>
@@ -34,11 +34,11 @@
 Arquitectura de sistemas de software de bajo nivel, módulos del kernel de Linux y primitivas de concurrencia de alto rendimiento. Enfoque en simpatía mecánica y cero sobrecarga:
 
 - **Cero Costo &amp; Simpatía Mecánica** — Código diseñado para respetar jerarquías de caché de CPU, alineación de memoria y predictores de saltos.
-- **Arquitectura Centrada en el Kernel** — Tratando el kernel del sistema operativo como el sustrato de ejecución fundamental con io_uring, eBPF y colas sin bloqueos.
+- 🐧 **Arquitectura Centrada en el Kernel** — Tratando el kernel del sistema operativo como el sustrato de ejecución fundamental con io_uring, eBPF y colas sin bloqueos.
 - **Corrección Basada en Invariantes** — Garantías de seguridad en tiempo de compilación, transiciones de autómatas deterministas y pruebas de fuzzing continuo.
 
 <p align="center">
-  <sub><em>"Confiamos en la terminal. Hazlo determinista. Automatiza la fricción."</em></sub>
+  <sub><em>(⌐■_■) 💻 "Confiamos en la terminal. Hazlo determinista. Automatiza la fricción."</em></sub>
 </p>
 
 </details>
@@ -117,8 +117,8 @@ Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos 
       <h4>Primitivas de Kernel &amp; Bajo Nivel</h4>
       <p><em>E/S asíncrona mediante io_uring, redes con kernel-bypass y observabilidad en tiempo real.</em></p>
       <ul>
-        <li><strong>io_uring &amp; E/S Asíncrona</strong>: Colas circulares de envío/finalización de alto rendimiento sin sobrecarga de epoll.</li>
-        <li><strong>Kernel Bypass &amp; XDP</strong>: Filtrado programable de paquetes eBPF/XDP y aceleración en espacio de usuario con DPDK.</li>
+        <li>🌀 <strong>io_uring &amp; E/S Asíncrona</strong>: Colas circulares de envío/finalización de alto rendimiento sin sobrecarga de epoll.</li>
+        <li>⚡ <strong>Kernel Bypass &amp; XDP</strong>: Filtrado programable de paquetes eBPF/XDP y aceleración en espacio de usuario con DPDK.</li>
         <li><strong>Primitivas Sin Bloqueos</strong>: Colas atómicas SPMC/MPSC, hazard pointers y barreras de memoria.</li>
       </ul>
     </td>
@@ -126,9 +126,9 @@ Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos 
       <h4>Sistemas Distribuidos &amp; Concurrencia</h4>
       <p><em>Pipelines de concurrencia estilo CSP, serialización sin copias y software seguro en memoria.</em></p>
       <ul>
-        <li><strong>Herramientas de Sistemas</strong>: C23 moderno, Rust asíncrono e inseguro (no_std) y toolchains de Zig.</li>
+        <li>🛠️ <strong>Herramientas de Sistemas</strong>: C23 moderno, Rust asíncrono e inseguro (no_std) y toolchains de Zig.</li>
         <li><strong>Flujo de Datos Sin Copias</strong>: Serialización alineada en caché sobre almacenamiento NVMe y redes de alto ancho de banda.</li>
-        <li><strong>Validación de Invariantes</strong>: Verificación de autómatas de estado, pruebas basadas en propiedades y suites de fuzzing.</li>
+        <li>🧪 <strong>Validación de Invariantes</strong>: Verificación de autómatas de estado, pruebas basadas en propiedades y suites de fuzzing.</li>
       </ul>
     </td>
   </tr>
@@ -150,7 +150,7 @@ Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos 
     <td width="50%" valign="top">
       <h4>Bajo Nivel &amp; Sistemas</h4>
       <ul>
-        <li><strong>Lenguajes</strong>: C23, Rust (Async / Unsafe / no_std), Zig, Ensamblador x86_64 / ARM64</li>
+        <li>🔤 <strong>Lenguajes</strong>: C23, Rust (Async / Unsafe / no_std), Zig, Ensamblador x86_64 / ARM64</li>
         <li><strong>Runtimes de Kernel</strong>: Módulos de Linux Kernel, APIs POSIX, eBPF / XDP, io_uring</li>
         <li><strong>Memoria &amp; Concurrencia</strong>: Atómicos sin bloqueos, vectorización SIMD, asignadores NUMA</li>
       </ul>
@@ -158,9 +158,9 @@ Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos 
     <td width="50%" valign="top">
       <h4>Distribuido &amp; Infraestructura</h4>
       <ul>
-        <li><strong>Redes</strong>: Kernel-bypass (DPDK), epoll/kqueue, WebSockets, gRPC</li>
-        <li><strong>Observabilidad</strong>: bpftrace, perf, Valgrind, GDB, telemetría Prometheus</li>
-        <li><strong>Entorno</strong>: Arch Linux, Debian, Docker, LLVM/Clang, Neovim / Tmux</li>
+        <li>⚡ <strong>Redes</strong>: Kernel-bypass (DPDK), epoll/kqueue, WebSockets, gRPC</li>
+        <li>🔍 <strong>Observabilidad</strong>: bpftrace, perf, Valgrind, GDB, telemetría Prometheus</li>
+        <li>🖥️ <strong>Entorno</strong>: Arch Linux, Debian, Docker, LLVM/Clang, Neovim / Tmux</li>
       </ul>
     </td>
   </tr>
@@ -199,9 +199,9 @@ Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos 
 <p><em>Iniciativas técnicas y hoja de ruta activa en infraestructura de bajo nivel:</em></p>
 
 <ul>
-  <li><strong>Enfoque Actual</strong>: Benchmarks de sondeo multi-anillo io_uring y harness de fuzzing para módulos del kernel</li>
-  <li><strong>Próximo Hito</strong>: Planificador work-stealing SPMC sin bloqueos con fijación de memoria NUMA</li>
-  <li><strong>Línea de Investigación</strong>: Enrutador de flujos de red con eBPF y aceleración por hardware</li>
+  <li>🎯 <strong>Enfoque Actual</strong>: Benchmarks de sondeo multi-anillo io_uring y harness de fuzzing para módulos del kernel</li>
+  <li>🚀 <strong>Próximo Hito</strong>: Planificador work-stealing SPMC sin bloqueos con fijación de memoria NUMA</li>
+  <li>🔬 <strong>Línea de Investigación</strong>: Enrutador de flujos de red con eBPF y aceleración por hardware</li>
 </ul>
 
 </details>
@@ -236,5 +236,5 @@ Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos 
 
 <div align="center">
   <br />
-  <sub>© 2026 Maya Thorne · Arquitectura de Sistemas e Ingeniería de Kernel</sub>
+  <sub>© 2026 Maya Thorne · Arquitectura de Sistemas e Ingeniería de Kernel ( 💻 ˘◡˘ )</sub>
 </div>
