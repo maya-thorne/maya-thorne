@@ -1,8 +1,8 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero_ru.svg" alt="Maya Thorne — Speed · Scale · Security — Linux Kernel &amp; Low-Level Concurrency" width="76%" />
-  <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
+  <a href="https://github.com/maya-thorne"><img src="../assets/hero_ru.svg" alt="Maya Thorne — Speed · Scale · Security — Linux Kernel &amp; Low-Level Concurrency" width="76%" /></a>
+  <a href="https://github.com/maya-thorne"><img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" /></a>
 </p>
 
 <p>
