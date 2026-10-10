@@ -62,7 +62,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
           <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>Mecanismo de mapeamento topológico diário automatizado para repositórios de kernel Linux e concorrência com hash de privacidade SHA-256.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
@@ -70,9 +70,9 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
       </p>
       <ul>
-        <li><strong>Automation</strong>: Scheduled GitHub Actions workflow generating daily vector maps with zero credential leakage</li>
-        <li><strong>Privacy</strong>: Salted SHA-256 hashing concealing private kernel modules while preserving architectural lineage</li>
-        <li><strong>Visualization</strong>: Pure SVG coordinate rendering and frame-accurate animated timeline generation</li>
+        <li>🔄 <strong>Automação</strong>: Fluxo diário agendado do GitHub Actions gerando mapas vetoriais sem vazamento de tokens</li>
+        <li>🛡️ <strong>Preservação de Privacidade</strong>: Hash SHA-256 com sal ocultando módulos proprietários enquanto ilustra a arquitetura</li>
+        <li>📊 <strong>Renderização Vetorial Pura</strong>: Motor cartográfico SVG nativo sem dependências com geração de linha do tempo</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -81,7 +81,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
           <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>Pipeline de telemetria complementar isolado para módulos de kernel de baixo nível, análise de defesas e pesquisa arquitetural privada.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
@@ -89,9 +89,9 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
       </p>
       <ul>
-        <li><strong>Dual Topology</strong>: Validates internal unmasked system graphs against release-ready public masked artifacts</li>
-        <li><strong>Deterministic Invariants</strong>: Automated test suites asserting preimage resistance and collision-free mapping</li>
-        <li><strong>Protected Storage</strong>: Hardware-bound DPAPI secret encapsulation and strict branch-isolated auditing</li>
+        <li>🔐 <strong>Isolamento de Cofre</strong>: Encapsulamento de segredos criptografado com Windows DPAPI com vínculo de hardware</li>
+        <li>⚡ <strong>Invariantes de Concorrência</strong>: Asserções automáticas verificando resistência a pré-imagem e mapeamento sem colisões</li>
+        <li>📜 <strong>Auditoria de Verdade Dupla</strong>: Pipeline contínuo validando artefatos públicos mascarados contra o grafo interno</li>
       </ul>
     </td>
   </tr>

@@ -62,7 +62,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
           <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>Mesin pemetaan topologi harian otomatis untuk repositori kernel Linux dan konkurensi dengan hashing privasi SHA-256.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
@@ -70,9 +70,9 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
       </p>
       <ul>
-        <li><strong>Automation</strong>: Scheduled GitHub Actions workflow generating daily vector maps with zero credential leakage</li>
-        <li><strong>Privacy</strong>: Salted SHA-256 hashing concealing private kernel modules while preserving architectural lineage</li>
-        <li><strong>Visualization</strong>: Pure SVG coordinate rendering and frame-accurate animated timeline generation</li>
+        <li>🔄 <strong>Otomatisasi</strong>: Alur kerja GitHub Actions harian yang menghasilkan peta vektor tanpa kebocoran token</li>
+        <li>🛡️ <strong>Perlindungan Privasi</strong>: Hashing SHA-256 satu arah dengan salt untuk menyembunyikan modul kernel privat</li>
+        <li>📊 <strong>Rendering Vektor Murni</strong>: Mesin kartografi SVG tanpa dependensi dengan pembuatan garis waktu animasi</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -81,7 +81,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
           <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>Saluran telemetri pendamping terisolasi untuk modul kernel tingkat rendah, analisis pertahanan eksploitasi, dan riset privat.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
@@ -89,9 +89,9 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
       </p>
       <ul>
-        <li><strong>Dual Topology</strong>: Validates internal unmasked system graphs against release-ready public masked artifacts</li>
-        <li><strong>Deterministic Invariants</strong>: Automated test suites asserting preimage resistance and collision-free mapping</li>
-        <li><strong>Protected Storage</strong>: Hardware-bound DPAPI secret encapsulation and strict branch-isolated auditing</li>
+        <li>🔐 <strong>Isolasi Brankas</strong>: Enkapsulasi rahasia terenkripsi Windows DPAPI yang terikat perangkat keras tanpa kebocoran</li>
+        <li>⚡ <strong>Invarian Konkurensi</strong>: Asersi otomatis berbasis properti yang memverifikasi ketahanan preimage dan peta bebas tabrakan</li>
+        <li>📜 <strong>Audit Kebenaran Ganda</strong>: Saluran audit berkelanjutan yang memvalidasi artefak publik bertopeng terhadap grafik internal</li>
       </ul>
     </td>
   </tr>

@@ -62,7 +62,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
           <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>محرك تخطيط طوبولوجي يومي آلي لمستودعات نواة لينكس والتزامن مع تشفير الخصوصية SHA-256.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
@@ -70,9 +70,9 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
       </p>
       <ul>
-        <li><strong>Automation</strong>: Scheduled GitHub Actions workflow generating daily vector maps with zero credential leakage</li>
-        <li><strong>Privacy</strong>: Salted SHA-256 hashing concealing private kernel modules while preserving architectural lineage</li>
-        <li><strong>Visualization</strong>: Pure SVG coordinate rendering and frame-accurate animated timeline generation</li>
+        <li>🔄 <strong>الأتمتة</strong>: مسار عمل مجدول يومياً في GitHub Actions يولد خرائط متجهية مع انعدام تسريب الرموز</li>
+        <li>🛡️ <strong>حماية الخصوصية</strong>: تشفير SHA-256 أحادي الاتجاه لإخفاء وحدات النواة الخاصة مع إبراز المخطط المعماري</li>
+        <li>📊 <strong>تصيير متجهي نقي</strong>: محرك رسم خرائط SVG أصلي بدون أي مكتبات خارجية مع توليد خط زمني متحرك</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -81,7 +81,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
           <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>خط أنابيب قياس عن بعد مرافق ومعزول لوحدات النواة منخفضة المستوى وتحليل دفاعات الثغرات والبحوث الخاصة.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
@@ -89,9 +89,9 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
       </p>
       <ul>
-        <li><strong>Dual Topology</strong>: Validates internal unmasked system graphs against release-ready public masked artifacts</li>
-        <li><strong>Deterministic Invariants</strong>: Automated test suites asserting preimage resistance and collision-free mapping</li>
-        <li><strong>Protected Storage</strong>: Hardware-bound DPAPI secret encapsulation and strict branch-isolated auditing</li>
+        <li>🔐 <strong>عزل الخزنة</strong>: كبسلة أسرار مشفرة بتقنية Windows DPAPI ومربوطة بالعتاد لمنع أي تسريب</li>
+        <li>⚡ <strong>ثوابت التزامن</strong>: تأكيدات آلية مبنية على الخصائص تثبت مقاومة الهجمات وعدم وجود تصادمات</li>
+        <li>📜 <strong>تدقيق مزدوج للمصدر الحقيقي</strong>: خط أنابيب تدقيق مستمر يطابق المخرجات العامة المشفرة مع المخطط الداخلي</li>
       </ul>
     </td>
   </tr>

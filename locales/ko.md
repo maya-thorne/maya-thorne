@@ -62,7 +62,7 @@
           <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>리눅스 커널 연구 및 동시성 런타임 저장소의 암호화 해시 마스킹 기반 일일 자동화 토폴로지 매핑 엔진.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
@@ -70,9 +70,9 @@
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
       </p>
       <ul>
-        <li><strong>자동화 파이프라인</strong>: 자격증명 유출 0% 보장 일일 GitHub Actions 워크플로 자동 실행</li>
-        <li><strong>프라이버시 보호</strong>: 아키텍처 맥락을 시각화하면서 비공개 저장소 식별자를 암호학적으로 마스킹</li>
-        <li><strong>벡터 렌더링</strong>: 다크 테마 순수 SVG 좌표 렌더링 및 시계열 타임랩스 GIF 자동 합성</li>
+        <li>🔄 <strong>자동화 파이프라인</strong>: 토큰 유출 0% 보장 일일 GitHub Actions 워크플로 기반 벡터 토폴로지 자동 동기화</li>
+        <li>🛡️ <strong>프라이버시 보호</strong>: 비공개 커널 연구 모듈을 단방향 솔트 SHA-256 해시로 마스킹하여 아키텍처 계보 안전 보존</li>
+        <li>📊 <strong>순수 벡터 렌더링</strong>: 외부 런타임 의존성 0%의 네이티브 SVG 좌표 매핑 및 프레임 단위 타임랩스 생성</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -81,7 +81,7 @@
           <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>저수준 커널 모듈, 익스플로잇 방어 분석 및 비공개 연구를 위한 격리형 컴패니언 텔레메트리 파이프라인.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
@@ -89,9 +89,9 @@
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
       </p>
       <ul>
-        <li><strong>이중 토폴로지 검증</strong>: 공개 마스킹 아티팩트 배포 전 내부 비마스킹 시스템 그래프 대조 검증</li>
-        <li><strong>불변식 감사</strong>: 원상 복원 방지(Preimage Resistance) 및 충돌 없는 맵핑을 검증하는 자동화 테스트</li>
-        <li><strong>기밀성 보호</strong>: 하드웨어 바인딩 DPAPI 보안 캡슐화 및 브랜치 격리 감시 체계</li>
+        <li>🔐 <strong>보안 금고 격리</strong>: Windows DPAPI 암호화 기반 하드웨어 바인딩 자격증명 캡슐화 및 유출 차단</li>
+        <li>⚡ <strong>동시성 불변식 검증</strong>: 역상 저항성(Preimage Resistance)과 무충돌 매핑을 기계적으로 증명하는 자동화 테스트</li>
+        <li>📜 <strong>이중 그라운드 트루스 감사</strong>: 공개 마스킹 아티팩트와 비공개 내부 원본 그래프의 1:1 무결성 상시 대조 검증</li>
       </ul>
     </td>
   </tr>

@@ -62,7 +62,7 @@
           <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>基于 SHA-256 隐私哈希的 Linux 内核与并发运行时仓库每日自动化拓扑映射引擎。</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
@@ -70,9 +70,9 @@
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
       </p>
       <ul>
-        <li><strong>自动化管道</strong>：每日定时 GitHub Actions 工作流，零凭据泄露风险</li>
-        <li><strong>隐私保护</strong>：可视化架构的同时对私有存储库标识符进行密码学遮蔽</li>
-        <li><strong>矢量呈现</strong>：纯 SVG 坐标渲染与帧精确时间序列 GIF 生成</li>
+        <li>🔄 <strong>自动化流水线</strong>: 零凭证泄漏的每日 GitHub Actions 工作流，自动生成矢量拓扑图</li>
+        <li>🛡️ <strong>隐私保护</strong>: 加盐 SHA-256 单向哈希隐匿私有内核模块，同时完整保留系统架构脉络</li>
+        <li>📊 <strong>纯矢量渲染</strong>: 零外部依赖原生 SVG 坐标映射与帧级动态时间线生成</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -81,7 +81,7 @@
           <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>用于底层内核模块、漏洞防御分析及私有架构研究的隔离伴侣遥测流水线。</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
@@ -89,9 +89,9 @@
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
       </p>
       <ul>
-        <li><strong>双轨拓扑验证</strong>：发布前对照验证内部未脱敏系统图与公开脱敏制品</li>
-        <li><strong>确定性不变量</strong>：自动化测试断言抗原像攻击与无冲突哈希映射</li>
-        <li><strong>受保护存储</strong>：硬件绑定 DPAPI 密钥封装与严格分支隔离审计</li>
+        <li>🔐 <strong>保险库隔离</strong>: 基于 Windows DPAPI 硬件绑定的凭证封装，确保私有凭据零泄漏</li>
+        <li>⚡ <strong>并发不变式验证</strong>: 自动化基于属性的测试，严格验证原像抵抗性与无冲突哈希映射</li>
+        <li>📜 <strong>双真实源审计</strong>: 持续审计流水线，严格对照验证公开脱敏产物与内部未脱敏系统图谱</li>
       </ul>
     </td>
   </tr>

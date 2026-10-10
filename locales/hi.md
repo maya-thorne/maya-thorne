@@ -62,7 +62,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
           <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>लिनक्स कर्नेल और समवर्ती रनटाइम रिपॉजिटरी के लिए SHA-256 गोपनीयता हैशिंग के साथ स्वचालित दैनिक टोपोलॉजी मैपिंग इंजन।</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
@@ -70,9 +70,9 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
       </p>
       <ul>
-        <li><strong>Automation</strong>: Scheduled GitHub Actions workflow generating daily vector maps with zero credential leakage</li>
-        <li><strong>Privacy</strong>: Salted SHA-256 hashing concealing private kernel modules while preserving architectural lineage</li>
-        <li><strong>Visualization</strong>: Pure SVG coordinate rendering and frame-accurate animated timeline generation</li>
+        <li>🔄 <strong>स्वचालन</strong>: शून्य टोकन रिसाव के साथ वेक्टर मानचित्र उत्पन्न करने वाला दैनिक GitHub Actions वर्कफ़्लो</li>
+        <li>🛡️ <strong>गोपनीयता संरक्षण</strong>: स्वामित्व कर्नेल मॉड्यूल को छिपाने के लिए वन-वे सॉल्टेड SHA-256 हैशिंग</li>
+        <li>📊 <strong>शुद्ध वेक्टर रेंडरिंग</strong>: शून्य निर्भरता वाला देशी SVG कार्टोग्राफी इंजन और सटीक एनिमेटेड टाइमलाइन</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -81,7 +81,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
           <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>निम्न-स्तरीय कर्नेल मॉड्यूल, शोषण रक्षा विश्लेषण और निजी वास्तुशिल्प अनुसंधान के लिए पृथक साथी टेलीमेट्री पाइपलाइन।</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
@@ -89,9 +89,9 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
       </p>
       <ul>
-        <li><strong>Dual Topology</strong>: Validates internal unmasked system graphs against release-ready public masked artifacts</li>
-        <li><strong>Deterministic Invariants</strong>: Automated test suites asserting preimage resistance and collision-free mapping</li>
-        <li><strong>Protected Storage</strong>: Hardware-bound DPAPI secret encapsulation and strict branch-isolated auditing</li>
+        <li>🔐 <strong>वॉल्ट अलगाव</strong>: हार्डवेयर-बाउंड क्रेडेंशियल सुरक्षा सुनिश्चित करने वाला Windows DPAPI एन्क्रिप्टेड रहस्य संपुटीकरण</li>
+        <li>⚡ <strong>समवर्ती इनवेरिएंट्स</strong>: प्रीइमेज प्रतिरोध और टकराव-मुक्त मैपिंग को सत्यापित करने वाले स्वचालित दावे</li>
+        <li>📜 <strong>दोहरा सत्य ऑडिट</strong>: आंतरिक अप्रत्यक्ष सिस्टम ग्राफ़ के विरुद्ध सार्वजनिक मास्क किए गए आर्टिफैक्ट्स का ऑडिट</li>
       </ul>
     </td>
   </tr>

@@ -62,7 +62,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
           <img src="./assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>Automated daily topology mapping of Linux kernel and concurrency runtime repositories with SHA-256 privacy hashing.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="./assets/badges/badge-license.svg" alt="License" /></a>
@@ -70,9 +70,9 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
         <a href="https://github.com/maya-thorne/github-org-map"><img src="./assets/badges/badge-privacy.svg" alt="Privacy" /></a>
       </p>
       <ul>
-        <li><strong>Automation</strong>: Scheduled GitHub Actions workflow generating daily vector maps with zero credential leakage</li>
-        <li><strong>Privacy</strong>: Salted SHA-256 hashing concealing private kernel modules while preserving architectural lineage</li>
-        <li><strong>Visualization</strong>: Pure SVG coordinate rendering and frame-accurate animated timeline generation</li>
+        <li>🔄 <strong>Automation</strong>: Daily scheduled GitHub Actions workflow generating vector maps with zero token leakage</li>
+        <li>🛡️ <strong>Privacy Preserving</strong>: One-way salted SHA-256 hashing to conceal proprietary kernel modules while illustrating architecture</li>
+        <li>📊 <strong>Pure Vector Rendering</strong>: Zero-dependency SVG cartography engine with frame-accurate animated timeline generation</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -81,7 +81,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
           <img src="./assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
         </a>
       </p>
-      <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>Isolated companion telemetry pipeline for low-level kernel modules, exploit defense analysis, and private architectural research.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="./assets/badges/badge-private.svg" alt="Security" /></a>
@@ -89,9 +89,9 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="./assets/badges/badge-format.svg" alt="Format" /></a>
       </p>
       <ul>
-        <li><strong>Dual Topology</strong>: Validates internal unmasked system graphs against release-ready public masked artifacts</li>
-        <li><strong>Deterministic Invariants</strong>: Automated test suites asserting preimage resistance and collision-free mapping</li>
-        <li><strong>Protected Storage</strong>: Hardware-bound DPAPI secret encapsulation and strict branch-isolated auditing</li>
+        <li>🔐 <strong>Vault Isolation</strong>: Windows DPAPI encrypted secret encapsulation ensuring hardware-bound credentials security</li>
+        <li>⚡ <strong>Concurrency Invariants</strong>: Automated property-based assertions verifying preimage resistance and collision-free mapping</li>
+        <li>📜 <strong>Dual Ground-Truth</strong>: Continuous audit pipeline validating public masked artifacts against unmasked internal system graphs</li>
       </ul>
     </td>
   </tr>
