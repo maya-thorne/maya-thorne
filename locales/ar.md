@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero_ar.svg" alt="Maya Thorne — السرعة · التوسع · الأمان — نواة لينكس والتزامن منخفض المستوى" width="76%" />
+  <img src="../assets/hero_ar.svg" alt="Maya Thorne — Speed · Scale · Security — Linux Kernel &amp; Low-Level Concurrency" width="76%" />
   <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 
@@ -27,18 +27,18 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 الفلسفة الهندسية والرؤية</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">About &amp; Engineering Ethos</h2></summary>
 
 <br />
 
-هندسة أنظمة برمجية منخفضة المستوى مرنة، ووحدات نواة لينكس، وأساسيات التزامن عالية الإنتاجية:
+Architecting resilient low-level software systems, Linux kernel modules, and high-throughput concurrency primitives. Engineering centered around mechanical sympathy and zero-overhead performance:
 
-- **⚡ تكلفة صفرية وتوافق ميكانيكي — كود يراعي مستويات الذاكرة المؤقتة ومحاذاة الذاكرة وتنبؤ التفرع.**
-- **🐧 التفكير المرتكز على النواة — التعامل مع نواة نظام التشغيل كبيئة تشغيل أساسية: io_uring و eBPF والقوائم غير المقفلة.**
-- **🔒 صحة مدفوعة بالثوابت — فرض الأمان أثناء وقت الترجمة وحالات انتقال صارمة.**
+- **Zero-Cost &amp; Mechanical Sympathy** — Code engineered to respect CPU cache hierarchies, memory alignment, and branch predictors. Zero-overhead abstractions by default.
+- **Kernel-First Architecture** — Treating the operating system kernel not as an opaque abstraction, but as the foundational runtime. Deep instrumentation with io_uring, eBPF, and lockless queues.
+- **Invariant-Driven Correctness** — Compile-time safety guarantees, deterministic finite-state machine transitions, lock-free ring buffers, and continuous fuzzing validation.
 
 <p align="center">
-  <sub><em>"نثق في الطرفية. اجعلها حتمية. أتمتة كل العوائق."</em></sub>
+  <sub><em>"In the terminal we trust. Make it deterministic. Automate the friction away."</em></sub>
 </p>
 
 </details>
@@ -46,13 +46,13 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 المشاريع والحلول البارزة</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">Projects &amp; Solutions</h2></summary>
 
 <br />
 
-المستودعات العامة متاحة للتصفح بسهولة، بينما تظل المستودعات الخاصة مقنعة ومشفرة بأمان.
+Autonomous topology cartography and systems infrastructure. Public initiatives are openly indexed, while proprietary kernel modules and telemetry remain cryptographically obfuscated.
 
-### الأنظمة والحلول المميزة
+### Featured Systems &amp; Solutions
 
 <table>
   <tr>
@@ -62,17 +62,17 @@
           <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
         </a>
       </p>
-      <h4>🗺️ <a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
-      <p><em>تخطيط طوبولوجي ورسم خرائط يومي آلي لمستودعات maya-thorne مع إخفاء الهوية بتشفير SHA-256 عديم المعرفة.</em></p>
+      <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <p><em>Automated daily topology mapping of maya-thorne repositories with zero-knowledge SHA-256 privacy hashing.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
       </p>
       <ul>
-        <li><strong>🔄 Automation</strong>: سير عمل GitHub Actions يومي بدون أي تسريب لرموز الوصول</li>
-        <li><strong>🛡️ Privacy</strong>: إخفاء المعرفات الخاصة مع إبراز المعمارية البرمجية بدقة</li>
-        <li><strong>🎨 Visualization</strong>: توليد تلقائي لمخططات SVG متجهة ورسوم متحركة GIF زمنية</li>
+        <li><strong>Automation</strong>: Scheduled GitHub Actions workflow generating daily vector maps with zero credential leakage</li>
+        <li><strong>Privacy</strong>: Salted SHA-256 hashing concealing private kernel modules while preserving architectural lineage</li>
+        <li><strong>Visualization</strong>: Pure SVG coordinate rendering and frame-accurate animated timeline generation</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -81,25 +81,25 @@
           <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
         </a>
       </p>
-      <h4>🔒 <a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
-      <p><em>مساحة عمل خاصة ومحرك قياس عن بُعد غير مقنع للتطوير الداخلي والتدقيق المستمر.</em></p>
+      <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <p><em>Private companion workspace and unmasked telemetry engine for internal systems development and continuous audit.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
       </p>
       <ul>
-        <li><strong>🔐 Dual Pipeline</strong>: مسار مزدوج: يولد رؤية داخلية حقيقية بجانب مخرجات عامة مقنعة</li>
-        <li><strong>⚡ Zero-SPOF Topology</strong>: طوبولوجيا منيعة: تدوير بيانات الاعتماد وعزل الأخطاء</li>
-        <li><strong>🏛️ Confidentiality</strong>: سرية تامة: أسرار محصنة مع ضمان عدم التسريب بنسبة 100%</li>
+        <li><strong>Dual Topology</strong>: Validates internal unmasked system graphs against release-ready public masked artifacts</li>
+        <li><strong>Deterministic Invariants</strong>: Automated test suites asserting preimage resistance and collision-free mapping</li>
+        <li><strong>Protected Storage</strong>: Hardware-bound DPAPI secret encapsulation and strict branch-isolated auditing</li>
       </ul>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="https://github.com/maya-thorne?tab=repositories">🔗 تصفح المستودعات العامة</a> ·
-  <a href="https://github.com/maya-thorne/github-org-map">🗺️ استكشاف خريطة المنظمة</a>
+  <a href="https://github.com/maya-thorne?tab=repositories">Browse Public Repositories</a> ·
+  <a href="https://github.com/maya-thorne/github-org-map">Explore Organization Map</a>
 </p>
 
 </details>
@@ -107,28 +107,28 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 القدرات والمعمارية المتميزة</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">Featured Capabilities &amp; Architectures</h2></summary>
 
 <br />
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ النواة والأساسيات منخفضة المستوى</h4>
-      <p><em>إدخال/إخراج غير متزامن عبر io_uring وشبكات تجاوز النواة وقابلية الرصد المباشر.</em></p>
+      <h4>Kernel &amp; Low-Level Primitives</h4>
+      <p><em>Asynchronous I/O via io_uring, kernel-bypass networking, and real-time observability.</em></p>
       <ul>
-        <li><strong>⚡ io_uring &amp; الإدخال غير المتزامن</strong>: مخازن حلقية عالية الإنتاجية تتجاوز أعباء epoll التقليدية.</li>
-        <li><strong>🛡️ تجاوز النواة &amp; XDP</strong>: تصفية حزم سريعة عبر eBPF/XDP مع تسريع DPDK.</li>
-        <li><strong>🔄 أساسيات دون أقفال</strong>: طوابير ذرية SPMC/MPSC وتسلسل صارم لحواجز الذاكرة.</li>
+        <li><strong>io_uring &amp; Async I/O</strong>: High-throughput submission/completion ring queues bypassing legacy epoll overhead.</li>
+        <li><strong>Kernel Bypass &amp; XDP</strong>: Programmable eBPF/XDP fast-path packet filtering and DPDK user-space acceleration.</li>
+        <li><strong>Lock-Free Primitives</strong>: SPMC/MPSC atomic queues, hazard pointers, and memory barrier synchronization.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 الأنظمة الموزعة والتزامن</h4>
-      <p><em>خطوط معالجة تزامن بنمط CSP وبرمجيات أنظمة آمنة للذاكرة.</em></p>
+      <h4>Distributed Systems &amp; Concurrency</h4>
+      <p><em>Modern CSP-style concurrency pipelines, zero-copy serialization, and memory-safe systems software.</em></p>
       <ul>
-        <li><strong>⚙️ أدوات الأنظمة</strong>: C23 الحديثة، ولغة Rust غير المتزامنة (no_std)، وأدوات Zig.</li>
-        <li><strong>📦 تدفق بيانات دون نسخ</strong>: تسلسل ذاكرة بمحاذاة الذاكرة المؤقتة عبر NVMe وشبكات 100GbE.</li>
-        <li><strong>🎯 التحقق من الثوابت</strong>: تحقق دقيق من آلات الحالات المحدودة واختبارات فحص الأعطال التلقائية.</li>
+        <li><strong>Systems Tooling</strong>: Idiomatic modern C23, async and unsafe Rust (no_std), and Zig toolchains.</li>
+        <li><strong>Zero-Copy Data Flow</strong>: Cache-aligned serialization over NVMe storage fabrics and high-bandwidth networking.</li>
+        <li><strong>Invariant Validation</strong>: State automaton verification, property-based testing, and automated fuzzing suites.</li>
       </ul>
     </td>
   </tr>
@@ -139,28 +139,28 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ مجموعة التقنيات والأدوات</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">Technology Stack &amp; Tooling</h2></summary>
 
 <br />
 
-<p><em>مجموعة أدوات هندسية للأنظمة فائقة الأداء وبيئات التشغيل المباشرة:</em></p>
+<p><em>Engineering toolchain for high-performance systems and bare-metal runtime execution:</em></p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ المستوى المنخفض والأنظمة</h4>
+      <h4>Low-Level &amp; Systems</h4>
       <ul>
-        <li><strong>اللغات: C23, Rust (Async/Unsafe/No_std), Zig, x86_64 / ARM64 Assembly</strong></li>
-        <li><strong>بيئات النواة: Linux Kernel Modules, POSIX APIs, eBPF / XDP, io_uring</strong></li>
-        <li><strong>الذاكرة والتزامن: ذرات خالية من الأقفال, SIMD, مخصصات NUMA</strong></li>
+        <li><strong>Languages</strong>: C23, Rust (Async / Unsafe / no_std), Zig, x86_64 / ARM64 Assembly</li>
+        <li><strong>Kernel Runtimes</strong>: Linux Kernel Modules, POSIX APIs, eBPF / XDP, io_uring</li>
+        <li><strong>Memory &amp; Concurrency</strong>: Lock-free atomics, SIMD vectorization, NUMA-aware allocators</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 التوزيع والبنية التحتية</h4>
+      <h4>Distributed &amp; Infrastructure</h4>
       <ul>
-        <li><strong>الشبكات: تجاوز النواة (DPDK), epoll/kqueue, WebSockets, gRPC</strong></li>
-        <li><strong>قابلية الرصد: bpftrace, perf, Valgrind, GDB, Prometheus</strong></li>
-        <li><strong>البيئة: Arch Linux, Debian, Docker, LLVM/Clang, Neovim / Tmux</strong></li>
+        <li><strong>Networking</strong>: Kernel-bypass (DPDK), epoll/kqueue, WebSockets, gRPC</li>
+        <li><strong>Observability</strong>: bpftrace, perf, Valgrind, GDB, Prometheus telemetry</li>
+        <li><strong>Environment</strong>: Arch Linux, Debian, Docker, LLVM/Clang toolchains, Neovim / Tmux</li>
       </ul>
     </td>
   </tr>
@@ -177,11 +177,11 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ استكشاف المشاريع وخارطة الطريق</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">Explore Projects &amp; Roadmaps</h2></summary>
 
 <br />
 
-<p><strong>خريطة المنظمة والطوبولوجيا</strong></p>
+<p><strong>Organization Map &amp; Topology</strong></p>
 
 <p align="center">
   <a href="https://github.com/maya-thorne/github-org-map">
@@ -190,8 +190,8 @@
 </p>
 
 <p align="center">
-  <sub>تظهر المستودعات الخاصة كملصقات مقنعة فقط.</sub><br />
-  <a href="https://github.com/maya-thorne/github-org-map">استكشاف الطوبولوجيا ورسم الخرائط →</a>
+  <sub>Private repositories appear only as masked labels.</sub><br />
+  <a href="https://github.com/maya-thorne/github-org-map">Explore Topology &amp; Cartography →</a>
 </p>
 
 <br />
@@ -199,9 +199,9 @@
 <p><em>Active roadmap and technical initiatives across low-level infrastructure:</em></p>
 
 <ul>
-  <li>🎯 Current Focus: io_uring multi-ring polling benchmarks & kernel module fuzzing harness</li>
-  <li>🚀 Next Milestone: Lock-free SPMC work-stealing scheduler with NUMA cache-pinning</li>
-  <li>🔮 Future Research: eBPF-driven network flow router with hardware offloading</li>
+  <li><strong>Current Focus</strong>: io_uring multi-ring polling benchmarks and kernel module fuzzing harness</li>
+  <li><strong>Next Milestone</strong>: Lock-free SPMC work-stealing scheduler with NUMA cache-pinning</li>
+  <li><strong>Research Track</strong>: eBPF-driven network flow router with hardware offloading</li>
 </ul>
 
 </details>
@@ -209,7 +209,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 لوحة معلومات المعمارية والمقاييس</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">Architecture Dashboard &amp; Delivery Metrics</h2></summary>
 
 <br />
 
@@ -228,13 +228,13 @@
 
 ---
 
-## 📬 التواصل والتعاون
+## Connect &amp; Collaborate
 
-هل ترغب في مناقشة معماريات الأنظمة منخفضة المستوى، أو نواة لينكس، أو التزامن عالي الأداء؟
+Interested in discussing low-level systems architectures, Linux kernel internals, or high-performance concurrency primitives?
 
-[الملف الشخصي على GitHub](https://github.com/maya-thorne) · [المستودعات العامة](https://github.com/maya-thorne?tab=repositories) · [المناقشات](https://github.com/maya-thorne?tab=discussions) · [إرسال بريد إلكتروني](mailto:zse4123jo@gmail.com)
+[GitHub Profile](https://github.com/maya-thorne) · [Public Repositories](https://github.com/maya-thorne?tab=repositories) · [Discussions](https://github.com/maya-thorne?tab=discussions) · [Send an Email](mailto:zse4123jo@gmail.com)
 
 <div align="center">
   <br />
-  <sub>© 2026 Maya Thorne · تم البناء بتوافق ميكانيكي · 🐧</sub>
+  <sub>© 2026 Maya Thorne · Systems Architecture &amp; Kernel Engineering</sub>
 </div>

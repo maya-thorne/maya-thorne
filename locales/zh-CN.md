@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero_zh-CN.svg" alt="Maya Thorne — 速度 · 规模 · 安全 — Linux 内核与底层并发架构" width="76%" />
+  <img src="../assets/hero_zh-CN.svg" alt="Maya Thorne — Speed · Scale · Security — Linux Kernel &amp; Low-Level Concurrency" width="76%" />
   <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 
@@ -27,18 +27,18 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 核心哲学与工程愿景</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">简介与工程理念</h2></summary>
 
 <br />
 
-设计具有韧性的底层软件系统、Linux 内核模块以及高吞吐量并发原语。专注于机械同理心与零开销性能：
+架构高弹性底层软件系统、Linux内核模块及高吞吐并发原语。追求机械同理心与零开销性能：
 
-- **⚡ 零成本抽象与机械同理心 — 编写契合 CPU 缓存层级、内存对齐和分支预测器的代码，追求默认零开销。**
-- **🐧 内核优先思维 — 将操作系统内核视为根本运行时而非黑盒。深入掌握 io_uring、eBPF 及无锁队列。**
-- **🔒 不变式驱动正确性 — 尽可能在编译期强制安全性。严格的状态机转移、无锁环形缓冲区与持续模糊测试。**
+- **零成本与机械同理心** — 遵循CPU缓存层次结构、内存对齐与分支预测器的严谨代码，默认零开销抽象。
+- **内核优先架构** — 将操作系统内核视为第一类执行基座，深度运用 io_uring、eBPF 及无锁队列。
+- **不变量驱动的正确性** — 编译期安全保证、确定性状态机转换、无锁环形缓冲区及持续模糊测试。
 
 <p align="center">
-  <sub><em>"信任终端。追求确定性。消除摩擦。"</em></sub>
+  <sub><em>"信赖终端，追求确定性，消除冗余摩擦。"</em></sub>
 </p>
 
 </details>
@@ -46,13 +46,13 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 重点项目与解决方案</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">核心项目与解决方案</h2></summary>
 
 <br />
 
-公开项目便于直观浏览，私有项目经过零知识加密脱敏保护。组织地图仅以掩码标签形式展示私有存储库。
+自主拓扑测绘与系统基础设施。公开项目开放索引，专有内核模块与遥测数据受加密哈希安全保护。
 
-### 核心系统与解决方案
+### 精选系统与解决方案
 
 <table>
   <tr>
@@ -62,7 +62,7 @@
           <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
         </a>
       </p>
-      <h4>🗺️ <a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
       <p><em>基于零知识 SHA-256 隐私掩码的 maya-thorne 存储库每日自动化拓扑制图引擎。</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
@@ -70,9 +70,9 @@
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
       </p>
       <ul>
-        <li><strong>🔄 Automation</strong>: 基于每日定时 GitHub Actions 工作流，零凭据泄露风险</li>
-        <li><strong>🛡️ Privacy</strong>: 在可视化架构的同时对私有存储库标识符进行密码学遮蔽</li>
-        <li><strong>🎨 Visualization</strong>: 全自动生成动态暗色矢量 SVG 拓扑图及历史时间序列 GIF</li>
+        <li><strong>自动化管道</strong>：每日定时 GitHub Actions 工作流，零凭据泄露风险</li>
+        <li><strong>隐私保护</strong>：可视化架构的同时对私有存储库标识符进行密码学遮蔽</li>
+        <li><strong>矢量呈现</strong>：纯 SVG 坐标渲染与帧精确时间序列 GIF 生成</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -81,25 +81,25 @@
           <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
         </a>
       </p>
-      <h4>🔒 <a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
-      <p><em>用于内部开发与持续审计的私有伴侣存储库及未掩码遥测引擎。</em></p>
+      <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <p><em>用于内部系统开发与持续审计的私有伴侣存储库及未掩码遥测引擎。</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
       </p>
       <ul>
-        <li><strong>🔐 Dual Pipeline</strong>: 双轨管道：同步生成公开脱敏制品与内部真实拓扑视图</li>
-        <li><strong>⚡ Zero-SPOF Topology</strong>: Zero-SPOF 拓扑：多凭据轮换与故障隔离高可用机制</li>
-        <li><strong>🏛️ Confidentiality</strong>: 机密性保障：严密封装的密钥与绝对零泄漏密码学验证</li>
+        <li><strong>双轨拓扑验证</strong>：发布前对照验证内部未脱敏系统图与公开脱敏制品</li>
+        <li><strong>确定性不变量</strong>：自动化测试断言抗原像攻击与无冲突哈希映射</li>
+        <li><strong>受保护存储</strong>：硬件绑定 DPAPI 密钥封装与严格分支隔离审计</li>
       </ul>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="https://github.com/maya-thorne?tab=repositories">🔗 浏览公开存储库</a> ·
-  <a href="https://github.com/maya-thorne/github-org-map">🗺️ 探索组织地图</a>
+  <a href="https://github.com/maya-thorne?tab=repositories">浏览公开存储库</a> ·
+  <a href="https://github.com/maya-thorne/github-org-map">探索组织地图</a>
 </p>
 
 </details>
@@ -107,28 +107,28 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 核心能力与架构</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">核心架构与技术能力</h2></summary>
 
 <br />
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ 内核与底层原语</h4>
-      <p><em>io_uring 异步 I/O、内核旁路网络与实时内核可观测性。</em></p>
+      <h4>内核与底层原语</h4>
+      <p><em>基于 io_uring 的异步 I/O、内核旁路网络及实时可观测性。</em></p>
       <ul>
-        <li><strong>⚡ io_uring &amp; 异步 I/O</strong>: 绕过传统 epoll 开销的高吞吐量提交/完成环形流水线。</li>
-        <li><strong>🛡️ 内核旁路 &amp; XDP</strong>: eBPF/XDP 可编程快速路径数据包过滤与 DPDK 加速。</li>
-        <li><strong>🔄 无锁原语</strong>: SPMC/MPSC 原子队列、危险指针与严格内存屏障排序。</li>
+        <li><strong>io_uring 异步 I/O</strong>：消除传统 epoll 系统调用开销的高吞吐提交/完成环形队列。</li>
+        <li><strong>内核旁路与 XDP</strong>：可编程 eBPF/XDP 快速路径数据包过滤与 DPDK 用户态加速。</li>
+        <li><strong>无锁原语</strong>：SPMC/MPSC 原子队列、风险指针与内存屏障同步。</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 分布式系统与并发</h4>
-      <p><em>现代 CSP 风格并发流水线与内存安全系统软件。</em></p>
+      <h4>分布式系统与并发</h4>
+      <p><em>现代 CSP 风格并发管道、零拷贝序列化与内存安全系统软件。</em></p>
       <ul>
-        <li><strong>⚙️ 系统工具链</strong>: 现代 C23、异步/Unsafe Rust (no_std) 与 Zig 工具链精通。</li>
-        <li><strong>📦 零拷贝数据流</strong>: NVMe 存储与 100GbE 网络上缓存对齐的内存序列化。</li>
-        <li><strong>🎯 确定性状态机</strong>: 有限状态机精确验证与自动化模糊测试套件。</li>
+        <li><strong>系统工程工具链</strong>：现代 C23、异步与 unsafe Rust (no_std) 及 Zig 工具链。</li>
+        <li><strong>零拷贝数据流</strong>：基于 NVMe 存储与高带宽网络的缓存对齐序列化。</li>
+        <li><strong>不变量验证</strong>：状态自动机验证、属性测试与自动化模糊测试套件。</li>
       </ul>
     </td>
   </tr>
@@ -139,28 +139,28 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ 技术栈与工具生态</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">技术栈与工具链</h2></summary>
 
 <br />
 
-<p><em>用于高性能系统与裸机运行时执行的工程工具链：</em></p>
+<p><em>面向高性能系统与裸机运行环境的工程工具链：</em></p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ 底层与系统</h4>
+      <h4>底层与系统</h4>
       <ul>
-        <li><strong>编程语言: C23, Rust (Async/Unsafe/No_std), Zig, x86_64 / ARM64 Assembly</strong></li>
-        <li><strong>内核运行时: Linux Kernel Modules, POSIX APIs, eBPF / XDP, io_uring</strong></li>
-        <li><strong>内存与并发: 无锁原子操作, SIMD 向量化, NUMA 感知内存分配器</strong></li>
+        <li><strong>编程语言</strong>：C23、Rust (Async / Unsafe / no_std)、Zig、x86_64 / ARM64 汇编</li>
+        <li><strong>内核运行时</strong>：Linux 内核模块、POSIX API、eBPF / XDP、io_uring</li>
+        <li><strong>内存与并发</strong>：无锁原子操作、SIMD 向量化、NUMA 感知分配器</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 分布式与基础设施</h4>
+      <h4>分布式与基础设施</h4>
       <ul>
-        <li><strong>网络通信: 内核旁路 (DPDK), epoll/kqueue, WebSockets, gRPC</strong></li>
-        <li><strong>可观测性: bpftrace, perf, Valgrind, GDB, Prometheus 遥测</strong></li>
-        <li><strong>开发环境: Arch Linux, Debian, Docker, LLVM/Clang 工具链, Neovim / Tmux</strong></li>
+        <li><strong>网络技术</strong>：内核旁路 (DPDK)、epoll/kqueue、WebSockets、gRPC</li>
+        <li><strong>可观测性</strong>：bpftrace、perf、Valgrind、GDB、Prometheus 遥测</li>
+        <li><strong>开发环境</strong>：Arch Linux、Debian、Docker、LLVM/Clang 工具链、Neovim / Tmux</li>
       </ul>
     </td>
   </tr>
@@ -177,7 +177,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ 项目探索与路线图</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">项目路线图与演进</h2></summary>
 
 <br />
 
@@ -196,12 +196,12 @@
 
 <br />
 
-<p><em>Active roadmap and technical initiatives across low-level infrastructure:</em></p>
+<p><em>底层基础设施领域的演进路线与关键技术倡议：</em></p>
 
 <ul>
-  <li>🎯 Current Focus: io_uring multi-ring polling benchmarks & kernel module fuzzing harness</li>
-  <li>🚀 Next Milestone: Lock-free SPMC work-stealing scheduler with NUMA cache-pinning</li>
-  <li>🔮 Future Research: eBPF-driven network flow router with hardware offloading</li>
+  <li><strong>当前核心任务</strong>：io_uring 多环轮询基准测试与内核模块模糊测试套件</li>
+  <li><strong>下一里程碑</strong>：集成 NUMA 内存绑定的无锁 SPMC 工作窃取调度器</li>
+  <li><strong>研究方向</strong>：具备硬件卸载支持的 eBPF 网络流路由器</li>
 </ul>
 
 </details>
@@ -209,7 +209,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 架构仪表板与交付指标</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">架构仪表盘与交付指标</h2></summary>
 
 <br />
 
@@ -228,13 +228,13 @@
 
 ---
 
-## 📬 联系与协作 (Connect & Collaborate)
+## 交流与合作
 
-对底层系统架构、Linux 内核机制或高性能并发原语的交流感兴趣？
+欢迎就底层系统架构、Linux 内核机制及高性能并发原语展开深入交流与探讨。
 
-[GitHub 个人主页](https://github.com/maya-thorne) · [公开代码仓库](https://github.com/maya-thorne?tab=repositories) · [讨论区 (Discussions)](https://github.com/maya-thorne?tab=discussions) · [发送电子邮件](mailto:zse4123jo@gmail.com)
+[GitHub 主页](https://github.com/maya-thorne) · [公开存储库](https://github.com/maya-thorne?tab=repositories) · [讨论区](https://github.com/maya-thorne?tab=discussions) · [发送邮件](mailto:zse4123jo@gmail.com)
 
 <div align="center">
   <br />
-  <sub>© 2026 Maya Thorne · 以机械同理心构建 · 🐧</sub>
+  <sub>© 2026 Maya Thorne · 系统架构与内核工程</sub>
 </div>

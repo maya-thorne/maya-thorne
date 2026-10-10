@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero_es.svg" alt="Maya Thorne — Velocidad · Escala · Seguridad — Núcleo Linux y Concurrencia de Bajo Nivel" width="76%" />
+  <img src="../assets/hero_es.svg" alt="Maya Thorne — Speed · Scale · Security — Linux Kernel &amp; Low-Level Concurrency" width="76%" />
   <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 
@@ -27,18 +27,18 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 Filosofía de Ingeniería y Principios</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">Acerca de &amp; Filosofía de Ingeniería</h2></summary>
 
 <br />
 
-Arquitectura de sistemas de bajo nivel resistentes, módulos de kernel de Linux y primitivas de concurrencia de alto rendimiento. Enfoque en simpatía mecánica y cero sobrecarga:
+Arquitectura de sistemas de software de bajo nivel, módulos del kernel de Linux y primitivas de concurrencia de alto rendimiento. Enfoque en simpatía mecánica y cero sobrecarga:
 
-- **⚡ Cero Coste y Simpatía Mecánica — Código respetuoso con jerarquías de caché, alineación de memoria y predictores de saltos.**
-- **🐧 Pensamiento Centrado en el Núcleo — El kernel como entorno de ejecución fundamental: io_uring, eBPF y colas sin bloqueos.**
-- **🔒 Corrección Basada en Invariantes — Seguridad forzada en tiempo de compilación con transiciones estrictas de máquinas de estado.**
+- **Cero Costo &amp; Simpatía Mecánica** — Código diseñado para respetar jerarquías de caché de CPU, alineación de memoria y predictores de saltos.
+- **Arquitectura Centrada en el Kernel** — Tratando el kernel del sistema operativo como el sustrato de ejecución fundamental con io_uring, eBPF y colas sin bloqueos.
+- **Corrección Basada en Invariantes** — Garantías de seguridad en tiempo de compilación, transiciones de autómatas deterministas y pruebas de fuzzing continuo.
 
 <p align="center">
-  <sub><em>"En la terminal confiamos. Hazlo determinista. Automatiza la fricción."</em></sub>
+  <sub><em>"Confiamos en la terminal. Hazlo determinista. Automatiza la fricción."</em></sub>
 </p>
 
 </details>
@@ -46,13 +46,13 @@ Arquitectura de sistemas de bajo nivel resistentes, módulos de kernel de Linux 
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Proyectos y Soluciones</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">Proyectos &amp; Soluciones</h2></summary>
 
 <br />
 
-El trabajo público es fácil de explorar; el trabajo privado se mantiene enmascarado intencionalmente. El mapa muestra los repositorios privados solo como etiquetas enmascaradas.
+Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos públicos están indexados abiertamente, mientras que los módulos de kernel propietarios se mantienen ofuscados criptográficamente.
 
-### Sistemas y Soluciones Destacadas
+### Sistemas &amp; Soluciones Destacadas
 
 <table>
   <tr>
@@ -62,17 +62,17 @@ El trabajo público es fácil de explorar; el trabajo privado se mantiene enmasc
           <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
         </a>
       </p>
-      <h4>🗺️ <a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
-      <p><em>Cartografía y mapeo de topología diario automatizado de repositorios de maya-thorne con enmascaramiento SHA-256 de conocimiento cero.</em></p>
+      <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <p><em>Mapeo topológico diario automatizado de los repositorios de maya-thorne con ofuscación SHA-256 de conocimiento cero.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
       </p>
       <ul>
-        <li><strong>🔄 Automation</strong>: Flujo de trabajo diario de GitHub Actions sin fuga de credenciales</li>
-        <li><strong>🛡️ Privacy</strong>: Enmascara identificadores privados mientras visualiza la arquitectura</li>
-        <li><strong>🎨 Visualization</strong>: Generación dinámica de diagramas SVG y animaciones GIF cronológicas</li>
+        <li><strong>Automatización</strong>: Flujo de trabajo en GitHub Actions con cero fugas de credenciales</li>
+        <li><strong>Privacidad</strong>: Enmascaramiento SHA-256 que oculta módulos privados preservando el linaje arquitectónico</li>
+        <li><strong>Visualización</strong>: Renderizado SVG en coordenadas puras y generación de GIF cronológico preciso</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -81,25 +81,25 @@ El trabajo público es fácil de explorar; el trabajo privado se mantiene enmasc
           <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
         </a>
       </p>
-      <h4>🔒 <a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
-      <p><em>Espacio de trabajo complementario privado y motor de telemetría sin máscara para desarrollo interno y auditoría continua.</em></p>
+      <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <p><em>Espacio de trabajo privado complementario y motor de telemetría sin máscara para auditoría continua.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
       </p>
       <ul>
-        <li><strong>🔐 Dual Pipeline</strong>: Pipeline dual: genera vistas internas sin máscara y artefactos públicos enmascarados</li>
-        <li><strong>⚡ Zero-SPOF Topology</strong>: Topología Zero-SPOF: rotación de credenciales y tolerancia a fallos</li>
-        <li><strong>🏛️ Confidentiality</strong>: Confidencialidad: secretos encapsulados con garantía estricta de cero fugas</li>
+        <li><strong>Topología Dual</strong>: Valida grafos internos sin máscara contra artefactos públicos antes del despliegue</li>
+        <li><strong>Invariantes Deterministas</strong>: Pruebas automatizadas que garantizan resistencia a preimágenes y mapeo sin colisiones</li>
+        <li><strong>Almacenamiento Seguro</strong>: Encapsulación de secretos con DPAPI y auditoría estricta de ramas</li>
       </ul>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="https://github.com/maya-thorne?tab=repositories">🔗 Explorar repositorios públicos</a> ·
-  <a href="https://github.com/maya-thorne/github-org-map">🗺️ Explorar mapa de organización</a>
+  <a href="https://github.com/maya-thorne?tab=repositories">Explorar Repositorios Públicos</a> ·
+  <a href="https://github.com/maya-thorne/github-org-map">Explorar Mapa de Organización</a>
 </p>
 
 </details>
@@ -107,28 +107,28 @@ El trabajo público es fácil de explorar; el trabajo privado se mantiene enmasc
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Capacidades y Arquitecturas Destacadas</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">Capacidades &amp; Arquitecturas Destacadas</h2></summary>
 
 <br />
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ Núcleo y Primitivas de Bajo Nivel</h4>
-      <p><em>I/O asíncrono vía io_uring, redes de derivación de kernel y observabilidad en tiempo real.</em></p>
+      <h4>Primitivas de Kernel &amp; Bajo Nivel</h4>
+      <p><em>E/S asíncrona mediante io_uring, redes con kernel-bypass y observabilidad en tiempo real.</em></p>
       <ul>
-        <li><strong>⚡ io_uring &amp; I/O Asíncrono</strong>: Búferes circulares de alto rendimiento omitiendo el coste de epoll.</li>
-        <li><strong>🛡️ Kernel Bypass &amp; XDP</strong>: Filtrado rápido de paquetes con eBPF/XDP y aceleración DPDK.</li>
-        <li><strong>🔄 Primitivas Sin Bloqueo</strong>: Colas atómicas SPMC/MPSC y ordenación estricta de barreras de memoria.</li>
+        <li><strong>io_uring &amp; E/S Asíncrona</strong>: Colas circulares de envío/finalización de alto rendimiento sin sobrecarga de epoll.</li>
+        <li><strong>Kernel Bypass &amp; XDP</strong>: Filtrado programable de paquetes eBPF/XDP y aceleración en espacio de usuario con DPDK.</li>
+        <li><strong>Primitivas Sin Bloqueos</strong>: Colas atómicas SPMC/MPSC, hazard pointers y barreras de memoria.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 Sistemas Distribuidos y Concurrencia</h4>
-      <p><em>Canalizaciones concurrentes estilo CSP y software con memoria segura.</em></p>
+      <h4>Sistemas Distribuidos &amp; Concurrencia</h4>
+      <p><em>Pipelines de concurrencia estilo CSP, serialización sin copias y software seguro en memoria.</em></p>
       <ul>
-        <li><strong>⚙️ Herramientas de Sistemas</strong>: C23 idiomático, Rust asíncrono/inseguro (no_std) y Zig.</li>
-        <li><strong>📦 Flujo de Copia Cero</strong>: Serialización alineada en caché sobre almacenamiento NVMe y 100GbE.</li>
-        <li><strong>🎯 Validación de Invariantes</strong>: Autómatas finitos verificados y suites de fuzzing continuo.</li>
+        <li><strong>Herramientas de Sistemas</strong>: C23 moderno, Rust asíncrono e inseguro (no_std) y toolchains de Zig.</li>
+        <li><strong>Flujo de Datos Sin Copias</strong>: Serialización alineada en caché sobre almacenamiento NVMe y redes de alto ancho de banda.</li>
+        <li><strong>Validación de Invariantes</strong>: Verificación de autómatas de estado, pruebas basadas en propiedades y suites de fuzzing.</li>
       </ul>
     </td>
   </tr>
@@ -139,28 +139,28 @@ El trabajo público es fácil de explorar; el trabajo privado se mantiene enmasc
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ Pila Tecnológica y Herramientas</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">Stack Tecnológico &amp; Herramientas</h2></summary>
 
 <br />
 
-<p><em>Conjunto de herramientas de ingeniería para sistemas de alto rendimiento y ejecución bare-metal:</em></p>
+<p><em>Cadena de herramientas de ingeniería para sistemas de alto rendimiento y ejecución en bare-metal:</em></p>
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ Bajo Nivel y Sistemas</h4>
+      <h4>Bajo Nivel &amp; Sistemas</h4>
       <ul>
-        <li><strong>Lenguajes: C23, Rust (Async/Unsafe/No_std), Zig, Ensamblador x86_64 / ARM64</strong></li>
-        <li><strong>Entornos del Kernel: Módulos de Linux, APIs POSIX, eBPF / XDP, io_uring</strong></li>
-        <li><strong>Memoria y Concurrencia: Atómicas lock-free, vectorización SIMD, asignadores NUMA</strong></li>
+        <li><strong>Lenguajes</strong>: C23, Rust (Async / Unsafe / no_std), Zig, Ensamblador x86_64 / ARM64</li>
+        <li><strong>Runtimes de Kernel</strong>: Módulos de Linux Kernel, APIs POSIX, eBPF / XDP, io_uring</li>
+        <li><strong>Memoria &amp; Concurrencia</strong>: Atómicos sin bloqueos, vectorización SIMD, asignadores NUMA</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 Distribuido e Infraestructura</h4>
+      <h4>Distribuido &amp; Infraestructura</h4>
       <ul>
-        <li><strong>Redes: Kernel-bypass (DPDK), epoll/kqueue, WebSockets, gRPC</strong></li>
-        <li><strong>Observabilidad: bpftrace, perf, Valgrind, GDB, telemetría Prometheus</strong></li>
-        <li><strong>Entorno: Arch Linux, Debian, Docker, LLVM/Clang, Neovim / Tmux</strong></li>
+        <li><strong>Redes</strong>: Kernel-bypass (DPDK), epoll/kqueue, WebSockets, gRPC</li>
+        <li><strong>Observabilidad</strong>: bpftrace, perf, Valgrind, GDB, telemetría Prometheus</li>
+        <li><strong>Entorno</strong>: Arch Linux, Debian, Docker, LLVM/Clang, Neovim / Tmux</li>
       </ul>
     </td>
   </tr>
@@ -177,11 +177,11 @@ El trabajo público es fácil de explorar; el trabajo privado se mantiene enmasc
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ Explorar Proyectos y Hoja de Ruta</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">Explorar Proyectos &amp; Roadmaps</h2></summary>
 
 <br />
 
-<p><strong>Mapa de Organización y Topología</strong></p>
+<p><strong>Mapa de Organización &amp; Topología</strong></p>
 
 <p align="center">
   <a href="https://github.com/maya-thorne/github-org-map">
@@ -191,17 +191,17 @@ El trabajo público es fácil de explorar; el trabajo privado se mantiene enmasc
 
 <p align="center">
   <sub>Los repositorios privados aparecen solo como etiquetas enmascaradas.</sub><br />
-  <a href="https://github.com/maya-thorne/github-org-map">Explorar topología y cartografía →</a>
+  <a href="https://github.com/maya-thorne/github-org-map">Explorar Topología &amp; Cartografía →</a>
 </p>
 
 <br />
 
-<p><em>Active roadmap and technical initiatives across low-level infrastructure:</em></p>
+<p><em>Iniciativas técnicas y hoja de ruta activa en infraestructura de bajo nivel:</em></p>
 
 <ul>
-  <li>🎯 Current Focus: io_uring multi-ring polling benchmarks & kernel module fuzzing harness</li>
-  <li>🚀 Next Milestone: Lock-free SPMC work-stealing scheduler with NUMA cache-pinning</li>
-  <li>🔮 Future Research: eBPF-driven network flow router with hardware offloading</li>
+  <li><strong>Enfoque Actual</strong>: Benchmarks de sondeo multi-anillo io_uring y harness de fuzzing para módulos del kernel</li>
+  <li><strong>Próximo Hito</strong>: Planificador work-stealing SPMC sin bloqueos con fijación de memoria NUMA</li>
+  <li><strong>Línea de Investigación</strong>: Enrutador de flujos de red con eBPF y aceleración por hardware</li>
 </ul>
 
 </details>
@@ -209,7 +209,7 @@ El trabajo público es fácil de explorar; el trabajo privado se mantiene enmasc
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 Panel de Arquitectura y Métricas</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">Dashboard de Arquitectura &amp; Métricas</h2></summary>
 
 <br />
 
@@ -228,13 +228,13 @@ El trabajo público es fácil de explorar; el trabajo privado se mantiene enmasc
 
 ---
 
-## 📬 Conectar y Colaborar
+## Contacto &amp; Colaboración
 
-¿Interesado en arquitecturas de sistemas de bajo nivel, kernel de Linux o concurrencia de alto rendimiento?
+¿Interesado en discutir arquitecturas de sistemas de bajo nivel, aspectos internos del kernel de Linux o primitivas de concurrencia?
 
-[Perfil de GitHub](https://github.com/maya-thorne) · [Repositorios Públicos](https://github.com/maya-thorne?tab=repositories) · [Debates](https://github.com/maya-thorne?tab=discussions) · [Enviar Correo](mailto:zse4123jo@gmail.com)
+[Perfil de GitHub](https://github.com/maya-thorne) · [Repositorios Públicos](https://github.com/maya-thorne?tab=repositories) · [Discusiones](https://github.com/maya-thorne?tab=discussions) · [Enviar Correo](mailto:zse4123jo@gmail.com)
 
 <div align="center">
   <br />
-  <sub>© 2026 Maya Thorne · Construido con simpatía mecánica · 🐧</sub>
+  <sub>© 2026 Maya Thorne · Arquitectura de Sistemas e Ingeniería de Kernel</sub>
 </div>

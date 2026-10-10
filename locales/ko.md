@@ -1,7 +1,7 @@
 <div align="center">
 
 <p>
-  <img src="../assets/hero_ko.svg" alt="Maya Thorne — 속도 · 확장성 · 보안 — 리눅스 커널 및 저수준 동시성 아키텍처" width="76%" />
+  <img src="../assets/hero_ko.svg" alt="Maya Thorne — Speed · Scale · Security — Linux Kernel &amp; Low-Level Concurrency" width="76%" />
   <img src="../avatar.svg" alt="Maya Thorne Monogram" width="21%" />
 </p>
 
@@ -27,15 +27,15 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">💡 핵심 철학 및 엔지니어링 지향점</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">소개 및 엔지니어링 철학</h2></summary>
 
 <br />
 
-복원력 있는 저수준 소프트웨어 시스템, 리눅스 커널 모듈 및 초고성능 동시성 기본 요소를 설계합니다. 기계적 공감(Mechanical Sympathy)과 제로 오버헤드 원칙에 기반한 엔지니어링을 추구합니다:
+복원력 있는 저수준 소프트웨어 시스템, 리눅스 커널 모듈 및 초고성능 동시성 프리미티브를 설계합니다. 기계적 공감(Mechanical Sympathy)과 제로 오버헤드 원칙에 기반한 엔지니어링을 추구합니다:
 
-- **⚡ 제로 비용 및 기계적 공감 — CPU 캐시 계층 구조, 메모리 정렬 및 분기 예측기를 존중하는 코드를 작성하며, 불필요한 런타임 오버헤드를 배제합니다.**
-- **🐧 커널 퍼스트 사고 — 운영체제 커널을 불투명한 블랙박스가 아닌 근본적인 런타임으로 다룹니다. 가상 메모리, io_uring, eBPF 및 락프리 링 버퍼를 마스터합니다.**
-- **🔒 불변식 기반 무결성 — 컴파일 타임에 안전성을 강제합니다. 엄격한 상태 머신 전이, 락프리 링 버퍼, 지속적 퍼징(Fuzzing) 검증 및 견고한 오류 처리 파이프라인을 구축합니다.**
+- **제로 비용 추상화와 기계적 공감** — CPU 캐시 계층 구조, 메모리 정렬 및 분기 예측기를 존중하는 설계. 불필요한 런타임 오버헤드를 배제한 제로 코스트 추상화 기본 적용.
+- **커널 중심 아키텍처** — 운영체제 커널을 불투명한 추상화가 아닌 1급 실행 계층으로 다룸. io_uring, eBPF 및 락프리 링 버퍼 심층 운용.
+- **불변식 기반 무결성** — 컴파일 타임 검증 기반 안전성 강제. 엄격한 상태 머신 전이, 락프리 링 버퍼, 지속적 퍼징(Fuzzing) 검증.
 
 <p align="center">
   <sub><em>"우리는 터미널을 신뢰한다. 결정론적으로 만들어라. 불필요한 마찰을 자동화하라."</em></sub>
@@ -46,11 +46,11 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 주요 프로젝트 및 솔루션</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">주요 프로젝트 및 솔루션</h2></summary>
 
 <br />
 
-공개 프로젝트는 직관적으로 탐색할 수 있으며, 비공개 프로젝트는 암호학적으로 마스킹되어 보호됩니다. 조직 지도는 비공개 저장소를 마스킹된 라벨로만 시각화합니다.
+자율 토폴로지 매핑 및 저수준 시스템 인프라입니다. 공개 프로젝트는 직관적으로 탐색할 수 있으며, 비공개 커널 모듈과 내부 텔레메트리는 암호학적으로 마스킹되어 안전하게 보호됩니다.
 
 ### 주요 시스템 및 솔루션
 
@@ -62,7 +62,7 @@
           <img src="../assets/projects/github-org-map-banner.svg" alt="github-org-map banner" width="100%" />
         </a>
       </p>
-      <h4>🗺️ <a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
+      <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
       <p><em>영지식(Zero-Knowledge) SHA-256 개인정보 마스킹 기반 maya-thorne 저장소의 일일 자동 지도 및 토폴로지 매핑 엔진.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
@@ -70,9 +70,9 @@
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
       </p>
       <ul>
-        <li><strong>🔄 Automation</strong>: 일일 스케줄 GitHub Actions 워크플로 기반 제로 토큰 유출 파이프라인</li>
-        <li><strong>🛡️ Privacy</strong>: 아키텍처 토폴로지를 시각화하면서 비공개 저장소 식별자를 안전하게 마스킹</li>
-        <li><strong>🎨 Visualization</strong>: 계정 전반에 걸친 동적 다크 벡터 SVG 및 시계열 애니메이션 GIF 자동 합성</li>
+        <li><strong>자동화 파이프라인</strong>: 자격증명 유출 0% 보장 일일 GitHub Actions 워크플로 자동 실행</li>
+        <li><strong>프라이버시 보호</strong>: 아키텍처 맥락을 시각화하면서 비공개 저장소 식별자를 암호학적으로 마스킹</li>
+        <li><strong>벡터 렌더링</strong>: 다크 테마 순수 SVG 좌표 렌더링 및 시계열 타임랩스 GIF 자동 합성</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -81,25 +81,25 @@
           <img src="../assets/projects/github-org-map.svg" alt="github-org-map telemetry" width="100%" />
         </a>
       </p>
-      <h4>🔒 <a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
-      <p><em>내부 개발 및 지속적 감사를 위한 비공개 동반 저장소 및 비마스킹 텔레메트리 엔진.</em></p>
+      <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
+      <p><em>내부 시스템 개발 및 지속적 감사를 위한 비공개 동반 저장소 및 비마스킹 텔레메트리 엔진.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
       </p>
       <ul>
-        <li><strong>🔐 Dual Pipeline</strong>: 공개 마스킹 아티팩트와 내부 비마스킹 토폴로지 뷰를 동시 운용</li>
-        <li><strong>⚡ Zero-SPOF Topology</strong>: 다중 자격증명 순환 및 장애 격리 아키텍처</li>
-        <li><strong>🏛️ Confidentiality</strong>: 캡슐화된 시크릿 및 무누출 원칙의 암호학적 불변식 검증</li>
+        <li><strong>이중 토폴로지 검증</strong>: 공개 마스킹 아티팩트 배포 전 내부 비마스킹 시스템 그래프 대조 검증</li>
+        <li><strong>불변식 감사</strong>: 원상 복원 방지(Preimage Resistance) 및 충돌 없는 맵핑을 검증하는 자동화 테스트</li>
+        <li><strong>기밀성 보호</strong>: 하드웨어 바인딩 DPAPI 보안 캡슐화 및 브랜치 격리 감시 체계</li>
       </ul>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <a href="https://github.com/maya-thorne?tab=repositories">🔗 공개 저장소 둘러보기</a> ·
-  <a href="https://github.com/maya-thorne/github-org-map">🗺️ 조직 지도 탐색하기</a>
+  <a href="https://github.com/maya-thorne?tab=repositories">공개 저장소 둘러보기</a> ·
+  <a href="https://github.com/maya-thorne/github-org-map">조직 지도 탐색하기</a>
 </p>
 
 </details>
@@ -107,28 +107,28 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 핵심 역량 및 아키텍처</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">핵심 역량 및 아키텍처</h2></summary>
 
 <br />
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ 커널 및 저수준 프리미티브</h4>
-      <p><em>io_uring 비동기 I/O, 커널 바이패스 네트워킹 및 실시간 커널 관측 가능성.</em></p>
+      <h4>커널 및 저수준 프리미티브</h4>
+      <p><em>io_uring 기반 비동기 I/O, 커널 바이패스 네트워킹 및 실시간 관측 가능성.</em></p>
       <ul>
-        <li><strong>⚡ io_uring &amp; 비동기 I/O</strong>: 기존 epoll 오버헤드를 우회하는 고처리량 SQ/CQ 링 버퍼 파이프라인.</li>
-        <li><strong>🛡️ 커널 바이패스 &amp; XDP</strong>: eBPF/XDP 프로그래머블 고속 패킷 필터링 및 DPDK 가속 엔진.</li>
-        <li><strong>🔄 락프리 프리미티브</strong>: SPMC/MPSC 원자적 큐, 해저드 포인터 및 엄격한 메모리 배리어 시퀀싱.</li>
+        <li><strong>io_uring 및 비동기 I/O</strong>: epoll 시스템 콜 오버헤드를 배제한 고처리량 제출/완료 링 큐.</li>
+        <li><strong>커널 바이패스 및 XDP</strong>: eBPF/XDP 프로그래밍 기반 고속 패킷 필터링 및 DPDK 유저스페이스 가속.</li>
+        <li><strong>락프리 프리미티브</strong>: SPMC/MPSC 원자적 큐, 해저드 포인터 및 메모리 배리어 동기화.</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 분산 시스템 및 동시성</h4>
-      <p><em>현대적 CSP 스타일 동시성 파이프라인 및 메모리 안전 시스템 소프트웨어.</em></p>
+      <h4>분산 시스템 및 동시성</h4>
+      <p><em>CSP 스타일 동시성 파이프라인, 제로 카피 직렬화 및 메모리 안전 시스템 소프트웨어.</em></p>
       <ul>
-        <li><strong>⚙️ 시스템 툴체인</strong>: 모던 C23, 비동기/Unsafe Rust (no_std) 및 Zig 툴체인 전문성.</li>
-        <li><strong>📦 제로 카피 데이터 흐름</strong>: NVMe 스토리지 및 100GbE 패브릭 상의 캐시 정렬 메모리 직렬화.</li>
-        <li><strong>🎯 불변식 검증</strong>: 유한 상태 오토마타 정밀 검증 및 자동화된 퍼징 파이프라인.</li>
+        <li><strong>시스템 도구 체계</strong>: C23, 비동기 및 unsafe Rust (no_std), Zig 도구 체계.</li>
+        <li><strong>제로 카피 데이터 흐름</strong>: NVMe 스토리지 패브릭 및 고대역 네트워크 기반 캐시 정렬 직렬화.</li>
+        <li><strong>불변식 검증</strong>: 상태 오토마톤 검증, 속성 기반 테스트 및 자동화 퍼징 하네스.</li>
       </ul>
     </td>
   </tr>
@@ -139,7 +139,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">⚡ 기술 스택 및 도구 생태계</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">기술 스택 및 도구</h2></summary>
 
 <br />
 
@@ -148,19 +148,19 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>⚙️ 저수준 시스템 및 커널</h4>
+      <h4>저수준 및 시스템</h4>
       <ul>
-        <li><strong>언어: C23, Rust (Async/Unsafe/No_std), Zig, x86_64 / ARM64 Assembly</strong></li>
-        <li><strong>커널 런타임: Linux Kernel Modules, POSIX APIs, eBPF / XDP, io_uring</strong></li>
-        <li><strong>메모리 및 동시성: 락프리 원자적 연산, SIMD 벡터화, NUMA 인식 메모리 할당자</strong></li>
+        <li><strong>프로그래밍 언어</strong>: C23, Rust (Async / Unsafe / no_std), Zig, x86_64 / ARM64 어셈블리</li>
+        <li><strong>커널 런타임</strong>: 리눅스 커널 모듈, POSIX API, eBPF / XDP, io_uring</li>
+        <li><strong>메모리 및 동시성</strong>: 락프리 원자적 연산, SIMD 벡터화, NUMA 인식 할당자</li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🌐 분산 시스템 및 인프라</h4>
+      <h4>분산 인프라 및 환경</h4>
       <ul>
-        <li><strong>네트워킹: 커널 바이패스(DPDK), 고동시성 epoll/kqueue, WebSockets, gRPC</strong></li>
-        <li><strong>관측 가능성: bpftrace, perf, Valgrind, GDB, Prometheus 원격 측정</strong></li>
-        <li><strong>환경: Arch Linux, Debian, Docker, LLVM/Clang 도구 모음, Neovim / Tmux</strong></li>
+        <li><strong>네트워킹</strong>: 커널 바이패스(DPDK), 고동시성 epoll/kqueue, WebSockets, gRPC</li>
+        <li><strong>관측 가능성</strong>: bpftrace, perf, Valgrind, GDB, Prometheus 원격 측정</li>
+        <li><strong>실행 환경</strong>: Arch Linux, Debian, Docker, LLVM/Clang 도구 모음, Neovim / Tmux</li>
       </ul>
     </td>
   </tr>
@@ -177,7 +177,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🗺️ 프로젝트 로드맵 및 탐색</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">프로젝트 로드맵 및 탐색</h2></summary>
 
 <br />
 
@@ -196,12 +196,12 @@
 
 <br />
 
-<p><em>Active roadmap and technical initiatives across low-level infrastructure:</em></p>
+<p><em>저수준 인프라 전반에 걸친 활성 로드맵 및 기술 이니셔티브:</em></p>
 
 <ul>
-  <li>🎯 Current Focus: io_uring multi-ring polling benchmarks & kernel module fuzzing harness</li>
-  <li>🚀 Next Milestone: Lock-free SPMC work-stealing scheduler with NUMA cache-pinning</li>
-  <li>🔮 Future Research: eBPF-driven network flow router with hardware offloading</li>
+  <li><strong>현재 집중 과제</strong>: io_uring 멀티 링 폴링 벤치마크 및 커널 모듈 퍼징 하네스</li>
+  <li><strong>차기 마일스톤</strong>: NUMA 메모리 피닝 기반 락프리 SPMC 작업 훔치기(Work-Stealing) 스케줄러</li>
+  <li><strong>연구 계획</strong>: 하드웨어 오프로딩을 지원하는 eBPF 기반 네트워크 플로우 라우터</li>
 </ul>
 
 </details>
@@ -209,7 +209,7 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">📊 아키텍처 대시보드 및 지표</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">아키텍처 대시보드 및 지표</h2></summary>
 
 <br />
 
@@ -228,13 +228,13 @@
 
 ---
 
-## 📬 연결 및 협업 (Connect & Collaborate)
+## 문의 및 협업
 
-저수준 시스템 아키텍처, 리눅스 커널 내부 구현 또는 고성능 동시성 기본 요소에 대한 논의에 관심이 있으신가요?
+저수준 시스템 아키텍처, 리눅스 커널 내부 구조, 초고성능 동시성 프리미티브에 대해 논의를 환영합니다.
 
-[GitHub 프로필](https://github.com/maya-thorne) · [공개 리포지토리](https://github.com/maya-thorne?tab=repositories) · [토론 (Discussions)](https://github.com/maya-thorne?tab=discussions) · [이메일 보내기](mailto:zse4123jo@gmail.com)
+[GitHub 프로필](https://github.com/maya-thorne) · [공개 저장소](https://github.com/maya-thorne?tab=repositories) · [토론 공간](https://github.com/maya-thorne?tab=discussions) · [이메일 보내기](mailto:zse4123jo@gmail.com)
 
 <div align="center">
   <br />
-  <sub>© 2026 Maya Thorne · 기계적 공감으로 구축됨 · 🐧</sub>
+  <sub>© 2026 Maya Thorne · 시스템 아키텍처 및 커널 엔지니어링</sub>
 </div>
