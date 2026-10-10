@@ -95,6 +95,46 @@
       </ul>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p align="center">
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics">
+          <img src="https://raw.githubusercontent.com/maya-thorne/bat2exe-ghidra-forensics/main/docs/assets/locales/ko/banner.svg" alt="bat2exe-ghidra-forensics banner" width="100%" />
+        </a>
+      </p>
+      <h4><a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics">🔬 bat2exe-ghidra-forensics</a></h4>
+      <p><em>Ghidra MCP PE 바이너리 역공학 (UPX/CLR/VB6 패커 분석), 8대 난독화 도구 원본 소스코드 해체 및 다계층 AST 디옵퓨스케이션 엔진.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Ghidra_MCP-Binary_RE-f43f5e.svg" alt="Ghidra MCP" /></a>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Source_Teardown-8_Core_Tools-f59e0b.svg" alt="8 Tools" /></a>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Engine-Python_AST-38bdf8.svg" alt="Deobfuscator Engine" /></a>
+      </p>
+      <ul>
+        <li>🔬 <strong>Ghidra MCP PE 디스어셈블리</strong>: <code>bat2exe_12.exe</code> (UPX <code>0x20ea0</code>), <code>example.exe</code> (.NET CLR <code>0x337e</code>), <code>BEDeCode.exe</code> (VB6 <code>0x1670</code>) 심층 바이너리 분해</li>
+        <li>🛠️ <strong>8대 핵심 도구 원본 해체</strong>: BatCloak 폴리글랏, Somalifuscator, 0xidiz3r, Exorcism API 후킹(FindFixAndRun), Bat2Exe 컴파일러 전수 코드 분석</li>
+        <li>⚡ <strong>다계층 AST 디옵퓨스케이터</strong>: 6패스 정적 분석 엔진(<code>src/deobfuscator_engine.py</code>) 및 엔터프라이즈 Sigma/YARA 탐지 룰셋</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <p align="center">
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research">
+          <img src="https://raw.githubusercontent.com/maya-thorne/batch-obfuscation-research/main/docs/assets/locales/ko/banner.svg" alt="batch-obfuscation-research banner" width="100%" />
+        </a>
+      </p>
+      <h4><a href="https://github.com/maya-thorne/batch-obfuscation-research">🛡️ batch-obfuscation-research</a></h4>
+      <p><em>Windows 배치 파일(cmd.exe) 난독화, 디옵퓨스케이션 및 바이너리 역공학 30년사(1990s~2026) 마스터 아카이브.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Archive-1990s--2026-10b981.svg" alt="30-Year Archive" /></a>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Mirrors-48+_OpenSource-38bdf8.svg" alt="48+ Mirrors" /></a>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Detection-Sigma_%26_YARA-a855f7.svg" alt="Sigma &amp; YARA" /></a>
+      </p>
+      <ul>
+        <li>📜 <strong>30년 진화사 종합 백서</strong>: 48개 오픈소스 미러, 맨디언트/다니엘 보해넌 연구 및 허깅스페이스 AI 역공학 데이터셋 수록</li>
+        <li>🧠 <strong>cmd.exe 5단계 파서 메커니즘</strong>: 환경변수 전개, 탈출 캐럿 스트리핑, 지연 확장 구문 분석 백서 완비</li>
+        <li>🌐 <strong>10개 국어 로케일 지원</strong>: 다크 터미널 네온 SVG 배너 및 전용 다국어 마스터 가이드 구축</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 <p align="center">

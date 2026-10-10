@@ -95,6 +95,46 @@ Runtimes distribuidos de alto rendimiento, primitivas de red bypass de kernel y 
       </ul>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p align="center">
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics">
+          <img src="https://raw.githubusercontent.com/maya-thorne/bat2exe-ghidra-forensics/main/docs/assets/locales/en/banner.svg" alt="bat2exe-ghidra-forensics banner" width="100%" />
+        </a>
+      </p>
+      <h4><a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics">🔬 bat2exe-ghidra-forensics</a></h4>
+      <p><em>Ingeniería inversa de binarios PE con Ghidra MCP (empaquetadores UPX/CLR/VB6), desmontaje de código fuente de 8 ofuscadores y motor AST de desofuscación.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Ghidra_MCP-Binary_RE-f43f5e.svg" alt="Ghidra MCP" /></a>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Source_Teardown-8_Core_Tools-f59e0b.svg" alt="8 Tools" /></a>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Engine-Python_AST-38bdf8.svg" alt="Deobfuscator Engine" /></a>
+      </p>
+      <ul>
+        <li>🔬 <strong>Desensamblado Ghidra MCP PE</strong>: Análisis profundo de <code>bat2exe_12.exe</code> (UPX <code>0x20ea0</code>), <code>example.exe</code> (.NET CLR <code>0x337e</code>) y <code>BEDeCode.exe</code> (VB6 <code>0x1670</code>)</li>
+        <li>🛠️ <strong>Desmontaje de 8 herramientas</strong>: Análisis línea por línea de BatCloak, Somalifuscator, 0xidiz3r, gancho de API Exorcism y compiladores Bat2Exe</li>
+        <li>⚡ <strong>Motor AST de múltiples pasos</strong>: Desofuscador estático de 6 pasos (<code>src/deobfuscator_engine.py</code>) y reglas Sigma/YARA</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <p align="center">
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research">
+          <img src="https://raw.githubusercontent.com/maya-thorne/batch-obfuscation-research/main/docs/assets/locales/en/banner.svg" alt="batch-obfuscation-research banner" width="100%" />
+        </a>
+      </p>
+      <h4><a href="https://github.com/maya-thorne/batch-obfuscation-research">🛡️ batch-obfuscation-research</a></h4>
+      <p><em>Archivo maestro de ofuscación, desofuscación e ingeniería inversa binaria de archivos batch de Windows (cmd.exe) (1990s–2026).</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Archive-1990s--2026-10b981.svg" alt="30-Year Archive" /></a>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Mirrors-48+_OpenSource-38bdf8.svg" alt="48+ Mirrors" /></a>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Detection-Sigma_%26_YARA-a855f7.svg" alt="Sigma &amp; YARA" /></a>
+      </p>
+      <ul>
+        <li>📜 <strong>Archivo de evolución de 30 años</strong>: Más de 48 espejos de código abierto, investigaciones de Mandiant y conjuntos de datos de IA de Hugging Face</li>
+        <li>🧠 <strong>Mecanismo de analizador de 5 fases cmd.exe</strong>: Documento técnico completo sobre el orden de expansión y autómatas de pila</li>
+        <li>🌐 <strong>Documentación en 10 idiomas</strong>: Guías técnicas localizadas con banners vectoriales SVG temáticos</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 <p align="center">

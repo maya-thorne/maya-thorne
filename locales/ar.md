@@ -95,6 +95,46 @@ Architecting resilient low-level software systems, Linux kernel modules, and hig
       </ul>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p align="center">
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics">
+          <img src="https://raw.githubusercontent.com/maya-thorne/bat2exe-ghidra-forensics/main/docs/assets/locales/en/banner.svg" alt="bat2exe-ghidra-forensics banner" width="100%" />
+        </a>
+      </p>
+      <h4><a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics">🔬 bat2exe-ghidra-forensics</a></h4>
+      <p><em>الهندسة العكسية الثنائية لـ PE باستخدام Ghidra MCP (حزم UPX/CLR/VB6)، وتفكيك شفرة المصدر لـ 8 أدوات تشويش ومحرك AST لإزالة التشويش.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Ghidra_MCP-Binary_RE-f43f5e.svg" alt="Ghidra MCP" /></a>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Source_Teardown-8_Core_Tools-f59e0b.svg" alt="8 Tools" /></a>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Engine-Python_AST-38bdf8.svg" alt="Deobfuscator Engine" /></a>
+      </p>
+      <ul>
+        <li>🔬 <strong>تفكيك Ghidra MCP PE</strong>: تفكيك عميق لـ <code>bat2exe_12.exe</code> و <code>example.exe</code> و <code>BEDeCode.exe</code></li>
+        <li>🛠️ <strong>تفكيك 8 أدوات رئيسية</strong>: تحليل شامل لـ BatCloak و Somalifuscator و 0xidiz3r و Exorcism API Hook ومترجمات Bat2Exe</li>
+        <li>⚡ <strong>محرك AST متعدد المراحل</strong>: مزيل تشويش ثابت من 6 مراحل (<code>src/deobfuscator_engine.py</code>) وقواعد Sigma/YARA</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <p align="center">
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research">
+          <img src="https://raw.githubusercontent.com/maya-thorne/batch-obfuscation-research/main/docs/assets/locales/en/banner.svg" alt="batch-obfuscation-research banner" width="100%" />
+        </a>
+      </p>
+      <h4><a href="https://github.com/maya-thorne/batch-obfuscation-research">🛡️ batch-obfuscation-research</a></h4>
+      <p><em>الأرشيف الرئيسي لتشويش وإزالة تشويش ملفات الدُفعات (cmd.exe) والهندسة العكسية الثنائية في Windows (1990s–2026).</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Archive-1990s--2026-10b981.svg" alt="30-Year Archive" /></a>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Mirrors-48+_OpenSource-38bdf8.svg" alt="48+ Mirrors" /></a>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Detection-Sigma_%26_YARA-a855f7.svg" alt="Sigma &amp; YARA" /></a>
+      </p>
+      <ul>
+        <li>📜 <strong>أرشيف تطور 30 عامًا</strong>: أكثر من 48 مرآة مفتوحة المصدر، وأبحاث Mandiant ومجموعات بيانات الذكاء الاصطناعي Hugging Face</li>
+        <li>🧠 <strong>آلية محلل cmd.exe المكونة من 5 مراحل</strong>: ورقة بيضاء شاملة حول ترتيب توسيع سطر الأوامر وأوتوماتا المكدس</li>
+        <li>🌐 <strong>توثيق بـ 10 لغات</strong>: توثيق تقني كامل ومترجم مع لافتات SVG طرفية نيون</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 <p align="center">

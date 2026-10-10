@@ -95,6 +95,46 @@
       </ul>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p align="center">
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics">
+          <img src="https://raw.githubusercontent.com/maya-thorne/bat2exe-ghidra-forensics/main/docs/assets/locales/en/banner.svg" alt="bat2exe-ghidra-forensics banner" width="100%" />
+        </a>
+      </p>
+      <h4><a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics">🔬 bat2exe-ghidra-forensics</a></h4>
+      <p><em>Ghidra MCP PE 二进制逆向工程（UPX/CLR/VB6 打包器分析）、8 大核心混淆器源码拆解与多阶段 AST 反混淆引擎。</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Ghidra_MCP-Binary_RE-f43f5e.svg" alt="Ghidra MCP" /></a>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Source_Teardown-8_Core_Tools-f59e0b.svg" alt="8 Tools" /></a>
+        <a href="https://github.com/maya-thorne/bat2exe-ghidra-forensics"><img src="https://img.shields.io/badge/Engine-Python_AST-38bdf8.svg" alt="Deobfuscator Engine" /></a>
+      </p>
+      <ul>
+        <li>🔬 <strong>Ghidra MCP PE 反汇编</strong>: 深度拆解 <code>bat2exe_12.exe</code> (UPX <code>0x20ea0</code>)、<code>example.exe</code> (.NET CLR <code>0x337e</code>) 和 <code>BEDeCode.exe</code> (VB6 <code>0x1670</code>)</li>
+        <li>🛠️ <strong>8 大核心工具源码拆解</strong>: BatCloak 复合协议、Somalifuscator、0xidiz3r、Exorcism API 钩子及 Bat2Exe 编译器逐行代码拆解</li>
+        <li>⚡ <strong>多阶段 AST 引擎</strong>: 自动化 6 阶段静态反混淆器 (<code>src/deobfuscator_engine.py</code>) 与企业级 Sigma/YARA 规则库</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <p align="center">
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research">
+          <img src="https://raw.githubusercontent.com/maya-thorne/batch-obfuscation-research/main/docs/assets/locales/en/banner.svg" alt="batch-obfuscation-research banner" width="100%" />
+        </a>
+      </p>
+      <h4><a href="https://github.com/maya-thorne/batch-obfuscation-research">🛡️ batch-obfuscation-research</a></h4>
+      <p><em>Windows 批处理 (cmd.exe) 混淆、反混淆与二进制逆向工程 30 年演进史 (1990s–2026) 大师级归档。</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Archive-1990s--2026-10b981.svg" alt="30-Year Archive" /></a>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Mirrors-48+_OpenSource-38bdf8.svg" alt="48+ Mirrors" /></a>
+        <a href="https://github.com/maya-thorne/batch-obfuscation-research"><img src="https://img.shields.io/badge/Detection-Sigma_%26_YARA-a855f7.svg" alt="Sigma &amp; YARA" /></a>
+      </p>
+      <ul>
+        <li>📜 <strong>30 年演进史归档</strong>: 48+ 开源镜像、Mandiant/Daniel Bohannon 前沿研究与 Hugging Face AI 逆向工程数据集</li>
+        <li>🧠 <strong>cmd.exe 5 阶段解析机制</strong>: 环境变量展开、转义字符去除与延迟替换语法分析白皮书</li>
+        <li>🌐 <strong>10 种语言本地化支持</strong>: 终端暗色霓虹 SVG 横幅与全套本地化多语言指南</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 <p align="center">
