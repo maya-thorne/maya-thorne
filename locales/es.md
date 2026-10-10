@@ -63,7 +63,7 @@ Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos 
         </a>
       </p>
       <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
-      <p><em>Mapeo topológico diario automatizado de los repositorios de maya-thorne con ofuscación SHA-256 de conocimiento cero.</em></p>
+      <p><em>Motor de mapeo topológico diario automatizado para repositorios de kernel Linux y concurrencia con hash de privacidad SHA-256.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
@@ -82,7 +82,7 @@ Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos 
         </a>
       </p>
       <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
-      <p><em>Espacio de trabajo privado complementario y motor de telemetría sin máscara para auditoría continua.</em></p>
+      <p><em>Pipeline de telemetría complementario aislado para módulos de kernel de bajo nivel, análisis de defensas y desarrollo privado.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>

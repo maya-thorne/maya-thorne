@@ -63,7 +63,7 @@
         </a>
       </p>
       <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
-      <p><em>基于零知识 SHA-256 隐私掩码的 maya-thorne 存储库每日自动化拓扑制图引擎。</em></p>
+      <p><em>基于 SHA-256 隐私哈希的 Linux 内核与并发运行时仓库每日自动化拓扑映射引擎。</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
@@ -82,7 +82,7 @@
         </a>
       </p>
       <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
-      <p><em>用于内部系统开发与持续审计的私有伴侣存储库及未掩码遥测引擎。</em></p>
+      <p><em>用于底层内核模块、漏洞防御分析及私有架构研究的隔离伴侣遥测流水线。</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>

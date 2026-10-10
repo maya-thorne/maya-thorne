@@ -63,7 +63,7 @@
         </a>
       </p>
       <h4><a href="https://github.com/maya-thorne/github-org-map">github-org-map</a></h4>
-      <p><em>영지식(Zero-Knowledge) SHA-256 개인정보 마스킹 기반 maya-thorne 저장소의 일일 자동 지도 및 토폴로지 매핑 엔진.</em></p>
+      <p><em>리눅스 커널 연구 및 동시성 런타임 저장소의 암호화 해시 마스킹 기반 일일 자동화 토폴로지 매핑 엔진.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
         <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
@@ -82,7 +82,7 @@
         </a>
       </p>
       <h4><a href="https://github.com/maya-thorne/github-org-map-private">github-org-map-private</a></h4>
-      <p><em>내부 시스템 개발 및 지속적 감사를 위한 비공개 동반 저장소 및 비마스킹 텔레메트리 엔진.</em></p>
+      <p><em>저수준 커널 모듈, 익스플로잇 방어 분석 및 비공개 연구를 위한 격리형 컴패니언 텔레메트리 파이프라인.</em></p>
       <p>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
         <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
