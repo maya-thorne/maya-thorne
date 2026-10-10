@@ -46,13 +46,13 @@ Architecting resilient low-level software systems, Linux kernel modules, and hig
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Projects &amp; Solutions</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Core Systems &amp; Infrastructure Architecture</h2></summary>
 
 <br />
 
-Autonomous topology cartography and systems infrastructure. Public initiatives are openly indexed, while proprietary kernel modules and telemetry remain cryptographically obfuscated.
+Runtime terdistribusi berkinerja tinggi, primitif jaringan bypass kernel, dan mesin topologi infrastruktur terverifikasi kriptografi.
 
-### 🛠️ Featured Systems &amp; Solutions
+### 🛠️ Sistem Produksi &amp; Mesin Topologi
 
 <table>
   <tr>
@@ -65,14 +65,14 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
       <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>Mesin pemetaan topologi harian otomatis untuk repositori kernel Linux dan konkurensi dengan hashing privasi SHA-256.</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-license.svg" alt="Runtime: Linux &amp; POSIX" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Engine: eBPF &amp; GitOps" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy: Salted SHA-256 Mask" /></a>
       </p>
       <ul>
-        <li>🔄 <strong>Otomatisasi</strong>: Alur kerja GitHub Actions harian yang menghasilkan peta vektor tanpa kebocoran token</li>
-        <li>🛡️ <strong>Perlindungan Privasi</strong>: Hashing SHA-256 satu arah dengan salt untuk menyembunyikan modul kernel privat</li>
-        <li>📊 <strong>Rendering Vektor Murni</strong>: Mesin kartografi SVG tanpa dependensi dengan pembuatan garis waktu animasi</li>
+        <li>🔄 <strong>Kartografi Berkelanjutan</strong>: Alur kerja GitHub Actions terjadwal yang memetakan repositori kernel secara otomatis</li>
+        <li>🛡️ <strong>Penyamaran Hash Satu Arah</strong>: Hashing SHA-256 satu arah dengan salt untuk menyembunyikan modul kernel privat</li>
+        <li>📊 <strong>Telemetri Vektor Asli</strong>: Mesin kartografi 2D SVG tanpa dependensi dengan pembuatan garis waktu animasi</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -84,13 +84,13 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
       <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>Saluran telemetri pendamping terisolasi untuk modul kernel tingkat rendah, analisis pertahanan eksploitasi, dan riset privat.</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security: Windows DPAPI Vault" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Audit: Invariant Assertions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Pipeline: Air-Gapped Dual-Track" /></a>
       </p>
       <ul>
-        <li>🔐 <strong>Isolasi Brankas</strong>: Enkapsulasi rahasia terenkripsi Windows DPAPI yang terikat perangkat keras tanpa kebocoran</li>
-        <li>⚡ <strong>Invarian Konkurensi</strong>: Asersi otomatis berbasis properti yang memverifikasi ketahanan preimage dan peta bebas tabrakan</li>
+        <li>🔐 <strong>Brankas Terikat Perangkat Keras</strong>: Enkapsulasi rahasia terenkripsi Windows DPAPI yang terikat perangkat keras tanpa kebocoran</li>
+        <li>⚡ <strong>Asersi Deterministik</strong>: Asersi otomatis berbasis properti yang memverifikasi ketahanan preimage dan peta bebas tabrakan</li>
         <li>📜 <strong>Audit Kebenaran Ganda</strong>: Saluran audit berkelanjutan yang memvalidasi artefak publik bertopeng terhadap grafik internal</li>
       </ul>
     </td>
@@ -99,7 +99,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
 
 <p align="center">
   <a href="https://github.com/maya-thorne?tab=repositories">Browse Public Repositories</a> ·
-  <a href="https://github.com/maya-thorne/github-org-map">Explore Organization Map</a>
+  <a href="https://github.com/maya-thorne/github-org-map">Explore Systems Topology</a>
 </p>
 
 </details>

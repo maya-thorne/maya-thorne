@@ -46,13 +46,13 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">核心项目与解决方案</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 核心系统与基础设施架构</h2></summary>
 
 <br />
 
-自主拓扑测绘与系统基础设施。公开项目开放索引，专有内核模块与遥测数据受加密哈希安全保护。
+高性能分布式运行时、内核旁路网络原语与经密码学验证的基础设施拓扑引擎。
 
-### 精选系统与解决方案
+### 🛠️ 生产级系统与拓扑引擎
 
 <table>
   <tr>
@@ -65,14 +65,14 @@
       <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>基于 SHA-256 隐私哈希的 Linux 内核与并发运行时仓库每日自动化拓扑映射引擎。</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-license.svg" alt="Runtime: Linux &amp; POSIX" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Engine: eBPF &amp; GitOps" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy: Salted SHA-256 Mask" /></a>
       </p>
       <ul>
-        <li>🔄 <strong>自动化流水线</strong>: 零凭证泄漏的每日 GitHub Actions 工作流，自动生成矢量拓扑图</li>
-        <li>🛡️ <strong>隐私保护</strong>: 加盐 SHA-256 单向哈希隐匿私有内核模块，同时完整保留系统架构脉络</li>
-        <li>📊 <strong>纯矢量渲染</strong>: 零外部依赖原生 SVG 坐标映射与帧级动态时间线生成</li>
+        <li>🔄 <strong>持续拓扑映射</strong>: 定时 GitHub Actions 工作流，自动映射内核研究与底层系统仓库</li>
+        <li>🛡️ <strong>单向哈希脱敏</strong>: 加盐 SHA-256 单向哈希隐匿私有内核实验仓库，同时完整保留系统架构脉络</li>
+        <li>📊 <strong>纯矢量遥测渲染</strong>: 零外部依赖原生 2D SVG 坐标映射与帧级动态时间线生成</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -84,13 +84,13 @@
       <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>用于底层内核模块、漏洞防御分析及私有架构研究的隔离伴侣遥测流水线。</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security: Windows DPAPI Vault" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Audit: Invariant Assertions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Pipeline: Air-Gapped Dual-Track" /></a>
       </p>
       <ul>
-        <li>🔐 <strong>保险库隔离</strong>: 基于 Windows DPAPI 硬件绑定的凭证封装，确保私有凭据零泄漏</li>
-        <li>⚡ <strong>并发不变式验证</strong>: 自动化基于属性的测试，严格验证原像抵抗性与无冲突哈希映射</li>
+        <li>🔐 <strong>硬件绑定保险库</strong>: 基于 Windows DPAPI 硬件绑定的凭证封装，确保私有凭据物理隔离与零泄漏</li>
+        <li>⚡ <strong>确定性不变式验证</strong>: 自动化基于属性的测试，严格验证原像抵抗性与无冲突哈希映射</li>
         <li>📜 <strong>双真实源审计</strong>: 持续审计流水线，严格对照验证公开脱敏产物与内部未脱敏系统图谱</li>
       </ul>
     </td>
@@ -98,8 +98,8 @@
 </table>
 
 <p align="center">
-  <a href="https://github.com/maya-thorne?tab=repositories">浏览公开存储库</a> ·
-  <a href="https://github.com/maya-thorne/github-org-map">探索组织地图</a>
+  <a href="https://github.com/maya-thorne?tab=repositories">浏览公开仓库</a> ·
+  <a href="https://github.com/maya-thorne/github-org-map">探索系统拓扑</a>
 </p>
 
 </details>

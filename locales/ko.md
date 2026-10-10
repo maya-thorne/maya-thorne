@@ -46,13 +46,13 @@
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 주요 프로젝트 및 솔루션</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 핵심 시스템 및 인프라 아키텍처</h2></summary>
 
 <br />
 
-자율 토폴로지 매핑 및 저수준 시스템 인프라입니다. 공개 프로젝트는 직관적으로 탐색할 수 있으며, 비공개 커널 모듈과 내부 텔레메트리는 암호학적으로 마스킹되어 안전하게 보호됩니다.
+고성능 분산 런타임, 커널 바이패스 네트워크 스택, 그리고 암호학적 프라이버시가 적용된 자율 인프라 토폴로지 엔진입니다.
 
-### 🛠️ 주요 시스템 및 솔루션
+### 🛠️ 프로덕션 시스템 및 토폴로지 엔진
 
 <table>
   <tr>
@@ -65,14 +65,14 @@
       <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>리눅스 커널 연구 및 동시성 런타임 저장소의 암호화 해시 마스킹 기반 일일 자동화 토폴로지 매핑 엔진.</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-license.svg" alt="Runtime: Linux &amp; POSIX" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Engine: eBPF &amp; GitOps" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy: Salted SHA-256 Mask" /></a>
       </p>
       <ul>
-        <li>🔄 <strong>자동화 파이프라인</strong>: 토큰 유출 0% 보장 일일 GitHub Actions 워크플로 기반 벡터 토폴로지 자동 동기화</li>
-        <li>🛡️ <strong>프라이버시 보호</strong>: 비공개 커널 연구 모듈을 단방향 솔트 SHA-256 해시로 마스킹하여 아키텍처 계보 안전 보존</li>
-        <li>📊 <strong>순수 벡터 렌더링</strong>: 외부 런타임 의존성 0%의 네이티브 SVG 좌표 매핑 및 프레임 단위 타임랩스 생성</li>
+        <li>🔄 <strong>지속적 토폴로지 매핑</strong>: 일일 GitHub Actions 워크플로 기반 커널 연구 및 분산 시스템 저장소 자동 매핑</li>
+        <li>🛡️ <strong>일방향 해시 마스킹</strong>: 비공개 커널 익스플로잇 및 제로데이 연구 저장소를 솔트 SHA-256으로 기밀 보호</li>
+        <li>📊 <strong>순수 벡터 텔레메트리</strong>: 외부 런타임 의존성 0%의 네이티브 2D SVG 좌표 매핑 및 프레임 단위 타임랩스 기록</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -84,14 +84,14 @@
       <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>저수준 커널 모듈, 익스플로잇 방어 분석 및 비공개 연구를 위한 격리형 컴패니언 텔레메트리 파이프라인.</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security: Windows DPAPI Vault" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Audit: Invariant Assertions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Pipeline: Air-Gapped Dual-Track" /></a>
       </p>
       <ul>
-        <li>🔐 <strong>보안 금고 격리</strong>: Windows DPAPI 암호화 기반 하드웨어 바인딩 자격증명 캡슐화 및 유출 차단</li>
-        <li>⚡ <strong>동시성 불변식 검증</strong>: 역상 저항성(Preimage Resistance)과 무충돌 매핑을 기계적으로 증명하는 자동화 테스트</li>
-        <li>📜 <strong>이중 그라운드 트루스 감사</strong>: 공개 마스킹 아티팩트와 비공개 내부 원본 그래프의 1:1 무결성 상시 대조 검증</li>
+        <li>🔐 <strong>보안 금고 하드웨어 격리</strong>: Windows DPAPI 암호화 기반 마스터 시크릿 캡슐화로 자격증명 물리적 격리 및 탈취 차단</li>
+        <li>⚡ <strong>결정론적 불변식 검증</strong>: 역상 저항성(Preimage Resistance)과 무충돌 매핑을 기계적으로 증명하는 자동화 테스트 하네스</li>
+        <li>📜 <strong>이중 그라운드 트루스 감사</strong>: 공개 마스킹 아티팩트와 비공개 내부 원본 그래프의 1:1 무결성 상시 대조 검증 파이프라인</li>
       </ul>
     </td>
   </tr>
@@ -99,7 +99,7 @@
 
 <p align="center">
   <a href="https://github.com/maya-thorne?tab=repositories">공개 저장소 둘러보기</a> ·
-  <a href="https://github.com/maya-thorne/github-org-map">조직 지도 탐색하기</a>
+  <a href="https://github.com/maya-thorne/github-org-map">시스템 토폴로지 탐색하기</a>
 </p>
 
 </details>

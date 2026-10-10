@@ -46,13 +46,13 @@ Architecting resilient low-level software systems, Linux kernel modules, and hig
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Projects &amp; Solutions</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Core Systems &amp; Infrastructure Architecture</h2></summary>
 
 <br />
 
-Autonomous topology cartography and systems infrastructure. Public initiatives are openly indexed, while proprietary kernel modules and telemetry remain cryptographically obfuscated.
+उच्च-प्रदर्शन वितरित रनटाइम, कर्नेल-बाईपास नेटवर्किंग प्रिमिटिव्स, और क्रिप्टोग्राफ़िक रूप से सत्यापित इन्फ्रास्ट्रक्चर टोपोलॉजी इंजन।
 
-### 🛠️ Featured Systems &amp; Solutions
+### 🛠️ उत्पादन सिस्टम और टोपोलॉजी इंजन
 
 <table>
   <tr>
@@ -65,14 +65,14 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
       <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>लिनक्स कर्नेल और समवर्ती रनटाइम रिपॉजिटरी के लिए SHA-256 गोपनीयता हैशिंग के साथ स्वचालित दैनिक टोपोलॉजी मैपिंग इंजन।</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-license.svg" alt="Runtime: Linux &amp; POSIX" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Engine: eBPF &amp; GitOps" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy: Salted SHA-256 Mask" /></a>
       </p>
       <ul>
-        <li>🔄 <strong>स्वचालन</strong>: शून्य टोकन रिसाव के साथ वेक्टर मानचित्र उत्पन्न करने वाला दैनिक GitHub Actions वर्कफ़्लो</li>
-        <li>🛡️ <strong>गोपनीयता संरक्षण</strong>: स्वामित्व कर्नेल मॉड्यूल को छिपाने के लिए वन-वे सॉल्टेड SHA-256 हैशिंग</li>
-        <li>📊 <strong>शुद्ध वेक्टर रेंडरिंग</strong>: शून्य निर्भरता वाला देशी SVG कार्टोग्राफी इंजन और सटीक एनिमेटेड टाइमलाइन</li>
+        <li>🔄 <strong>निरंतर कार्टोग्राफी</strong>: कर्नेल अनुसंधान और सिस्टम रिपॉजिटरी को स्वतः मैप करने वाला GitHub Actions वर्कफ़्लो</li>
+        <li>🛡️ <strong>वन-वे हैश मास्किंग</strong>: स्वामित्व कर्नेल मॉड्यूल को छिपाने के लिए सॉल्टेड SHA-256 हैशिंग</li>
+        <li>📊 <strong>मूल वेक्टर टेलीमेट्री</strong>: शून्य निर्भरता वाला देशी 2D SVG कार्टोग्राफी इंजन और सटीक एनिमेटेड टाइमलाइन</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -84,13 +84,13 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
       <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>निम्न-स्तरीय कर्नेल मॉड्यूल, शोषण रक्षा विश्लेषण और निजी वास्तुशिल्प अनुसंधान के लिए पृथक साथी टेलीमेट्री पाइपलाइन।</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security: Windows DPAPI Vault" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Audit: Invariant Assertions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Pipeline: Air-Gapped Dual-Track" /></a>
       </p>
       <ul>
-        <li>🔐 <strong>वॉल्ट अलगाव</strong>: हार्डवेयर-बाउंड क्रेडेंशियल सुरक्षा सुनिश्चित करने वाला Windows DPAPI एन्क्रिप्टेड रहस्य संपुटीकरण</li>
-        <li>⚡ <strong>समवर्ती इनवेरिएंट्स</strong>: प्रीइमेज प्रतिरोध और टकराव-मुक्त मैपिंग को सत्यापित करने वाले स्वचालित दावे</li>
+        <li>🔐 <strong>हार्डवेयर-बाउंड वॉल्ट</strong>: हार्डवेयर-बाउंड क्रेडेंशियल सुरक्षा सुनिश्चित करने वाला Windows DPAPI एन्क्रिप्टेड रहस्य संपुटीकरण</li>
+        <li>⚡ <strong>नियतात्मक दावे</strong>: प्रीइमेज प्रतिरोध और टकराव-मुक्त मैपिंग को सत्यापित करने वाले स्वचालित दावे</li>
         <li>📜 <strong>दोहरा सत्य ऑडिट</strong>: आंतरिक अप्रत्यक्ष सिस्टम ग्राफ़ के विरुद्ध सार्वजनिक मास्क किए गए आर्टिफैक्ट्स का ऑडिट</li>
       </ul>
     </td>
@@ -99,7 +99,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
 
 <p align="center">
   <a href="https://github.com/maya-thorne?tab=repositories">Browse Public Repositories</a> ·
-  <a href="https://github.com/maya-thorne/github-org-map">Explore Organization Map</a>
+  <a href="https://github.com/maya-thorne/github-org-map">Explore Systems Topology</a>
 </p>
 
 </details>

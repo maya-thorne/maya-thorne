@@ -46,13 +46,13 @@ Architecting resilient low-level software systems, Linux kernel modules, and hig
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">🚀 Projects &amp; Solutions</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Core Systems &amp; Infrastructure Architecture</h2></summary>
 
 <br />
 
-Autonomous topology cartography and systems infrastructure. Public initiatives are openly indexed, while proprietary kernel modules and telemetry remain cryptographically obfuscated.
+Высокопроизводительные распределенные среды выполнения, сетевые примитивы обхода ядра и криптографически верифицированные топологические движки.
 
-### 🛠️ Featured Systems &amp; Solutions
+### 🛠️ Производственные системы и топологические движки
 
 <table>
   <tr>
@@ -65,14 +65,14 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
       <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>Движок автоматизированного ежедневного топологического картирования репозиториев ядра Linux и параллелизма с хешированием конфиденциальности SHA-256.</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-license.svg" alt="Runtime: Linux &amp; POSIX" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Engine: eBPF &amp; GitOps" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy: Salted SHA-256 Mask" /></a>
       </p>
       <ul>
-        <li>🔄 <strong>Автоматизация</strong>: Ежедневный рабочий процесс GitHub Actions, генерирующий векторные карты с нулевой утечкой токенов</li>
-        <li>🛡️ <strong>Конфиденциальность</strong>: Одностороннее хеширование SHA-256 с солью для скрытия закрытых модулей ядра</li>
-        <li>📊 <strong>Чистый векторный рендеринг</strong>: Векторный движок на чистом SVG без сторонних зависимостей</li>
+        <li>🔄 <strong>Непрерывное картирование</strong>: Ежедневный рабочий процесс GitHub Actions, картирующий репозитории ядра</li>
+        <li>🛡️ <strong>Одностороннее хеш-маскирование</strong>: Одностороннее хеширование SHA-256 с солью для скрытия закрытых модулей ядра</li>
+        <li>📊 <strong>Нативная векторная телеметрия</strong>: Движок на чистом 2D SVG без сторонних зависимостей с анимацией</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -84,14 +84,14 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
       <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>Изолированный сопутствующий телеметрический конвейер для низкоуровневых модулей ядра, анализа защиты от эксплойтов и закрытых исследований.</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security: Windows DPAPI Vault" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Audit: Invariant Assertions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Pipeline: Air-Gapped Dual-Track" /></a>
       </p>
       <ul>
-        <li>🔐 <strong>Изоляция хранилища</strong>: Инкапсуляция секретов с шифрованием Windows DPAPI с аппаратной привязкой</li>
-        <li>⚡ <strong>Инварианты параллелизма</strong>: Автоматические тесты, подтверждающие стойкость к поиску прообраза и бесколлизионность</li>
-        <li>📜 <strong>Двойной аудит источника истины</strong>: Непрерывная сверка открытых маскированных артефактов с внутренним графом</li>
+        <li>🔐 <strong>Аппаратно-изолированное хранилище</strong>: Инкапсуляция секретов с шифрованием Windows DPAPI с аппаратной привязкой</li>
+        <li>⚡ <strong>Детерминированные утверждения</strong>: Автоматические тесты, подтверждающие стойкость к поиску прообраза</li>
+        <li>📜 <strong>Двойной аудит истины</strong>: Непрерывная сверка открытых маскированных артефактов с внутренним графом</li>
       </ul>
     </td>
   </tr>
@@ -99,7 +99,7 @@ Autonomous topology cartography and systems infrastructure. Public initiatives a
 
 <p align="center">
   <a href="https://github.com/maya-thorne?tab=repositories">Browse Public Repositories</a> ·
-  <a href="https://github.com/maya-thorne/github-org-map">Explore Organization Map</a>
+  <a href="https://github.com/maya-thorne/github-org-map">Explore Systems Topology</a>
 </p>
 
 </details>

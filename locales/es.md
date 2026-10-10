@@ -46,13 +46,13 @@ Arquitectura de sistemas de software de bajo nivel, módulos del kernel de Linux
 ---
 
 <details>
-<summary><h2 style="display:inline-block; margin:0;">Proyectos &amp; Soluciones</h2></summary>
+<summary><h2 style="display:inline-block; margin:0;">🚀 Sistemas Clave y Arquitectura de Infraestructura</h2></summary>
 
 <br />
 
-Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos públicos están indexados abiertamente, mientras que los módulos de kernel propietarios se mantienen ofuscados criptográficamente.
+Runtimes distribuidos de alto rendimiento, primitivas de red bypass de kernel y motores topológicos con privacidad criptográfica.
 
-### Sistemas &amp; Soluciones Destacadas
+### 🛠️ Sistemas de Producción y Motores Topológicos
 
 <table>
   <tr>
@@ -65,14 +65,14 @@ Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos 
       <h4><a href="https://github.com/maya-thorne/github-org-map">🗺️ github-org-map</a></h4>
       <p><em>Motor de mapeo topológico diario automatizado para repositorios de kernel Linux y concurrencia con hash de privacidad SHA-256.</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map/blob/main/LICENSE"><img src="../assets/badges/badge-license.svg" alt="License" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Actions" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-license.svg" alt="Runtime: Linux &amp; POSIX" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-actions.svg" alt="Engine: eBPF &amp; GitOps" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map"><img src="../assets/badges/badge-privacy.svg" alt="Privacy: Salted SHA-256 Mask" /></a>
       </p>
       <ul>
-        <li>🔄 <strong>Automatización</strong>: Flujo programado diario de GitHub Actions que genera mapas vectoriales con cero fuga de secretos</li>
-        <li>🛡️ <strong>Preservación de Privacidad</strong>: Hashing SHA-256 salado que oculta módulos privados mientras ilustra la arquitectura</li>
-        <li>📊 <strong>Renderizado Vectorial Puro</strong>: Motor cartográfico SVG sin dependencias con generación de línea temporal animada</li>
+        <li>🔄 <strong>Cartografía Continua</strong>: Flujo programado de GitHub Actions que mapea automáticamente repositorios de kernel</li>
+        <li>🛡️ <strong>Enmascaramiento Hash Unidireccional</strong>: Hashing SHA-256 salado que oculta módulos privados mientras ilustra la arquitectura</li>
+        <li>📊 <strong>Telemetría Vectorial Nativa</strong>: Motor cartográfico SVG 2D sin dependencias con generación de línea temporal animada</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -84,13 +84,13 @@ Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos 
       <h4><a href="https://github.com/maya-thorne/github-org-map-private">🔒 github-org-map-private</a></h4>
       <p><em>Pipeline de telemetría complementario aislado para módulos de kernel de bajo nivel, análisis de defensas y desarrollo privado.</em></p>
       <p>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Telemetry" /></a>
-        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Format" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-private.svg" alt="Security: Windows DPAPI Vault" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-telemetry.svg" alt="Audit: Invariant Assertions" /></a>
+        <a href="https://github.com/maya-thorne/github-org-map-private"><img src="../assets/badges/badge-format.svg" alt="Pipeline: Air-Gapped Dual-Track" /></a>
       </p>
       <ul>
-        <li>🔐 <strong>Aislamiento de Bóveda</strong>: Encapsulación de secretos cifrada con Windows DPAPI vinculada al hardware</li>
-        <li>⚡ <strong>Invariantes de Concurrencia</strong>: Aserciones automáticas que verifican resistencia a preimágenes y mapeo sin colisiones</li>
+        <li>🔐 <strong>Bóveda Vinculada al Hardware</strong>: Encapsulación de secretos cifrada con Windows DPAPI vinculada al hardware</li>
+        <li>⚡ <strong>Aserciones Deterministas</strong>: Aserciones automáticas que verifican resistencia a preimágenes y mapeo sin colisiones</li>
         <li>📜 <strong>Auditoría de Doble Verdad</strong>: Pipeline de auditoría continua que valida artefactos públicos frente al grafo interno</li>
       </ul>
     </td>
@@ -99,7 +99,7 @@ Cartografía topológica autónoma e infraestructura de sistemas. Los proyectos 
 
 <p align="center">
   <a href="https://github.com/maya-thorne?tab=repositories">Explorar Repositorios Públicos</a> ·
-  <a href="https://github.com/maya-thorne/github-org-map">Explorar Mapa de Organización</a>
+  <a href="https://github.com/maya-thorne/github-org-map">Explorar Topología del Sistema</a>
 </p>
 
 </details>
