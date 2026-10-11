@@ -135,6 +135,46 @@ High-performance distributed runtimes, kernel-bypass networking primitives, and 
       </ul>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <p align="center">
+        <a href="https://github.com/maya-thorne/browser-in-the-browser-virtualization">
+          <img src="https://raw.githubusercontent.com/maya-thorne/browser-in-the-browser-virtualization/main/docs/assets/diagrams/bitb_dom_architecture.svg" alt="browser-in-the-browser-virtualization banner" width="100%" />
+        </a>
+      </p>
+      <h4><a href="https://github.com/maya-thorne/browser-in-the-browser-virtualization">🌐 browser-in-the-browser-virtualization</a></h4>
+      <p><em>Client-side DOM virtualization, synthetic Omnibox UI spoofing, draggable physics engine &amp; multi-tier defense heuristics.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/browser-in-the-browser-virtualization"><img src="https://img.shields.io/badge/DOM_Virtualization-mr.d0x_Research-8b5cf6.svg" alt="DOM Virtualization" /></a>
+        <a href="https://github.com/maya-thorne/browser-in-the-browser-virtualization"><img src="https://img.shields.io/badge/Heuristic_Engine-Pure--Python-38bdf8.svg" alt="Heuristic Engine" /></a>
+        <a href="https://github.com/maya-thorne/browser-in-the-browser-virtualization"><img src="https://img.shields.io/badge/License-MT--SRL-10b981.svg" alt="License: MT-SRL" /></a>
+      </p>
+      <ul>
+        <li>🪟 <strong>DOM Window Virtualization</strong>: Synthetic OS titlebar, drag physics (<code>mousedown/mousemove</code>), and z-index 9999 stacking model</li>
+        <li>🔬 <strong>Static &amp; Heuristic Scanners</strong>: Python static AST analyzer detecting synthetic Omniboxes and CSP <code>frame-ancestors 'none'</code> auditor</li>
+        <li>🛡️ <strong>Enterprise Defense Matrix</strong>: Frame-busting traps, MutationObserver DOM guards, and multi-monitor escape detection</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <p align="center">
+        <a href="https://github.com/maya-thorne/chromium-app-spoofing-forensics">
+          <img src="https://raw.githubusercontent.com/maya-thorne/chromium-app-spoofing-forensics/main/docs/assets/hero.svg" alt="chromium-app-spoofing-forensics banner" width="100%" />
+        </a>
+      </p>
+      <h4><a href="https://github.com/maya-thorne/chromium-app-spoofing-forensics">🛡️ chromium-app-spoofing-forensics</a></h4>
+      <p><em>Blue team EDR/SIEM detection engineering, 52 Sigma rules, 32 YARA signatures, [MS-SHLLINK] binary carving &amp; window class auditor.</em></p>
+      <p>
+        <a href="https://github.com/maya-thorne/chromium-app-spoofing-forensics"><img src="https://img.shields.io/badge/Sigma_Rules-52_Modular-f59e0b.svg" alt="Sigma Rules" /></a>
+        <a href="https://github.com/maya-thorne/chromium-app-spoofing-forensics"><img src="https://img.shields.io/badge/YARA_Rules-32_Signatures-10b981.svg" alt="YARA Rules" /></a>
+        <a href="https://github.com/maya-thorne/chromium-app-spoofing-forensics"><img src="https://img.shields.io/badge/LNK_Parser-MS--SHLLINK-38bdf8.svg" alt="LNK Parser" /></a>
+      </p>
+      <ul>
+        <li>📑 <strong>[MS-SHLLINK] Binary Carving</strong>: Pure-Python parser for ShellLinkHeader, ExtraData blocks, and icon location spoofing</li>
+        <li>🔍 <strong>Window Class Hierarchy Audit</strong>: Flags <code>Chrome_WidgetWin_1</code> disguised as native Microsoft Teams or Office windows</li>
+        <li>⚡ <strong>Turnkey SIEM Feeds</strong>: Production Splunk SPL and Elasticsearch KQL query feeds ready for instant SOC deployment</li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 <p align="center">
