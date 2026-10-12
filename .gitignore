@@ -1,0 +1,24 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary & Log files
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+
+# AI agent workspace & context memories
+memory/
+.gemini/
+.context/
+.antigravity/
+
+# Build and local cache
+node_modules/
+dist/
+build/
+*.pyc
+__pycache__/

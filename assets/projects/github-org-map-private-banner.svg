@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0816"/>
+      <stop offset="60%" stop-color="#180f2d"/>
+      <stop offset="100%" stop-color="#0d0a1c"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#2e1d52" stroke-width="0.8" stroke-opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="240" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1000" height="240" rx="16" fill="url(#grid)"/>
+  <rect x="1" y="1" width="998" height="238" rx="15" fill="none" stroke="#4c1d95" stroke-width="1.5"/>
+
+  <circle cx="160" cy="70" r="120" fill="#f43f5e" filter="blur(65px)" opacity="0.12"/>
+  <circle cx="850" cy="150" r="130" fill="#9333ea" filter="blur(70px)" opacity="0.15"/>
+
+  <g transform="translate(50, 40)">
+    <rect x="0" y="0" width="190" height="26" rx="13" fill="#1e1035" stroke="#f43f5e" stroke-width="1" stroke-opacity="0.7"/>
+    <circle cx="14" cy="13" r="4.5" fill="#f43f5e"/>
+    <text x="26" y="17" fill="#fda4af" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', monospace" font-size="11" font-weight="700">PRIVATE COMPANION</text>
+  </g>
+
+  <text x="50" y="112" fill="url(#textGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="38" font-weight="800">maya-thorne / github-org-map-private</text>
+  <text x="50" y="148" fill="#F1F5F9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="500">Unmasked Internal Cartography Telemetry &amp; Cryptographic Audit Invariants</text>
+  <text x="50" y="178" fill="#c084fc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">Verified companion repository storing unmasked topology ground-truth and hash pre-image assertions.</text>
+</svg>
